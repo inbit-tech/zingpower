@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Homepage</title>
-</head>
-<body>
-	<h1>Homepage</h1>
-</body>
-</html>
+@extends ('master')
+
+@section ('content')
+<div class="flex-center position-ref full-height">
+    <div class="content">
+        <div class="title m-b-md">
+            Homepage
+        </div>
+    </div>
+</div>
+@endsection

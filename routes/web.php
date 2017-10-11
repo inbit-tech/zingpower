@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Setup Site Routers
+Route::get('/', 'PagesController@index');

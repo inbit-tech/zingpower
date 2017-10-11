@@ -6,9 +6,6 @@
         <div class="title m-b-md">
             v 0.2
         </div>
-        <div class="links">
-            <a href="/index">Click to go HOMEPAGE</a>
-        </div>
     </div>
 </div>
 @endsection

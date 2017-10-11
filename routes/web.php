@@ -22,8 +22,11 @@
 | + Contact Us
 */
 
+// Router for dev only
+Route::get('/', 'PagesController@dev');
+
 // Router for Homepage
-Route::get('/', 'PagesController@index');
+Route::get('/index', 'PagesController@index');
 
 // Router for Products
 Route::get('/products/mobile-phone', 'PagesController@mobilePhone');

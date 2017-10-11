@@ -9,7 +9,7 @@ class PagesController extends Controller
     // Homepage
     public function index()
     {
-    	return view('home');
+    	return view('home.index');
     }
 
     // Products - Mobile Phone

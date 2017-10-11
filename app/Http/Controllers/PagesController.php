@@ -6,10 +6,16 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
+    // Dev Home
+    public function dev()
+    {
+        return view('dev');
+    }
+
     // Homepage
     public function index()
     {
-    	return view('home');
+    	return view('home.index');
     }
 
     // Products - Mobile Phone

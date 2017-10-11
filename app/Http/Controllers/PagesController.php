@@ -15,60 +15,60 @@ class PagesController extends Controller
     // Products - Mobile Phone
     public function mobilePhone()
     {
-    	return view('');
+    	return view('products.mobile');
     }
 
     // Products - Walkie Talkie
     public function walkieTalkie()
     {
-    	return view('');
+    	return view('products.wata');
     }
 
     // Products - Smart Room Controller
     public function smartRoomController()
     {
-    	return view('');
+    	return view('products.src');
     }
 
     // Solutions - System Integration
     public function sysIntegration()
     {
-    	return view('');
+    	return view('solutions.sysint');
     }
 
     // Solutions - Device Management System
     public function dms()
     {
-    	return view('');
+    	return view('solutions.dms');
     }
 
     // Solutions - Zigbee, Z-Wave or LoRaWAN Local Network Setup
     public function lms()
     {
-    	return view('');
+    	return view('solutions.lms');
     }
 
     // User Story
     public function userStory()
     {
-    	return view('');
+    	return view('userstory.index');
     }
 
     // About Us - Zing Power
     public function zingpower()
     {
-    	return view('');
+    	return view('about.zingpower');
     }
 
     // About Us - News
     public function news()
     {
-    	return view('');
+    	return view('news.index');
     }
 
     // Contact Us
     public function contact()
     {
-    	return view('');
+    	return view('contact.index');
     }
 }

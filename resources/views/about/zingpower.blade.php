@@ -1,5 +1,9 @@
 @extends ('master')
 
+@section ('custom-css')
+<link href="{{ asset('/css/pages/about.css') }}" rel="stylesheet" />
+@endsection
+
 @section ('content')
 <!-- Header image include page title -->
 <div class="jumbotron jumbotron-fluid">

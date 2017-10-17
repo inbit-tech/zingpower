@@ -17,5 +17,8 @@
 
 	<!-- Custom CSS -->
 	<link href="{{ asset('/css/master.css') }}" rel="stylesheet" />
+
+	<!-- Custom CSS for individual page -->
+	@yield ('custom-css')
 </head>
 <body>

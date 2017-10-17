@@ -38,9 +38,11 @@ Route::get('/solutions/system-integration', 'PagesController@sysIntegration');
 Route::get('/solutions/dms', 'PagesController@dms');
 Route::get('/solutions/lms', 'PagesController@lms');
 
+// Router for News
+Route::get('/news', 'PagesController@news');
+
 // Route for About Us
-Route::get('/about/zing-power', 'PagesController@zingpower');
-Route::get('/about/news', 'PagesController@news');
+Route::get('/about', 'PagesController@zingpower');
 
 // Route for Contact Us
 Route::get('/contact', 'PagesController@contact');

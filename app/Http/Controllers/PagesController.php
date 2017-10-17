@@ -54,12 +54,6 @@ class PagesController extends Controller
     	return view('solutions.lms');
     }
 
-    // User Story
-    public function userStory()
-    {
-    	return view('userstory.index');
-    }
-
     // About Us - Zing Power
     public function zingpower()
     {

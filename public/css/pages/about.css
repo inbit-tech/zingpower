@@ -1,0 +1,44 @@
+#about-header {
+	margin: 25px auto;
+	padding: 0;
+}
+
+#current-year {
+	font-size: 4.0em;
+	margin: 120px auto;
+}
+
+div.quote-row {
+	margin-top: 50px;
+	margin-bottom: 120px;
+}
+
+#feature-quote {
+	width: 45%;
+	font-size: 3.0em;
+	margin: 0 auto;
+}
+
+div .hero-img {
+	height: 450px;
+	width: 100%;
+	background: url('https://placeimg.com/1280/450/tech') no-repeat;
+	background-size: cover;
+
+	margin: 25px 0;
+}
+
+.feature-row {
+	margin: 100px auto;
+}
+
+.feature-intro {
+	width: 45%;
+	font-size: 1.2em;
+	margin: 0 auto;
+}
+
+#found-year {
+	font-size: 4.0em;
+	margin: 120px auto;
+}

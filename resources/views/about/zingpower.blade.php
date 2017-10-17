@@ -19,14 +19,10 @@
 	<img src="https://placeimg.com/1120/500/tech" class="img-fluid" alt="">
 </div>
 
-<div class="container-fluid">
-	<h4 class="display-4">Our History</h4>
-</div>
-
 <!-- History Content -->
 <div class="container-fluid">
 	<!-- Row 1 -->
-	<div class="row">
+	<div class="row align-items-center text-center">
 		<div class="col">
 			<p>
 				At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
@@ -37,7 +33,7 @@
 		</div>
 	</div>
 	<!-- Row 2 -->
-	<div class="row">
+	<div class="row align-items-center text-center">
 		<div class="col">
 			<img src="https://placeimg.com/450/200/any" alt="">
 		</div>
@@ -48,7 +44,7 @@
 		</div>
 	</div>
 	<!-- Row 3 -->
-	<div class="row">
+	<div class="row align-items-center text-center">
 		<div class="col">
 			<p>
 				At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
@@ -59,7 +55,7 @@
 		</div>
 	</div>
 	<!-- Row 4 -->
-	<div class="row">
+	<div class="row align-items-center text-center">
 		<div class="col">
 			<img src="https://placeimg.com/450/200/any" alt="">
 		</div>
@@ -71,8 +67,8 @@
 	</div>
 </div>
 
-<div class="container-fluid">
-	<h4 class="display-4">To Be Continued</h4>
+<div class="container-fluid text-center">
+	<h4 class="display-4">2009</h4>
 </div>
 
 @endsection

@@ -1,11 +1,5 @@
 @extends ('master')
 
 @section ('content')
-<div class="flex-center position-ref full-height">
-    <div class="content">
-        <div class="title m-b-md">
-            DMS
-        </div>
-    </div>
-</div>
+<h1>DMS</h1>
 @endsection

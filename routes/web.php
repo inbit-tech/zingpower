@@ -31,6 +31,7 @@ Route::get('/index', 'PagesController@index');
 // Router for Products
 Route::get('/products/mobile-phone', 'PagesController@mobilePhone');
 Route::get('/products/walkie-talkie', 'PagesController@walkieTalkie');
+Route::get('/products/wirelss-charger', 'PagesController@wirelessCharger');
 Route::get('/products/smart-room-controller', 'PagesController@smartRoomController');
 
 // Router for Solutions

@@ -30,6 +30,12 @@ class PagesController extends Controller
     	return view('products.wata');
     }
 
+    // Products - Wirelss Charger
+    public function wirelessCharger()
+    {
+        return view('products.wireless');
+    }
+
     // Products - Smart Room Controller
     public function smartRoomController()
     {

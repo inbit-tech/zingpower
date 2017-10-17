@@ -20,23 +20,36 @@
 <!-- History Content -->
 <div>
 	<h4>Our History</h4>
-	<article>
-		At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
-	</article>
-	<img src="" alt="">
-	<img src="" alt="">
-	<article>
-		At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
-	</article>
-	<article>
-		At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
-	</article>
-	<img src="" alt="">
-	<img src="" alt="">
-	<article>
-		At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
-	</article>
-	<h4>2009</h4>
+
+	<div>
+		<article>
+			At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
+		</article>
+		<img src="" alt="">
+	</div>
+
+	<div>
+		<img src="" alt="">
+		<article>
+			At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
+		</article>
+	</div>
+
+	<div>
+		<article>
+			At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
+		</article>
+		<img src="" alt="">
+	</div>
+
+	<div>
+		<img src="" alt="">
+		<article>
+			At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
+		</article>
+	</div>
+
+	<h4>To Be Continued</h4>
 </div>
 
 @endsection

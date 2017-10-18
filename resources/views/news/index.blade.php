@@ -46,5 +46,12 @@
 		<span class="carousel-control-next-icon" aria-hidden="true"></span>
 		<span class="sr-only">Next</span>
 	</a>
+
+	<!-- News List -->
+	<section id="news">
+		<div class="news-wrapper">
+			
+		</div>
+	</section>
 </div>
 @endsection

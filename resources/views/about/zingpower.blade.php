@@ -18,6 +18,9 @@
 	</div>
 </div>
 
+<!-- Timeline -->
+<div class="timeline"></div>
+
 <!-- Current Year Content -->
 <div id="about-header" class="container-fluid text-center">
 	<!-- Featured Title -->
@@ -35,52 +38,7 @@
 </div>
 
 <!-- History Content -->
-<div class="container-fluid">
-	<!-- Row 1 -->
-	<div class="row align-items-center text-center feature-row">
-		<div class="col">
-			<p class="feature-intro">
-				At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
-			</p>
-		</div>
-		<div class="col">
-			<img src="https://placeimg.com/450/200/any" alt="">
-		</div>
-	</div>
-	<!-- Row 2 -->
-	<div class="row align-items-center text-center feature-row">
-		<div class="col">
-			<img src="https://placeimg.com/450/200/any" alt="">
-		</div>
-		<div class="col">
-			<p class="feature-intro">
-				At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
-			</p>
-		</div>
-	</div>
-	<!-- Row 3 -->
-	<div class="row align-items-center text-center feature-row">
-		<div class="col">
-			<p class="feature-intro">
-				At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
-			</p>
-		</div>
-		<div class="col">
-			<img src="https://placeimg.com/450/200/any" alt="">
-		</div>
-	</div>
-	<!-- Row 4 -->
-	<div class="row align-items-center text-center feature-row">
-		<div class="col">
-			<img src="https://placeimg.com/450/200/any" alt="">
-		</div>
-		<div class="col">
-			<p class="feature-intro">
-				At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
-			</p>
-		</div>
-	</div>
-</div>
+
 
 <div class="container-fluid text-center">
 	<h4 class="display-4" id="found-year">2009</h4>

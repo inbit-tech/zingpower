@@ -34,53 +34,94 @@
 	<div class="container-fluid hero-img"></div>
 </div>
 
-<!-- History Content -->
-<div class="container-fluid">
-	<!-- Row 1 -->
-	<div class="row align-items-center text-center feature-row">
-		<div class="col">
-			<p class="feature-intro">
-				At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
-			</p>
+<!-- Zing Power History -->
+<section id="timeline">
+	<div class="time-card-wrapper">
+		<!-- Year 2016 -->
+		<div class="time-card time-card--1">
+			<div class="head">
+				<div class="number-box">
+					<span>2016</span>
+				</div>
+				<h2><span class="small">Subtitle</span> Text</h2>
+			</div>
+			<div class="body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+				<img src="http://placehold.it/1000x500" alt="">
+			</div>
 		</div>
-		<div class="col">
-			<img src="https://placeimg.com/450/200/any" alt="">
+
+		<!-- Year 2015 -->
+		<div class="time-card time-card--2">
+			<div class="head">
+				<div class="number-box">
+					<span>2015</span>
+				</div>
+				<h2><span class="small">Subtitle</span> Text</h2>
+			</div>
+			<div class="body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+				<img src="http://placehold.it/1000x500" alt="">
+			</div>
+		</div>
+
+		<!-- Year 2014 -->
+		<div class="time-card time-card--3">
+			<div class="head">
+				<div class="number-box">
+					<span>2014</span>
+				</div>
+				<h2><span class="small">Subtitle</span> Text</h2>
+			</div>
+			<div class="body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+				<img src="http://placehold.it/1000x500" alt="">
+			</div>
+		</div>
+
+		<!-- Year 2013 -->
+		<div class="time-card time-card--4">
+			<div class="head">
+				<div class="number-box">
+					<span>2013</span>
+				</div>
+				<h2><span class="small">Subtitle</span> Text</h2>
+			</div>
+			<div class="body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+				<img src="http://placehold.it/1000x500" alt="">
+			</div>
+		</div>
+
+		<!-- Year 2012 -->
+		<div class="time-card time-card--5">
+			<div class="head">
+				<div class="number-box">
+					<span>2012</span>
+				</div>
+				<h2><span class="small">Subtitle</span> Text</h2>
+			</div>
+			<div class="body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+				<img src="http://placehold.it/1000x500" alt="">
+			</div>
+		</div>
+
+		<!-- Year 2011 -->
+		<div class="time-card time-card--6">
+			<div class="head">
+				<div class="number-box">
+					<span>2011</span>
+				</div>
+				<h2><span class="small">Subtitle</span> Text</h2>
+			</div>
+			<div class="body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+				<img src="http://placehold.it/1000x500" alt="">
+			</div>
 		</div>
 	</div>
-	<!-- Row 2 -->
-	<div class="row align-items-center text-center feature-row">
-		<div class="col">
-			<img src="https://placeimg.com/450/200/any" alt="">
-		</div>
-		<div class="col">
-			<p class="feature-intro">
-				At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
-			</p>
-		</div>
-	</div>
-	<!-- Row 3 -->
-	<div class="row align-items-center text-center feature-row">
-		<div class="col">
-			<p class="feature-intro">
-				At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
-			</p>
-		</div>
-		<div class="col">
-			<img src="https://placeimg.com/450/200/any" alt="">
-		</div>
-	</div>
-	<!-- Row 4 -->
-	<div class="row align-items-center text-center feature-row">
-		<div class="col">
-			<img src="https://placeimg.com/450/200/any" alt="">
-		</div>
-		<div class="col">
-			<p class="feature-intro">
-				At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
-			</p>
-		</div>
-	</div>
-</div>
+</section>
 
 <div class="container-fluid text-center">
 	<h4 class="display-4" id="found-year">2009</h4>

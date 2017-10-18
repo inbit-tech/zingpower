@@ -1,0 +1,30 @@
+#news {
+	width: 65%;
+	margin: 50px auto;
+}
+
+#news .news-wrapper {
+	border: 1px solid #bdbdbd;
+}
+
+#news .news-wrapper .news-image {
+	
+}
+
+#news .news-wrapper .news-info {
+	
+}
+
+#news .news-wrapper .news-info .news-date p {
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+#news .news-wrapper .news-info .news-title p {
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+#news .news-wrapper .news-info .news-btn button {
+
+}

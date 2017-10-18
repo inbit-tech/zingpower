@@ -46,12 +46,32 @@
 		<span class="carousel-control-next-icon" aria-hidden="true"></span>
 		<span class="sr-only">Next</span>
 	</a>
-
-	<!-- News List -->
-	<section id="news">
-		<div class="news-wrapper">
-			
-		</div>
-	</section>
 </div>
+
+<!-- News List -->
+@foreach ($zp_news as $news)
+<section id="news">
+	<div class="news-wrapper">
+		<div class="news-image">
+			<img src="{{ $news->imgurl }}" alt="">
+		</div>
+		<div class="news-info">
+			<div class="news-date">
+				<p>{{ $news->created_at}}</p>
+			</div>
+			<div class="news-title">
+				<p>{{ $news->title }}</p>
+			</div>
+			<div class="news-summary">
+				<p>{{ $news->summary }}</p>
+			</div>
+			<div class="news-btn">
+				<span>
+					<button type="button" class="btn btn-info">Read More</button>
+				</span>
+			</div>
+		</div>
+	</div>
+</section>
+@endforeach
 @endsection

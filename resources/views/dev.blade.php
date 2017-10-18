@@ -177,7 +177,8 @@ h6, .h6 {
         <div class="col-sm-8 blog-main">
         	<div class="blog-post">
         		<ul>
-        			<li>About Page - 80% Completed</li>
+        			<li>About Page - Completed</li>
+              <li>News Page - Working</li>
         			<li>Restore master branch</li>
         		</ul>
         	</div>

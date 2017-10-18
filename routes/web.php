@@ -40,7 +40,11 @@ Route::get('/solutions/dms', 'PagesController@dms');
 Route::get('/solutions/lms', 'PagesController@lms');
 
 // Router for News
-Route::get('/news', 'PagesController@news');
+Route::get('/news', function() {
+	$zp_news = DB::table('news')->get();
+	return view('news.index', compact('zp_news'));
+});
+
 Route::get('/news/{news_id}', function($id) {
 	$zp_news = DB::table('news')->find($id);
 	return view('news.show', compact('zp_news'));

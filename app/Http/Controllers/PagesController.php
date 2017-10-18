@@ -67,10 +67,10 @@ class PagesController extends Controller
     }
 
     // About Us - News
-    public function news()
-    {
-    	return view('news.index');
-    }
+    // public function news()
+    // {
+    // 	return view('news.index');
+    // }
 
     // Contact Us
     public function contact()

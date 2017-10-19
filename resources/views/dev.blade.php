@@ -177,8 +177,11 @@ h6, .h6 {
         <div class="col-sm-8 blog-main">
         	<div class="blog-post">
         		<ul>
-        			<li>About Page - Completed</li>
-              <li>News Page - Working</li>
+              <li>Merged with master branch</li>
+              <li>[COMPLETE] Solutions Sample Pages</li>
+              <li>[COMPLETE] Products Sample Pages - Completed</li>
+              <li>[COMPLETE] News Page - Completed</li>
+        			<li>[COMPLETE] About Page - Completed</li>
         			<li>Restore master branch</li>
         		</ul>
         	</div>

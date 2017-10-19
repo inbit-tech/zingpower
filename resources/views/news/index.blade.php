@@ -51,7 +51,7 @@
 <!-- News List -->
 @foreach ($zp_news as $news)
 <section id="news">
-	<div class="news-wrapper">
+	<div class="news-wrapper clearfix">
 		<div class="news-image">
 			<img src="{{ $news->imgurl }}" alt="">
 		</div>

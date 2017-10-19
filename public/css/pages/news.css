@@ -8,23 +8,22 @@
 }
 
 #news .news-wrapper .news-image {
-	
+	background-color: blue;
+	width: 35%;
+	float: left;
 }
 
 #news .news-wrapper .news-info {
-	
+	background-color: red;
+	width: 65%;
 }
 
-#news .news-wrapper .news-info .news-date p {
-	font-size: 0.8rem;
-	text-align: center;
+.clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: table;
 }
 
-#news .news-wrapper .news-info .news-title p {
-	font-size: 1.4rem;
-	text-align: center;
-}
-
-#news .news-wrapper .news-info .news-btn button {
-
+.clearfix::after {
+    clear: both;
 }

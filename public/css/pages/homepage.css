@@ -1,0 +1,138 @@
+/*
+* @Author: vayne
+* @Date:   2017-10-19 12:27:56
+* @Last Modified by:   vayne
+* @Last Modified time: 2017-10-19 12:28:22
+*/
+
+/*
+* @Author: vayne
+* @Date:   2017-10-12 15:01:38
+* @Last Modified by:   vayne
+* @Last Modified time: 2017-10-13 23:23:50
+*/
+
+.top-picture {
+    width: 100%;
+    position: relative;
+    top: -90px;
+    left: 0px;
+}
+
+.subject-text{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    color: #fff;
+    z-index: 1;
+}
+
+/*
+* @Author: vayne
+* @Date:   2017-10-12 17:15:07
+* @Last Modified by:   vayne
+* @Last Modified time: 2017-10-14 01:18:12
+*/
+
+.products {
+    display: flex;
+    justify-content: center;
+}
+
+.ul-position {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+}
+
+.ul-position>li {
+    width: 100%;
+    list-style: none;
+    font-size: 16px;
+    color: #636b6f;
+}
+
+.img-size{
+    width: 140px;
+    height: 140px;
+}
+
+/*
+* @Author: vayne
+* @Date:   2017-10-12 17:15:58
+* @Last Modified by:   vayne
+* @Last Modified time: 2017-10-13 18:11:18
+*/
+
+// SystemIntegration-header start
+
+.systemIntegration-header {
+    width: 100%;
+    height: 300px;
+    background-image: url('http://via.digital.com/350');
+    display: flex;
+    align-items: center;
+}
+
+.systemIntegration-header-info {
+    position: absolute;
+    left: 100px;
+    width: 15vw;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+// SystemIntegration-content  css start
+.systemIntegration-content{
+    padding:20px;
+    display: flex;
+}
+.systemIntegration-content-img {
+    width: 50vw;
+}
+
+.systemIntegration-content-info{
+    width: 50vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.systemIntegration-content-info > button{
+    width: 10vw;
+}
+
+/*
+* @Author: vayne
+* @Date:   2017-10-13 18:33:24
+* @Last Modified by:   vayne
+* @Last Modified time: 2017-10-16 17:14:44
+*/
+
+.clietn-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.client-content {
+    display: flex;
+    justify-content: center;
+}
+
+.client-content-ul {
+    width: 55vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.client-content-ul>li {
+    list-style: none;
+}

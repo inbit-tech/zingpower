@@ -177,6 +177,7 @@ h6, .h6 {
         <div class="col-sm-8 blog-main">
         	<div class="blog-post">
         		<ul>
+              <li>News data with migrate files in /database/migrations</li>
               <li>Merged with master branch</li>
               <li>[COMPLETE] Solutions Sample Pages</li>
               <li>[COMPLETE] Products Sample Pages - Completed</li>

@@ -7,9 +7,18 @@
 
 <!-- Custom CSS for Mobile Phone Product Page -->
 @section ('custom-css')
-<link href="{{ asset() }}" rel="stylesheet">
+<link href="{{ asset('/css/pages/lms.css') }}" rel="stylesheet">
 @endsection
 
 @section ('content')
-
+<div class="site-wrapper">
+	<div class="site-wrapper-inner">
+		<div class="cover-container">
+			<div class="inner cover">
+				<h1 class="cover-heading">Solution - LMS</h1>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
 @endsection

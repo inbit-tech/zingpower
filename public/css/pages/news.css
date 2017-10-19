@@ -35,7 +35,8 @@
 #news .news-wrapper .info-wrapper .news-date {
 	text-align: center;
 	margin-top: 45px;
-	font-size: .8rem;
+	font-size: .7rem;
+	color: #bdbdbd;
 }
 
 #news .news-wrapper .info-wrapper .news-title {

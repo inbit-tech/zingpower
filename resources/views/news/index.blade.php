@@ -68,7 +68,7 @@
 				<p>{{ $news->summary }}</p>
 			</div>
 			<div class="news-btn">
-				<button type="button" class="btn btn-info">Read More</button>
+				<button type="button" class="btn btn-info" onclick="location.href='{{ url('/news/' . $news->id) }}'">Read More</button>
 			</div>
 		</div>
 	</div>

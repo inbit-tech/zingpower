@@ -1,21 +1,59 @@
 #news {
-	width: 65%;
+	width: 55%;
 	margin: 50px auto;
 }
 
 #news .news-wrapper {
 	border: 1px solid #bdbdbd;
+	display: flex;
 }
 
-#news .news-wrapper .news-image {
-	background-color: blue;
+#news .news-wrapper .image-wrapper {
 	width: 35%;
 	float: left;
 }
 
-#news .news-wrapper .news-info {
-	background-color: red;
+#news .news-wrapper .image-wrapper .news-image {
+	display: flex;
+	justify-content: center;
+	align-item: center;
+	overflow: hidden;
+}
+
+#news .news-wrapper .image-wrapper .news-image img {
+	flex-shrink: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+#news .news-wrapper .info-wrapper {
+	position: relative;
 	width: 65%;
+	float: right;
+}
+
+#news .news-wrapper .info-wrapper .news-date {
+	text-align: center;
+	margin-top: 45px;
+	font-size: .8rem;
+}
+
+#news .news-wrapper .info-wrapper .news-title {
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+#news .news-wrapper .info-wrapper .news-summary {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+
+#news .news-wrapper .info-wrapper .news-btn {
+	position: absolute;
+	bottom: 20px;
+	right: 40px;
 }
 
 .clearfix::before,

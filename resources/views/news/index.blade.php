@@ -52,10 +52,12 @@
 @foreach ($zp_news as $news)
 <section id="news">
 	<div class="news-wrapper clearfix">
-		<div class="news-image">
-			<img src="{{ $news->imgurl }}" alt="">
+		<div class="image-wrapper">
+			<div class="news-image">
+				<img src="https://placeimg.com/360/360/tech" alt="">
+			</div>
 		</div>
-		<div class="news-info">
+		<div class="info-wrapper">
 			<div class="news-date">
 				<p>{{ $news->created_at}}</p>
 			</div>
@@ -66,9 +68,7 @@
 				<p>{{ $news->summary }}</p>
 			</div>
 			<div class="news-btn">
-				<span>
-					<button type="button" class="btn btn-info">Read More</button>
-				</span>
+				<button type="button" class="btn btn-info">Read More</button>
 			</div>
 		</div>
 	</div>

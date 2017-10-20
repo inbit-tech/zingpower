@@ -18,19 +18,19 @@
 {{-- address HTML --}}
 <div class="m-b-30 d-flex justify-content-center">
     <div class="w-75 d-flex justify-content-around align-items-start">
-        <div class="w-50 d-flex justify-content-between flex-column align-items-center">
+        <div class="w-25 d-flex justify-content-between flex-column align-items-center">
             <img src="http://via.digital.com/30x30" alt="">
             <p class="font-weight-bold text-uppercase">phone</p>
             <p>+86 18688888888</p>
         </div>
 
-        <div class="w-50 d-flex justify-content-between flex-column align-items-center">
+        <div class="w-25 d-flex justify-content-between flex-column align-items-center">
             <img src="http://via.digital.com/30x30" alt="">
             <p class="font-weight-bold text-uppercase">address</p>
             <p class="text-center">no.5 Unit 3-1 xxx Building Chanba,Shaanxi,China</p>
         </div>
 
-        <div class="w-50 d-flex justify-content-between flex-column align-items-center">
+        <div class="w-25 d-flex justify-content-between flex-column align-items-center">
             <img src="http://via.digital.com/30x30" alt="">
             <p class="font-weight-bold text-uppercase">email</p>
             <p>hi@zingpower.co</p>

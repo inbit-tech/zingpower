@@ -22,11 +22,11 @@
 | + Contact Us
 */
 
-// Router for dev only
-Route::get('/', 'PagesController@dev');
+// Import model namespace - News
+use App\News;
 
 // Router for Homepage
-Route::get('/index', 'PagesController@index');
+Route::get('/', 'PagesController@index');
 
 // Router for Products
 Route::get('/products/mobile-phone', 'PagesController@mobilePhone');
@@ -41,12 +41,12 @@ Route::get('/solutions/lms', 'PagesController@lms');
 
 // Router for News
 Route::get('/news', function() {
-	$zp_news = DB::table('news')->get();
+	$zp_news = News::all();
 	return view('news.index', compact('zp_news'));
 });
 
 Route::get('/news/{news_id}', function($id) {
-	$zp_news = DB::table('news')->find($id);
+	$zp_news = News::find($id);
 	return view('news.show', compact('zp_news'));
 });
 

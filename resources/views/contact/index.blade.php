@@ -61,7 +61,8 @@
 </div>
 
 {{-- Google map API --}}
-<div class="m-b-30">
-    
+{{-- Use Baidu maps temporarily and replace Google later --}}
+<div class="m-b-30 d-flex justify-content-center ">
+    <img src="http://api.map.baidu.com/staticimage?width=1000&height=300&center=109.01154,34.339349&zoom=15&markers=109.019786,34.337471&markerStyles=l,0" alt="" class="">
 </div>
 @endsection

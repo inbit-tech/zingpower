@@ -20,10 +20,10 @@
         <h3>Follow Us</h3>
         <ul class="nav">
             <li class="nav-item">
-                <a  class="nav-link" href="" title=""><img src="http://via.digital.com/50x50"></a>
+                <a  class="nav-link" href="" title="facebook"><img src="http://via.digital.com/50x50"></a>
             </li>
             <li class="nav-item">
-                <a  class="nav-link" href="" title=""><img src="http://via.digital.com/50x50"></a>
+                <a  class="nav-link" href="//twitter.com/ZingPowerCo" title="twitter"><img src="http://via.digital.com/50x50"></a>
             </li>
         </ul>
     </div>

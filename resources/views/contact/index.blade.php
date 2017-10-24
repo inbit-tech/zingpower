@@ -1,5 +1,11 @@
 @extends ('master')
 
+{{-- page title --}}
+@section ('page-title')
+<title>Contact Us - Zing Power</title>
+@endsection
+
+
 @section('custom-css')
 <link rel="stylesheet" type="text/css" href="{{ asset('/css/pages/contact.css') }}">
 @endsection

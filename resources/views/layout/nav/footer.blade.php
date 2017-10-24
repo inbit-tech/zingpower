@@ -25,9 +25,6 @@
             <li class="nav-item">
                 <a  class="nav-link" href="" title=""><img src="http://via.digital.com/50x50"></a>
             </li>
-            <li class="nav-item">
-                <a  class="nav-link" href="" title=""><img src="http://via.digital.com/50x50"></a>
-            </li>
         </ul>
     </div>
 </nav>

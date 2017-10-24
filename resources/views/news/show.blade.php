@@ -7,7 +7,7 @@
 
 <!-- Custom CSS for News Article -->
 @section ('custom-css')
-<link href="{{ asset('/css/pages/news-show.css') }}" rel="stylesheet">
+<link href="{{ asset('/css/pages/newsinfo.css') }}" rel="stylesheet" />
 @endsection
 
 @section ('content')

@@ -14,30 +14,30 @@
 @section ('content')
 <div class="m-b-30">
     <div class="card text-white">
-        <img src="http://via.digital.com/1500x300" alt="" class="img-fluid card-img">
+        <img src="http://placeimg.com/1000/300/any" alt="" class="img-fluid card-img">
         <div class="card-img-overlay d-flex justify-content-center align-items-end">
-            <p class="card-text font-weight-bold text-uppercase">contact us</p> 
+            <h4 class="card-text font-weight-bold text-uppercase">contact us</h4> 
         </div>
     </div>
 </div>
 
 {{-- address HTML --}}
 <div class="m-b-30 d-flex justify-content-center">
-    <div class="w-75 d-flex justify-content-around align-items-start">
-        <div class="w-25 d-flex justify-content-between flex-column align-items-center">
-            <img src="http://via.digital.com/30x30" alt="">
+    <div class="w-75 d-flex flex-wrap justify-content-around align-items-start flex-column-sm align-items-center-sm">
+        <div class="w-25 d-flex justify-content-between flex-column align-items-center width-25">
+            <img src="http://placeimg.com/50/50/any" alt="">
             <p class="font-weight-bold text-uppercase">phone</p>
             <p>+86 18688888888</p>
         </div>
 
-        <div class="w-25 d-flex justify-content-between flex-column align-items-center">
-            <img src="http://via.digital.com/30x30" alt="">
+        <div class="w-25 d-flex justify-content-between flex-column align-items-center width-25">
+            <img src="http://placeimg.com/50/50/any" alt="">
             <p class="font-weight-bold text-uppercase">address</p>
             <p class="text-center">no.5 Unit 3-1 xxx Building Chanba,Shaanxi,China</p>
         </div>
 
-        <div class="w-25 d-flex justify-content-between flex-column align-items-center">
-            <img src="http://via.digital.com/30x30" alt="">
+        <div class="w-25 d-flex justify-content-between flex-column align-items-center width-25">
+            <img src="http://placeimg.com/50/50/any" alt="">
             <p class="font-weight-bold text-uppercase">email</p>
             <p>hi@zingpower.co</p>
         </div>
@@ -60,9 +60,8 @@
 <div class="m-b-30 d-flex flex-column justify-content-between align-items-center">
     <h3 class="text-uppercase">connect with us</h3>
     <div>
-        <img src="http://via.digital.com/50x50" alt="">
-        <img src="http://via.digital.com/50x50" alt="">
-        <img src="http://via.digital.com/50x50" alt="">
+        <img src="http://placeimg.com/50/50/people" alt="">
+        <img src="http://placeimg.com/50/50/tech" alt="">
     </div>
 </div>
 

@@ -2,17 +2,32 @@
 * @Author: vayne
 * @Date:   2017-10-20 15:45:58
 * @Last Modified by:   vayne
-* @Last Modified time: 2017-10-20 17:09:53
+* @Last Modified time: 2017-10-25 17:20:01
 */
-.m-b-30{
+
+.m-b-30 {
     margin-bottom: 30px;
 }
 
-.input-bg-color{
+.input-bg-color {
     background-color: #dadada;
 }
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
     color: #dadada;
     text-align: center;
     vertical-align: center;
+}
+
+@media (max-width: 575px) {
+    .flex-column-sm {
+        flex-direction: column;
+    }
+    .align-items-center-sm {
+        align-items: center!important;
+    }
+    .width-25 {
+        width: 75%!important;
+    }
 }

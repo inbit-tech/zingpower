@@ -2,12 +2,72 @@
 * @Author: vayne
 * @Date:   2017-10-19 12:27:56
 * @Last Modified by:   vayne
-* @Last Modified time: 2017-10-19 20:14:21
+* @Last Modified time: 2017-10-25 15:31:07
 */
-.content{
+
+.m-b-30 {
     margin-bottom: 30px;
 }
 
+@media (max-width: 575px) {
+    .width-25 {
+        width: 75%;
+    }
+    html {
+        font-size: 0.8rem;
+    }
+    .padding-sm {
+        padding: 1rem;
+    }
+    .card-img-overlay-sm {
+        position: relative;
+        top: 10px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1.25rem;
+    }
+    .color-black-sm {
+        color: black;
+    }
+}
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .width-25 {
+        width: 50%;
+    }
+    html {
+        font-size: 1rem;
+    }
+}
 
+@media (min-width: 1224px) {
+    .width-25 {
+        width: 25%;
+    }
 
+    html {
+        font-size: 1.2rem;
+    }
+    .card-xl {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: .25rem;
+    }
+    .card-img-overlay-xl {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1.25rem;
+    }
+}

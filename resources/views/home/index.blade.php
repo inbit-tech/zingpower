@@ -12,98 +12,90 @@
 
 @section ('content')
 {{-- top area HTML --}}
-<div class="content">
+<div class="m-b-30">
     <div class="card text-white">
-        <img src="http://via.digital.com/1500x1000" alt="" class="img-fluid card-img">
+        <img src="http://placeimg.com/640/480/any" alt="" class="img-fluid card-img">
         <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
-            <p class="card-text font-weight-bold">Make Your Space Alive</p> 
-            <button type="" class="btn btn-primary btn-lg">Learn More</button>
+            <h1 class="card-text font-weight-bold">Make Your Space Alive</h1> 
+            <button type="" class="btn btn-primary">Learn More</button>
         </div>
     </div>
 </div>
 
 
 {{-- products area HTML --}}
-<div class="content d-flex justify-content-around">
+<div class="m-b-30 d-flex flex-wrap justify-content-around">
     <div class="d-flex flex-column align-items-center">
-        <img src="http://via.digital.com/150x150" alt=""  class="img-circle"><p>Mobile Phone</p>
+        <img src="http://placeimg.com/150/150/tech" alt=""  class=" rounded-circle"><p>Mobile Phone</p>
     </div>
     <div class="d-flex flex-column align-items-center">
-        <img src="http://via.digital.com/150x150" alt=""  class="img-circle"><p>Walkie Talkie</p>
+        <img src="http://placeimg.com/150/150/people" alt=""  class=" rounded-circle"><p>Walkie Talkie</p>
     </div>
     <div class="d-flex flex-column align-items-center">
-        <img src="http://via.digital.com/150x150" alt=""  class="img-circle"><p>Wireless Charger</p>
+        <img src="http://placeimg.com/150/150/nature" alt=""  class=" rounded-circle"><p>Wireless Charger</p>
     </div>
     <div class="d-flex flex-column align-items-center"> 
-        <img src="http://via.digital.com/150x150" alt=""  class="img-circle"><p>Smart Controller</p>
+        <img src="http://placeimg.com/150/150/any" alt=""  class=" rounded-circle"><p>Smart Controller</p>
     </div>
 </div>
 
 {{-- SystemIntegration area HTML --}}
-
-<div class="content">
-    <div class="card text-white">
-        <img class="card-img" src="http://via.digital.com/1500x300" alt="Card image">
-        <div class="card-img-overlay w-25 p-3 d-flex flex-column justify-content-center d-flex align-items-start">
-            <h4 class="card-title">System Integration</h4>
+<div class="m-b-30">
+    <div class="card-xl text-white">
+        <img src="http://placeimg.com/1500/400/any" class="card-img" alt="Card image">
+        <div class="d-flex flex-column justify-content-center align-items-start card-img-overlay-xl width-25 card-img-overlay-sm color-black-sm">
+            <h3 class="card-title font-weight-bold">System Integration</h3>
             <p class="card-text">General introduction info about system integration functionality</p>
-            <button type="" class="btn btn-success btn-xl">Learn More</button>
+            <button type="" class="btn btn-success btn-sm">Learn More</button>
         </div>
     </div>
 </div>
 
 
-<div class="content">
-    <div class="d-flex justify-content-around">
-        <img src="http://via.digital.com/350x500" alt="">
-        <div class="d-flex flex-column justify-content-around">
-            <h1><strong>One Device to Rule Them All</strong></h1>
-            <hr>
+<div class="m-b-30">
+    <div class="d-flex flex-wrap justify-content-around">
+        <img src="http://placeimg.com/350/500/any" alt="" class="">
+        <div class="d-flex flex-column justify-content-around padding-sm">
+            <h3 class="font-weight-bold">One Device to Rule Them All</h3>
             <p>General  information about Device Management System Zero downtime implementation.</p>
-            <div class="row">
-                <div class="col-6 col-md-4"></div>
-                <div class="col-6 col-md-4"></div>
-                <div class="col-6 col-md-4">
-                    <button type="" class="btn btn-warning" style="color: white;">Learn More</button>
-                </div>
-            </div>
+            <button type="" class="btn btn-warning text-white ml-auto p-2">Learn More</button>
         </div>
     </div>
 </div>
 
 {{-- fullPicture area HTML --}}
-<div class="content">
+<div class="m-b-30">
     <div class="card text-white">
-        <img src="http://via.digital.com/1500x1000" alt="" class="img-fluid card-img">
+        <img src="http://placeimg.com/640/480/any" alt="" class="img-fluid card-img">
         <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
-            <p><strong>ZERO DOWN</strong></p>
-            <p><strong>ZERO WIRE</strong></p>
+            <h1 class="card-text font-weight-bold">ZERO DOWN</h1>
+            <h1 class="card-text font-weight-bold">ZERO WIRE</h1>
         </div>
     </div>
 </div>
 
 {{-- client area HTML --}}
-<div class="content d-flex flex-column align-items-center">
+<div class="m-b-30 d-flex flex-column align-items-center">
     <div class="d-flex flex-column align-items-center">
-        <h1>Our Clients Are Saving</h1>
-        <h2>$ 123,456,789</h2>
+        <h1 class="font-weight-bold">Our Clients Are Saving</h1>
+        <h2 class="font-weight-bold">$ 123,456,789</h2>
     </div>
-    <div class="d-flex flex-xl-wrap justify-content-around align-items-center w-50">
-        <img src="http://via.digital.com/120x120" alt=""  class="img-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class="img-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class="img-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class="img-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class="img-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class="img-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class="img-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class="img-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class="img-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class="img-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class="img-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class="img-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class="img-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class="img-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class="img-circle">
+    <div class="d-flex flex-wrap justify-content-around align-items-center w-50">
+        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
+        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
+        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
+        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
+        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
+        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
+        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
+        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
+        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
+        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
+        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
+        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
+        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
+        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
+        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
     </div>
 </div>
 

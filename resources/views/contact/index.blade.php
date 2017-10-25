@@ -16,7 +16,7 @@
     <div class="card text-white">
         <img src="http://placeimg.com/1000/300/any" alt="" class="img-fluid card-img">
         <div class="card-img-overlay d-flex justify-content-center align-items-end">
-            <p class="card-text font-weight-bold text-uppercase">contact us</p> 
+            <h4 class="card-text font-weight-bold text-uppercase">contact us</h4> 
         </div>
     </div>
 </div>

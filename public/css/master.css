@@ -4,3 +4,9 @@ html, body {
     height: 100vh;
     margin: 0;
 }
+/* footer-component style for iphone6 */
+@media (max-width: 575px) {
+    .text-align-sm{
+        text-align: center;
+    }
+}

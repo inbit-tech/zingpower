@@ -1,0 +1,12 @@
+/*
+* @Author: vayne
+* @Date:   2017-10-25 16:03:15
+* @Last Modified by:   vayne
+* @Last Modified time: 2017-10-25 16:10:38
+*/
+
+@media (max-width: 575px) {
+    .mr-auto-sm {
+        margin-right: auto!important;
+    }
+}

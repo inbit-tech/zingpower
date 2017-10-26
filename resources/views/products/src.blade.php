@@ -11,14 +11,5 @@
 @endsection
 
 @section ('content')
-<div class="site-wrapper">
-	<div class="site-wrapper-inner">
-		<div class="cover-container">
-			<div class="inner cover">
-				<h1 class="cover-heading">Product - Smart Room Controller</h1>
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
+<h1>Smart Room Controller</h1>
 @endsection

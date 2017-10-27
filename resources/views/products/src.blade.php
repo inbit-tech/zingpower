@@ -26,7 +26,7 @@
     <div class="width-25">
         <img src="http://placeimg.com/200/200/phone" alt="" class="rounded-circle">
     </div>
-    <div class="width-25">
+    <div class="width-25 my-3">
         <h3>ZigBee/SmartRoom Technology</h3>
         <p>It is mainly used to control the electric appliances. Except for manual operation, users can also control the curtain, air conditioner, TV and light normal operation by our Smart room controller.</p>
     </div>

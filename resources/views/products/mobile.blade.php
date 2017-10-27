@@ -42,7 +42,7 @@
 {{-- text --}}
 <div class="m-b-30 d-flex justify-content-center flex-column align-items-center">
     <h3>Productivity with Quality</h3>
-    <p class="width-25">The products are compatible, certified and tested solutions in the market. This ensures that there is no compatibility and support issues, which will guarantee the productivity and quality of your telecommunication operations and services, rendered to your customers.
+    <p class="px-5 mx-5">The products are compatible, certified and tested solutions in the market. This ensures that there is no compatibility and support issues, which will guarantee the productivity and quality of your telecommunication operations and services, rendered to your customers.
 </p>
 </div>
 @endsection

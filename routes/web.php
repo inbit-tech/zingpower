@@ -37,7 +37,7 @@ Route::get('/products/smart-room-controller', 'PagesController@smartRoomControll
 // Router for Solutions
 Route::get('/solutions/system-integration', 'PagesController@sysIntegration');
 Route::get('/solutions/dms', 'PagesController@dms');
-Route::get('/solutions/lms', 'PagesController@lms');
+Route::get('/solutions/lns', 'PagesController@lns');
 
 // Router for News
 Route::get('/news', function() {

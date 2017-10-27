@@ -23,7 +23,7 @@
 				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 		         	<a class="dropdown-item" href="/solutions/system-integration">System Integration</a>
 		        	<a class="dropdown-item" href="/solutions/dms">DMS</a>
-		        	<a class="dropdown-item" href="/solutions/lms">LMS</a>
+		        	<a class="dropdown-item" href="/solutions/lns">LNS</a>
 		        </div>
 			</li>
 			<li class="nav-item">

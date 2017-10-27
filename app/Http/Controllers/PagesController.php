@@ -49,9 +49,9 @@ class PagesController extends Controller
     }
 
     // Solutions - Zigbee, Z-Wave or LoRaWAN Local Network Setup
-    public function lms()
+    public function lns()
     {
-    	return view('solutions.lms');
+    	return view('solutions.lns');
     }
 
     // Contact Us

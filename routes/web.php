@@ -55,3 +55,6 @@ Route::get('/about', 'PagesController@zingpower');
 
 // Route for Contact Us
 Route::get('/contact', 'PagesController@contact');
+
+// Route for seed message in Contact Us page
+Route::any('/contact/save','SeedMessage@store');

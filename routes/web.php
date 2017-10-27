@@ -50,9 +50,6 @@ Route::get('/news/{news_id}', function($id) {
 	return view('news.show', compact('zp_news'));
 });
 
-// Route for About Us
-Route::get('/about', 'PagesController@zingpower');
-
 // Route for Contact Us
 Route::get('/contact', 'PagesController@contact');
 

@@ -54,18 +54,6 @@ class PagesController extends Controller
     	return view('solutions.lms');
     }
 
-    // About Us - Zing Power
-    public function zingpower()
-    {
-    	return view('about.zingpower');
-    }
-
-    // About Us - News
-    // public function news()
-    // {
-    // 	return view('news.index');
-    // }
-
     // Contact Us
     public function contact()
     {

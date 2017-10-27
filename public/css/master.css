@@ -5,6 +5,9 @@ html, body {
     margin: 0;
     font-size: 16px;
 }
+.m-b-30{
+    margin-bottom: 30px;
+}
 /* footer-component */
 @media (max-width: 575px) {
     #footer{

@@ -26,20 +26,21 @@
     <div class="w-75 d-flex flex-wrap justify-content-around align-items-start flex-column-sm align-items-center-sm">
         <div class="w-25 d-flex justify-content-between flex-column align-items-center width-25">
             <img src="http://placeimg.com/50/50/any" alt="">
-            <p class="font-weight-bold text-uppercase">phone</p>
-            <p>+86 18688888888</p>
+            <p class="font-weight-bold text-uppercase">TEL</p>
+            <p>+86 18066860099</p>
+            <p>+86 29 87580960</p>
         </div>
 
         <div class="w-25 d-flex justify-content-between flex-column align-items-center width-25">
             <img src="http://placeimg.com/50/50/any" alt="">
             <p class="font-weight-bold text-uppercase">address</p>
-            <p class="text-center">no.5 Unit 3-1 xxx Building Chanba,Shaanxi,China</p>
+            <p class="text-center"> 3rd Floor, No.333 Xingtai South Road, Euro-Asia Creative Design Park Incubation Center, Xi'an Chan-Ba Ecological District.</p>
         </div>
 
         <div class="w-25 d-flex justify-content-between flex-column align-items-center width-25">
             <img src="http://placeimg.com/50/50/any" alt="">
             <p class="font-weight-bold text-uppercase">email</p>
-            <p>hi@zingpower.co</p>
+            <p>info@ zingpower.co</p>
         </div>
     </div>
 </div>

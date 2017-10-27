@@ -1,0 +1,16 @@
+/*
+* @Author: vayne
+* @Date:   2017-10-27 11:55:38
+* @Last Modified by:   vayne
+* @Last Modified time: 2017-10-27 23:39:20
+*/
+@media (max-width: 575px) {
+    .width-25 {
+        width: 75%;
+    }
+}
+@media (min-width: 1224px) {
+    .width-25 {
+        width: 25%;
+    }
+}

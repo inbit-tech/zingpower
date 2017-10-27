@@ -2,7 +2,7 @@
 * @Author: vayne
 * @Date:   2017-10-19 12:27:56
 * @Last Modified by:   vayne
-* @Last Modified time: 2017-10-25 15:31:07
+* @Last Modified time: 2017-10-27 15:13:52
 */
 
 .m-b-30 {
@@ -10,11 +10,11 @@
 }
 
 @media (max-width: 575px) {
+    h1{
+        font-size: 2rem;
+    }
     .width-25 {
         width: 75%;
-    }
-    html {
-        font-size: 0.8rem;
     }
     .padding-sm {
         padding: 1rem;
@@ -36,18 +36,12 @@
     .width-25 {
         width: 50%;
     }
-    html {
-        font-size: 1rem;
-    }
+
 }
 
 @media (min-width: 1224px) {
     .width-25 {
         width: 25%;
-    }
-
-    html {
-        font-size: 1.2rem;
     }
     .card-xl {
         position: relative;

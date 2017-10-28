@@ -45,6 +45,24 @@
     </div>
 </div>
 
+{{-- enterprise display --}}
+<div class="m-b-30 d-flex flex-wrap">
+    <div class="width-50 my-3 d-flex flex-column align-items-center" id="whoWeAre">
+        <h1 id="whoWeAre-title">Who We Are</h1>
+        <div id="whoWeAre-text">
+            <p class="px-3" >We are a R&D house based in Xi’an China, with a team of electrical engineers and specialists, designing, developing and customizing in electrical and semiconductor related products, to meet customers’ expectations and unique requirement. Another team of software developer specialized in mobile technology and business analytics.</p>
+            <p class="px-3">We have provided extensive mobile phone and wireless charging solutions to over 120 customer bases in various industries mainly F&B, Logistics, Automobile, hospitality, educations and etc.</p>
+        </div>
+    </div>
+    <div class="width-50 my-3 d-flex flex-column align-items-center" id="whatWeDo">
+        <h1 id="whoWeAre-title">What We Do</h1>
+        <div id="whoWeAre-text">
+            <p class="px-3" >We deliver a complete and comprehensive working solution to help hotels to achieve seamless operations and excellence in their services, cost reduction and simultaneously drive their revenue growth.</p>
+            <p class="px-3">Our exclusive solution includes combinations of smart devices, apps, backend system, database and etc., it is customizable to match each customers' unique requirements</p>
+        </div>
+    </div>
+</div>
+
 {{-- message HTML --}}
 <div class="m-b-30 d-flex flex-column justify-content-between align-items-center">
     <h3 class="text-uppercase m-b-30">send us message if you have any questions</h3>

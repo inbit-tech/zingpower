@@ -47,19 +47,12 @@
 
 {{-- enterprise display --}}
 <div class="m-b-30 d-flex flex-wrap">
-    <div class="width-50 my-3 d-flex flex-column align-items-center" id="whoWeAre">
+    <div class="width-50 my-3 p-5 d-flex flex-column justify-content-center align-items-center" id="whoWeAre">
         <h1 id="whoWeAre-title">Who We Are</h1>
-        <div id="whoWeAre-text">
-            <p class="px-3" >We are a R&D house based in Xi’an China, with a team of electrical engineers and specialists, designing, developing and customizing in electrical and semiconductor related products, to meet customers’ expectations and unique requirement. Another team of software developer specialized in mobile technology and business analytics.</p>
-            <p class="px-3">We have provided extensive mobile phone and wireless charging solutions to over 120 customer bases in various industries mainly F&B, Logistics, Automobile, hospitality, educations and etc.</p>
-        </div>
     </div>
-    <div class="width-50 my-3 d-flex flex-column align-items-center" id="whatWeDo">
-        <h1 id="whoWeAre-title">What We Do</h1>
-        <div id="whoWeAre-text">
-            <p class="px-3" >We deliver a complete and comprehensive working solution to help hotels to achieve seamless operations and excellence in their services, cost reduction and simultaneously drive their revenue growth.</p>
-            <p class="px-3">Our exclusive solution includes combinations of smart devices, apps, backend system, database and etc., it is customizable to match each customers' unique requirements</p>
-        </div>
+    <div class="width-50 my-3 p-5 d-flex flex-column justify-content-center
+    align-items-center" id="whatWeDo">
+        <h1 id="whatWeDo-title">What We Do</h1>
     </div>
 </div>
 
@@ -90,4 +83,8 @@
 <div class="m-b-30 d-flex justify-content-center ">
     <img src="http://api.map.baidu.com/staticimage?width=1000&height=300&center=109.01154,34.339349&zoom=15&markers=109.019786,34.337471&markerStyles=l,0" alt="" class="">
 </div>
+@endsection
+
+@section('custom-js')
+<script type="text/javascript" src="{{ asset('/js/pages/contact.js') }}"></script>
 @endsection

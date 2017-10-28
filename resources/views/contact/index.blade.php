@@ -45,6 +45,17 @@
     </div>
 </div>
 
+{{-- enterprise display --}}
+<div class="m-b-30 d-flex flex-wrap">
+    <div class="width-50 my-3 p-5 d-flex flex-column justify-content-center align-items-center" id="whoWeAre">
+        <h1 id="whoWeAre-title">Who We Are</h1>
+    </div>
+    <div class="width-50 my-3 p-5 d-flex flex-column justify-content-center
+    align-items-center" id="whatWeDo">
+        <h1 id="whatWeDo-title">What We Do</h1>
+    </div>
+</div>
+
 {{-- message HTML --}}
 <div class="m-b-30 d-flex flex-column justify-content-between align-items-center">
     <h3 class="text-uppercase m-b-30">send us message if you have any questions</h3>
@@ -72,4 +83,8 @@
 <div class="m-b-30 d-flex justify-content-center ">
     <img src="http://api.map.baidu.com/staticimage?width=1000&height=300&center=109.01154,34.339349&zoom=15&markers=109.019786,34.337471&markerStyles=l,0" alt="" class="">
 </div>
+@endsection
+
+@section('custom-js')
+<script type="text/javascript" src="{{ asset('/js/pages/contact.js') }}"></script>
 @endsection

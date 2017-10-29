@@ -1,6 +1,6 @@
 html, body {
     color: #636b6f;
-    font-family: 'Antic Slab', serif;
+    font-family: 'Open Sans', sans-serif;
     height: 100vh;
     margin: 0;
     font-size: 16px;
@@ -8,6 +8,23 @@ html, body {
 .m-b-30{
     margin-bottom: 30px;
 }
+
+
+
+/*
+ * Adjust brand section and menu item
+ * make it visually centralized
+ */
+a.navbar-brand { 
+    width: 70%;
+    text-align: right;
+}
+
+div#navbarNavDropdown {
+    width: 50%;
+    margin-left: 100px;
+}
+
 /* footer-component */
 @media (max-width: 575px) {
     #footer{

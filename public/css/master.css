@@ -24,10 +24,27 @@ div#navbarNavDropdown {
 }
 
 /* Style adjustment for footer section */
-nav#footer {
+nav#footer-wrapper {
     position: relative;
-    height: 350px;
-    margin-top: 100px;
+    height: 250px;
+    margin-top: 60px;
+}
+
+nav#footer-wrapper .footer {
+    padding-top: 25px;
+}
+
+nav#footer-wrapper .footer h3 {
+    font-size: 1.0rem;
+    font-weight: bold;
+    padding-bottom: 5px;
+    color: #000;
+}
+
+nav#footer-wrapper .footer li a {
+    font-size: .9rem;
+    color: #bdbdbd;
+    text-decoration: none;
 }
 
 div#copyright {

@@ -1,6 +1,6 @@
-<nav class="navbar sticky-bottom navbar-light bg-light d-flex flex-column align-items-center" id="footer">
-    <div class="w-100 d-flex flex-wrap justify-content-around align-items-start">
-        <div class="text-align-sm">
+<nav class="navbar sticky-bottom navbar-light bg-light d-flex flex-column align-items-center" id="footer-wrapper">
+    <div class="w-100 d-flex flex-wrap justify-content-around align-items-start footer">
+        <div class="text-align-sm products">
             <h3>Products</h3>
             <ul class="nav flex-column">
                 <li><a href="" title="">Moblie Phone</a></li>
@@ -9,7 +9,7 @@
                 <li><a href="" title="">Smart Room Control</a></li>
             </ul>
         </div>
-        <div class="text-align-sm">
+        <div class="text-align-sm solutions">
             <h3>Solutions</h3>
             <ul class="nav flex-column">
                 <li><a href="" title="">System Integration</a></li>
@@ -17,7 +17,7 @@
                 <li><a href="" title="">Zigbee,Z-Wave or LoRaWAN</a></li>
             </ul>
         </div>
-        <div class="text-align-sm">
+        <div class="text-align-sm follow-us">
             <h3>Follow Us</h3>
             <ul class="nav">
                 <li class="nav-item">

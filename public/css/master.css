@@ -1,6 +1,6 @@
 html, body {
     color: #636b6f;
-    font-family: 'Antic Slab', serif;
+    font-family: 'Open Sans', sans-serif;
     height: 100vh;
     margin: 0;
     font-size: 16px;
@@ -8,6 +8,14 @@ html, body {
 .m-b-30{
     margin-bottom: 30px;
 }
+
+/*
+ * Enhance Navbar
+ * 1. Make navbar transparent default with fullscreen image
+ * 2. Make navbar from white to color when scrolling
+ */
+
+
 /* footer-component */
 @media (max-width: 575px) {
     #footer{

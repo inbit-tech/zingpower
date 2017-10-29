@@ -23,7 +23,7 @@
 	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
 	<!-- Google Fonts -->
-	<link href="https://fonts.cat.net/css?family=Antic+Slab" rel="stylesheet" type="text/css">
+	<link href="https://fonts.cat.net/css?family=Open+Sans" rel="stylesheet" type="text/css">
 
 	<!-- Custom CSS -->
 	<link href="{{ asset('/css/master.css') }}" rel="stylesheet" />
@@ -32,7 +32,7 @@
 	@yield ('custom-css')
 
 	<!-- Start of Async Drift Code -->
-	<script>
+	<!-- <script>
 	!function() {
 	  var t;
 	  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
@@ -53,7 +53,7 @@
 	}();
 	drift.SNIPPET_VERSION = '0.3.1';
 	drift.load('xawpeg2wf5cm');
-	</script>
+	</script> -->
 	<!-- End of Async Drift Code -->
 </head>
 <body>

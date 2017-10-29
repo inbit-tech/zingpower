@@ -9,8 +9,6 @@ html, body {
     margin-bottom: 30px;
 }
 
-
-
 /*
  * Adjust brand section and menu item
  * make it visually centralized
@@ -23,6 +21,20 @@ a.navbar-brand {
 div#navbarNavDropdown {
     width: 50%;
     margin-left: 100px;
+}
+
+/* Style adjustment for footer section */
+nav#footer {
+    position: relative;
+    height: 350px;
+    margin-top: 100px;
+}
+
+div#copyright {
+    position: absolute;
+    height: 50px;
+    bottom: 0;
+    font-size: .8rem;
 }
 
 /* footer-component */

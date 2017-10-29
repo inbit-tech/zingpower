@@ -29,7 +29,7 @@
             </ul>
         </div>
     </div>
-    <div class="w-100 text-center bg-secondary text-white ">
-        <p>copyright@2017</p>
+    <div id="copyright" class="w-100 text-center bg-secondary text-white row">
+        <div class="col align-self-center">copyright &copy; 2017</div>
     </div>
 </nav>

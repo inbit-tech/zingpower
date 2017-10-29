@@ -14,7 +14,7 @@ html, body {
  * make it visually centralized
  */
 a.navbar-brand { 
-    width: 70%;
+    width: 65%;
     text-align: right;
 }
 
@@ -31,27 +31,47 @@ nav#footer-wrapper {
 }
 
 nav#footer-wrapper .footer {
-    padding-top: 25px;
+    padding-top: 28px;
+    width: 768px;
 }
 
-nav#footer-wrapper .footer h3 {
+nav#footer-wrapper .footer h4 {
     font-size: 1.0rem;
-    font-weight: bold;
-    padding-bottom: 5px;
     color: #000;
 }
 
-nav#footer-wrapper .footer li a {
+nav#footer-wrapper .footer ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+nav#footer-wrapper .footer ul li {
     font-size: .9rem;
-    color: #bdbdbd;
+}
+
+nav#footer-wrapper .footer ul li a {
     text-decoration: none;
+    color: #bdbdbd;
+}
+
+div.col-4 img {
+    width: 28px;
+}
+
+div.follow-us img {
+    padding-left: 8px;
 }
 
 div#copyright {
     position: absolute;
+    width:100%;
     height: 50px;
     bottom: 0;
     font-size: .8rem;
+}
+
+div#copyright p {
+    padding-top: 15px;
 }
 
 /* footer-component */

@@ -9,16 +9,21 @@ html, body {
     margin-bottom: 30px;
 }
 
+
+
 /*
- * Enhance Navbar
- * 1. Make navbar transparent default with fullscreen image
- * 2. Make navbar from white to color when scrolling
+ * Adjust brand section and menu item
+ * make it visually centralized
  */
-.navbar {
-    
+a.navbar-brand { 
+    width: 70%;
+    text-align: right;
 }
 
-
+div#navbarNavDropdown {
+    width: 50%;
+    margin-left: 100px;
+}
 
 /* footer-component */
 @media (max-width: 575px) {

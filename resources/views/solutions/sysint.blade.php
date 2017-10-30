@@ -57,7 +57,7 @@
 		  <img class="card-img-top" src="http://placeimg.com/238/180/any" alt="Card image cap">
 		  <div class="card-body">
 		    <h4 class="card-title">Card title</h4>
-		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <p class="card-text">Virtualize and Centralize of control systems in the room</p>
 		    <a href="#" class="btn btn-primary">Go somewhere</a>
 		  </div>
 		</div>
@@ -66,7 +66,7 @@
 		  <img class="card-img-top" src="http://placeimg.com/238/180/any" alt="Card image cap">
 		  <div class="card-body">
 		    <h4 class="card-title">Card title</h4>
-		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <p class="card-text">Increase mobility by control anything anytime and anywhere in the room</p>
 		    <a href="#" class="btn btn-primary">Go somewhere</a>
 		  </div>
 		</div>
@@ -75,7 +75,7 @@
 		  <img class="card-img-top" src="http://placeimg.com/238/180/any" alt="Card image cap">
 		  <div class="card-body">
 		    <h4 class="card-title">Card title</h4>
-		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <p class="card-text">Reduce Maintenance and supporting cost of individual control system</p>
 		    <a href="#" class="btn btn-primary">Go somewhere</a>
 		  </div>
 		</div>
@@ -84,7 +84,7 @@
 		  <img class="card-img-top" src="http://placeimg.com/238/180/any" alt="Card image cap">
 		  <div class="card-body">
 		    <h4 class="card-title">Card title</h4>
-		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <p class="card-text">Minimum room occupancy time, very limited or 0 cabling required</p>
 		    <a href="#" class="btn btn-primary">Go somewhere</a>
 		  </div>
 		</div>

@@ -22,11 +22,13 @@
 	</div>
 	<div class="dms-func-wrapper">
 		<ul class="list-group">
-		  <li class="list-group-item">Cras justo odio</li>
-		  <li class="list-group-item">Dapibus ac facilisis in</li>
-		  <li class="list-group-item">Morbi leo risus</li>
-		  <li class="list-group-item">Porta ac consectetur ac</li>
-		  <li class="list-group-item">Vestibulum at eros</li>
+		  <li class="list-group-item">Set a single default app to run all the time. </li>
+		  <li class="list-group-item">Authorize specific applications to use. </li>
+		  <li class="list-group-item">Restrict access to WiFi connection.</li>
+		  <li class="list-group-item">Upgrade system/application Over-The-Air (OTA).</li>
+		  <li class="list-group-item">Remotely buzz the device to ring instantly.</li>
+		  <li class="list-group-item">Remotely wipe sensitive information on the device.</li>
+		  <li class="list-group-item">Password protected to prevent modifications.</li>
 		</ul>
 	</div>
 	<div class="dms-func-img-wrapper">

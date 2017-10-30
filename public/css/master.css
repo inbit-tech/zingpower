@@ -24,10 +24,6 @@ div#navbarNavDropdown {
     font-size: 1.1rem;
 }
 
-div#navbarNavDropdown a.nav-link {
-    color: white;
-}
-
 /* Style adjustment for footer section */
 nav#footer-wrapper {
     position: relative;

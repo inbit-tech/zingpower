@@ -10,6 +10,45 @@
 	background-size: cover;
 }
 
-#content-wrapper {
-	
+#content-wrapper div.sysint-text {
+	width: 980px;
+	font-size: 2.1rem;
+	margin: 120px 0;
+}
+
+div.sysint-func-wrapper {
+	margin-bottom: 120px;
+	text-align: center;
+}
+
+.figure {
+	text-align: center;
+	font-size: 1.3rem;
+	margin: 0 30px;
+}
+
+.figure-caption {
+	padding-top: 10px;
+}
+
+div.sysint-img {
+	height: 550px;
+}
+
+div.sysint-img div.sysint-coverimg {
+	height: 100%;
+	background-image: url('http://placeimg.com/1280/450/any');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+div.sysint-card-wrapper {
+	margin: 120px auto;
+	text-align: center;
+}
+
+.card {
+	display: inline-block;
+	margin: 0 25px;
 }

@@ -2,7 +2,7 @@
 
 <!-- Page Title -->
 @section ('page-title')
-<title>DMS - Zing Power</title>
+<title>Device Management System - Zing Power</title>
 @endsection
 
 <!-- Custom CSS for Mobile Phone Product Page -->
@@ -11,27 +11,30 @@
 @endsection
 
 @section ('content')
+<!-- Cover Image -->
 <section id="cover-wrapper">
-	<img src="http://placeimg.com/1280/800/any" alt="">
+	<div class="cover-image"></div>
 </section>
 
-<section class="content-wrapper">
-	<div class="dms-cover-img">
-		<img src="http://placeimg.com/1280/800/any" alt="">
+<section id="content-wrapper">
+	<div class="dms-cover">
+		<div class="dms-cover-image"></div>
 	</div>
-	<div class="dms-func">
+	<div class="dms-func-wrapper">
 		<ul class="list-group">
-		  <li class="list-group-item">Cras justo odio</li>
-		  <li class="list-group-item">Dapibus ac facilisis in</li>
-		  <li class="list-group-item">Morbi leo risus</li>
-		  <li class="list-group-item">Porta ac consectetur ac</li>
-		  <li class="list-group-item">Vestibulum at eros</li>
+		  <li class="list-group-item">Set a single default app to run all the time. </li>
+		  <li class="list-group-item">Authorize specific applications to use. </li>
+		  <li class="list-group-item">Restrict access to WiFi connection.</li>
+		  <li class="list-group-item">Upgrade system/application Over-The-Air (OTA).</li>
+		  <li class="list-group-item">Remotely buzz the device to ring instantly.</li>
+		  <li class="list-group-item">Remotely wipe sensitive information on the device.</li>
+		  <li class="list-group-item">Password protected to prevent modifications.</li>
 		</ul>
 	</div>
-	<div class="dms-func-img">
-		<img src="http://placeimg.com/480/640/any" alt="">
+	<div class="dms-func-img-wrapper">
+		<div class="dms-func-img"></div>
 	</div>
-	<div class="dms-comp-table">
+	<div class="dms-comp-table mx-auto">
 		<table class="table">
 		  <thead class="thead-dark">
 		    <tr>

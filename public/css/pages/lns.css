@@ -1,0 +1,54 @@
+#cover-wrapper {
+	height: 100%;
+}
+
+#cover-wrapper div.cover-image {
+	background-image: url('http://placeimg.com/1280/800/life');
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+#content-wrapper div.lns-func-wrapper {
+	margin: 120px auto;
+	text-align: center;
+}
+
+#content-wrapper div.lns-func-wrapper div.lns-func {
+	display: inline-block;
+	text-align: center;
+	font-size: 1.2rem;
+	padding: 0 120px;
+}
+
+p.lns-func-title {
+	margin-top: 15px;
+}
+
+div.lns-text {
+	width: 768px;
+	margin-bottom: 120px;
+}
+
+div.lns-text p.lns-intro {
+	font-size: 2.3rem;
+}
+
+div.lns-card {
+	margin-bottom: 120px;
+	text-align: center;
+}
+
+div.card {
+	display: inline-block;
+	margin: 0 25px;
+}
+
+div.lns-prod-wrapper {
+	text-align: center;
+}
+
+div.lns-prod-wrapper div.lns-prod {
+	margin-bottom: 100px;
+}

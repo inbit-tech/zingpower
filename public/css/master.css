@@ -21,6 +21,7 @@ a.navbar-brand {
 div#navbarNavDropdown {
     width: 50%;
     margin-left: 100px;
+    font-size: 1.1rem;
 }
 
 /* Style adjustment for footer section */

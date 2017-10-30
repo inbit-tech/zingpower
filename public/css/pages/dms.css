@@ -1,0 +1,44 @@
+#cover-wrapper {
+	height: 100%;
+}
+
+#cover-wrapper div.cover-image {
+	background-image: url('http://placeimg.com/1280/800/animal');
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+#content-wrapper div.dms-cover {
+	height: 650px;
+}
+
+#content-wrapper div.dms-cover div.dms-cover-image {
+	height: 100%;
+	background-image: url('http://placeimg.com/1280/650/any');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.dms-func-wrapper ul.list-group {
+	width: 15%;
+	text-align: center;
+	margin: 100px auto;
+}
+
+div.dms-func-img-wrapper {
+	height: 640px;
+}
+
+div.dms-func-img-wrapper div.dms-func-img {
+	height: 100%;
+	background-image: url('http://placeimg.com/640/480/any');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+div.dms-comp-table {
+	width: 50%;
+}

@@ -2,7 +2,7 @@
 
 <!-- Page Title -->
 @section ('page-title')
-<title>DMS - Zing Power</title>
+<title>Device Management System - Zing Power</title>
 @endsection
 
 <!-- Custom CSS for Mobile Phone Product Page -->
@@ -16,11 +16,11 @@
 	<div class="cover-image"></div>
 </section>
 
-<section class="content-wrapper">
-	<div class="dms-cover-img">
-		<img src="http://placeimg.com/1280/800/any" alt="">
+<section id="content-wrapper">
+	<div class="dms-cover">
+		<div class="dms-cover-image"></div>
 	</div>
-	<div class="dms-func">
+	<div class="dms-func-wrapper">
 		<ul class="list-group">
 		  <li class="list-group-item">Cras justo odio</li>
 		  <li class="list-group-item">Dapibus ac facilisis in</li>
@@ -29,10 +29,10 @@
 		  <li class="list-group-item">Vestibulum at eros</li>
 		</ul>
 	</div>
-	<div class="dms-func-img">
-		<img src="http://placeimg.com/480/640/any" alt="">
+	<div class="dms-func-img-wrapper">
+		<div class="dms-func-img"></div>
 	</div>
-	<div class="dms-comp-table">
+	<div class="dms-comp-table mx-auto">
 		<table class="table">
 		  <thead class="thead-dark">
 		    <tr>

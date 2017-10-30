@@ -21,6 +21,11 @@ a.navbar-brand {
 div#navbarNavDropdown {
     width: 50%;
     margin-left: 100px;
+    font-size: 1.1rem;
+}
+
+div#navbarNavDropdown a.nav-link {
+    color: white;
 }
 
 /* Style adjustment for footer section */

@@ -7,12 +7,13 @@
 
 <!-- Custom CSS for Mobile Phone Product Page -->
 @section ('custom-css')
-<link href="{{ asset('/css/pages/lms.css') }}" rel="stylesheet">
+<link href="{{ asset('/css/pages/lns.css') }}" rel="stylesheet">
 @endsection
 
 @section ('content')
-<section class="cover-wrapper">
-	<img src="http://placeimg.com/1280/800/any" alt="">
+<!-- Cover Image -->
+<section id="cover-wrapper">
+	<div class="cover-image"></div>
 </section>
 
 <section class="content-wrapper">

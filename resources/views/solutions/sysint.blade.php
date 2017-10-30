@@ -13,7 +13,7 @@
 @section ('content')
 <!-- Cover Image -->
 <section id="cover-wrapper">
-	<img src="http://placeimg.com/1280/800/any" alt="">
+	<div class="cover-image"></div>
 </section>
 
 <!-- Content Image -->

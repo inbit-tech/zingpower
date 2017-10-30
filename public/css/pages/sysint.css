@@ -1,0 +1,15 @@
+#cover-wrapper {
+	height: 100%;
+}
+
+#cover-wrapper div.cover-image {
+	background-image: url('http://placeimg.com/1280/800/any');
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+#content-wrapper {
+	
+}

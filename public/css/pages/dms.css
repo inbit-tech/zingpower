@@ -49,6 +49,10 @@ div.dms-func-img-wrapper div.dms-func-img {
 	background-size: 50%;
 }
 
-div.dms-comp-table {
+div.table-wrapper {
+	text-align: center;
+}
+
+.table {
 	width: 50%;
 }

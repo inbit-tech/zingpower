@@ -41,68 +41,93 @@
 	<div class="dms-func-img-wrapper">
 		<div class="dms-func-img"></div>
 	</div>
-	<div class="dms-comp-table mx-auto">
-		<table class="table">
-		  <thead class="thead-dark">
-		    <tr>
-		      <th scope="col">#</th>
-		      <th scope="col">First Name</th>
-		      <th scope="col">Last Name</th>
-		      <th scope="col">Username</th>
-		    </tr>
-		  </thead>
-		  <tbody>
-		    <tr>
-		      <th scope="row">1</th>
-		      <td>Mark</td>
-		      <td>Otto</td>
-		      <td>@mdo</td>
-		    </tr>
-		    <tr>
-		      <th scope="row">2</th>
-		      <td>Jacob</td>
-		      <td>Thornton</td>
-		      <td>@fat</td>
-		    </tr>
-		    <tr>
-		      <th scope="row">3</th>
-		      <td>Larry</td>
-		      <td>the Bird</td>
-		      <td>@twitter</td>
-		    </tr>
-		  </tbody>
-		</table>
-
-		<table class="table">
-		  <thead class="thead-light">
-		    <tr>
-		      <th scope="col">#</th>
-		      <th scope="col">First Name</th>
-		      <th scope="col">Last Name</th>
-		      <th scope="col">Username</th>
-		    </tr>
-		  </thead>
-		  <tbody>
-		    <tr>
-		      <th scope="row">1</th>
-		      <td>Mark</td>
-		      <td>Otto</td>
-		      <td>@mdo</td>
-		    </tr>
-		    <tr>
-		      <th scope="row">2</th>
-		      <td>Jacob</td>
-		      <td>Thornton</td>
-		      <td>@fat</td>
-		    </tr>
-		    <tr>
-		      <th scope="row">3</th>
-		      <td>Larry</td>
-		      <td>the Bird</td>
-		      <td>@twitter</td>
-		    </tr>
-		  </tbody>
-		</table>
+	<div>
+		<p>Why Choose Our Solution</p>
 	</div>
+	<table class="table mx-auto">
+	  	<thead>
+		    <tr>
+				<th scope="col">Items</th>
+				<th scope="col">Traditional Smart Solution</th>
+				<th scope="col">Our Smart Solution</th>
+		    </tr>
+	  	</thead>
+	  	<tbody>
+	  		<tr>
+	  			<td colspan="3">Hardware</td>
+	  		</tr>
+			<tr>
+				<td>Cabling</td>
+				<td>KNS or CAT6E type of cable through out the property</td>
+				<td>None</td>
+			</tr>
+			<tr>
+				<td>Gateway Modules</td>
+				<td>Yes</td>
+				<td>None</td>
+			</tr>
+			<tr>
+				<td>Pad/Mobile</td>
+				<td>Yes</td>
+				<td>Yes</td>
+			</tr>
+			<tr>
+				<td>Execution Modules</td>
+				<td>Yes</td>
+				<td>None</td>
+			</tr>
+			<tr>
+				<td>Wall panels</td>
+				<td>Yes</td>
+				<td>None</td>
+			</tr>
+			<tr>
+				<td>Power distribution box</td>
+				<td>Yes</td>
+				<td>None</td>
+			</tr>
+			<tr>
+	  			<td colspan="3">System</td>
+	  		</tr>
+	  		<tr>
+				<td>Device Management System</td>
+				<td>None</td>
+				<td>Yes, customized</td>
+			</tr>
+			<tr>
+				<td>Hardware management</td>
+				<td>Per item basis</td>
+				<td>All device managed by DMS</td>
+			</tr>
+			<tr>
+				<td>Control APP</td>
+				<td>Yes, standard</td>
+				<td>Yes, customized</td>
+			</tr>
+			<tr>
+				<td>Customization Level</td>
+				<td>Almost none, key components has to be KNS, Crestron or Control4 authorized products</td>
+				<td>Full customization from hardware to software</td>
+			</tr>
+			<tr>
+	  			<td colspan="3">Installation & Maintenance</td>
+	  		</tr>
+	  		<tr>
+				<td>Room down time</td>
+				<td>2 to 3 months depends on hotel size</td>
+				<td>None</td>
+			</tr>
+			<tr>
+				<td>Hardware maintenance</td>
+				<td>Complicated hardware system requires team of professionals to manage the maintenance</td>
+				<td>Phone, replace when fault and its charged automatically</td>
+			</tr>
+			<tr>
+				<td>Adaptability</td>
+				<td>Prefer new hotel at construction time</td>
+				<td>Either new or old hotel, and at any stage</td>
+			</tr>
+	  </tbody>
+	</table>
 </section>
 @endsection

@@ -13,7 +13,9 @@
 @section ('content')
 <!-- Cover Image -->
 <section id="cover-wrapper">
-	<div class="cover-image"></div>
+	<div class="cover-image">
+		<p class="cover-text">System Integration</p>
+	</div>
 </section>
 
 <!-- Content Image -->
@@ -22,6 +24,7 @@
 		<p class="sysint-intro">We deliver a complete and comprehensive working solution to help customer to achieve seamless operations and excellence in their services, cost reduction and simultaneously drive their revenue growth.</p>
 	</div>
 	<div class="sysint-func-wrapper">
+		<p class="sysint-func-intro">Our Exclusive Solutions</p>
 		<!-- Function 1 -->
 		<figure class="figure">
 		  <img src="/img/sysint/devices_icon.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
@@ -49,7 +52,9 @@
 		</figure>
 	</div>
 	<div class="sysint-img">
-		<div class="sysint-coverimg"></div>
+		<div class="sysint-coverimg">
+			<p class="sysint-cover-text">One Stop Solution</p>
+		</div>
 	</div>
 	<div class="sysint-card-wrapper">
 		<!-- Card 1 -->

@@ -8,6 +8,14 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+	text-align: center;
+}
+
+p.cover-text {
+	color: #fff;
+	font-size: 4.0rem;
+	text-shadow: 1px 1px #000;
+	padding-top: 380px;
 }
 
 #content-wrapper div.sysint-text {
@@ -19,6 +27,11 @@
 div.sysint-func-wrapper {
 	margin-bottom: 120px;
 	text-align: center;
+}
+
+p.sysint-func-intro {
+	font-size: 1.5rem;
+	padding-bottom: 25px;
 }
 
 .figure {
@@ -41,6 +54,14 @@ div.sysint-img div.sysint-coverimg {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+	text-align: center;
+}
+
+p.sysint-cover-text {
+	color: #fff;
+	font-size: 4.0rem;
+	text-shadow: 1px 1px #000;
+	padding-top: 200px;
 }
 
 div.sysint-card-wrapper {

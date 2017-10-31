@@ -24,28 +24,28 @@
 	<div class="sysint-func-wrapper">
 		<!-- Function 1 -->
 		<figure class="figure">
-		  <img src="http://placeimg.com/150/150/any" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-		  <figcaption class="figure-caption">Building</figcaption>
+		  <img src="/img/sysint/devices_icon.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+		  <figcaption class="figure-caption">Smart Devices</figcaption>
 		</figure>
 		<!-- Function 2 -->
 		<figure class="figure">
-		  <img src="http://placeimg.com/150/150/any" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-		  <figcaption class="figure-caption">Hotel</figcaption>
+		  <img src="/img/sysint/apps_icon.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+		  <figcaption class="figure-caption">Apps</figcaption>
 		</figure>
 		<!-- Function 3 -->
 		<figure class="figure">
-		  <img src="http://placeimg.com/150/150/any" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-		  <figcaption class="figure-caption">School</figcaption>
+		  <img src="/img/sysint/backend_icon.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+		  <figcaption class="figure-caption">Backend System</figcaption>
 		</figure>
 		<!-- Function 4 -->
 		<figure class="figure">
-		  <img src="http://placeimg.com/150/150/any" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-		  <figcaption class="figure-caption">Hospital</figcaption>
+		  <img src="/img/sysint/db_icon.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+		  <figcaption class="figure-caption">Database</figcaption>
 		</figure>
 		<!-- Function 5 -->
 		<figure class="figure">
-		  <img src="http://placeimg.com/150/150/any" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-		  <figcaption class="figure-caption">Breeding</figcaption>
+		  <img src="/img/sysint/custom_icon.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+		  <figcaption class="figure-caption">Customize</figcaption>
 		</figure>
 	</div>
 	<div class="sysint-img">
@@ -54,38 +54,30 @@
 	<div class="sysint-card-wrapper">
 		<!-- Card 1 -->
 		<div class="card" style="width: 20rem;">
-		  <img class="card-img-top" src="http://placeimg.com/238/180/any" alt="Card image cap">
+		  <img class="card-img-top" src="/img/sysint/card_01.jpg" alt="Card image cap">
 		  <div class="card-body">
-		    <h4 class="card-title">Card title</h4>
 		    <p class="card-text">Virtualize and Centralize of control systems in the room</p>
-		    <a href="#" class="btn btn-primary">Go somewhere</a>
 		  </div>
 		</div>
 		<!-- Card 2 -->
 		<div class="card" style="width: 20rem;">
-		  <img class="card-img-top" src="http://placeimg.com/238/180/any" alt="Card image cap">
+		  <img class="card-img-top" src="/img/sysint/card_02.jpg" alt="Card image cap">
 		  <div class="card-body">
-		    <h4 class="card-title">Card title</h4>
 		    <p class="card-text">Increase mobility by control anything anytime and anywhere in the room</p>
-		    <a href="#" class="btn btn-primary">Go somewhere</a>
 		  </div>
 		</div>
 		<!-- Card 3 -->
 		<div class="card" style="width: 20rem;">
-		  <img class="card-img-top" src="http://placeimg.com/238/180/any" alt="Card image cap">
+		  <img class="card-img-top" src="/img/sysint/card_03.jpg" alt="Card image cap">
 		  <div class="card-body">
-		    <h4 class="card-title">Card title</h4>
 		    <p class="card-text">Reduce Maintenance and supporting cost of individual control system</p>
-		    <a href="#" class="btn btn-primary">Go somewhere</a>
 		  </div>
 		</div>
 		<!-- Card 4 -->
 		<div class="card" style="width: 20rem;">
-		  <img class="card-img-top" src="http://placeimg.com/238/180/any" alt="Card image cap">
+		  <img class="card-img-top" src="/img/sysint/card_04.jpg" alt="Card image cap">
 		  <div class="card-body">
-		    <h4 class="card-title">Card title</h4>
 		    <p class="card-text">Minimum room occupancy time, very limited or 0 cabling required</p>
-		    <a href="#" class="btn btn-primary">Go somewhere</a>
 		  </div>
 		</div>
 	</div>

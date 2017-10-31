@@ -2,7 +2,7 @@
 
 <!-- Page Title -->
 @section ('page-title')
-<title>Device Management System - Zing Power</title>
+<title>Device Management System - Solutions - Zing Power</title>
 @endsection
 
 <!-- Custom CSS for Mobile Phone Product Page -->

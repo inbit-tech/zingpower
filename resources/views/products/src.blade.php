@@ -2,7 +2,7 @@
 
 <!-- Page Title -->
 @section ('page-title')
-<title>Smart Room Controller - Zing Power</title>
+<title>Smart Room Controller - Products - Zing Power</title>
 @endsection
 
 <!-- Custom CSS for Smart Room Controller Product Page -->

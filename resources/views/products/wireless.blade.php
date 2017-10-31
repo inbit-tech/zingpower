@@ -2,7 +2,7 @@
 
 <!-- Page Title -->
 @section ('page-title')
-<title>Wireless Charger - Zing Power</title>
+<title>Wireless Charger - Products - Zing Power</title>
 @endsection
 
 <!-- Custom CSS for wireless charger Product Page -->

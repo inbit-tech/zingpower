@@ -2,7 +2,7 @@
 
 <!-- Page Title -->
 @section ('page-title')
-<title>Walkie Talkie - Zing Power</title>
+<title>Walkie Talkie - Products - Zing Power</title>
 @endsection
 
 <!-- Custom CSS for walkie talkie Product Page -->

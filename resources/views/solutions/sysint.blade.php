@@ -2,7 +2,7 @@
 
 <!-- Page Title -->
 @section ('page-title')
-<title>System Integration - Zing Power</title>
+<title>System Integration - Solutions - Zing Power</title>
 @endsection
 
 <!-- Custom CSS for Mobile Phone Product Page -->

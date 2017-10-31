@@ -2,7 +2,7 @@
 
 {{-- page title --}}
 @section ('page-title')
-<title>Home - Zing Power</title>
+<title>Zing Power</title>
 @endsection
 
 

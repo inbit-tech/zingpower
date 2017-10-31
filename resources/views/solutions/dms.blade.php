@@ -13,23 +13,30 @@
 @section ('content')
 <!-- Cover Image -->
 <section id="cover-wrapper">
-	<div class="cover-image"></div>
+	<div class="cover-image">
+		<p class="cover-text">Device Management System</p>
+	</div>
 </section>
 
 <section id="content-wrapper">
 	<div class="dms-cover">
 		<div class="dms-cover-image"></div>
 	</div>
-	<div class="dms-func-wrapper">
-		<ul class="list-group">
-		  <li class="list-group-item">Set a single default app to run all the time. </li>
-		  <li class="list-group-item">Authorize specific applications to use. </li>
-		  <li class="list-group-item">Restrict access to WiFi connection.</li>
-		  <li class="list-group-item">Upgrade system/application Over-The-Air (OTA).</li>
-		  <li class="list-group-item">Remotely buzz the device to ring instantly.</li>
-		  <li class="list-group-item">Remotely wipe sensitive information on the device.</li>
-		  <li class="list-group-item">Password protected to prevent modifications.</li>
-		</ul>
+	<div class="row align-items-center justify-content-center">
+		<div class="dms-func-interface">
+			<img src="/img/dms/interface_01.jpg" alt="">
+		</div>
+		<div class="dms-func-interface">
+			<ul class="list-group">
+				<li class="list-group-item">Set a single default app to run all the time. </li>
+				<li class="list-group-item">Authorize specific applications to use. </li>
+				<li class="list-group-item">Restrict access to WiFi connection.</li>
+				<li class="list-group-item">Upgrade system/application Over-The-Air (OTA).</li>
+				<li class="list-group-item">Remotely buzz the device to ring instantly.</li>
+				<li class="list-group-item">Remotely wipe sensitive information on the device.</li>
+				<li class="list-group-item">Password protected to prevent modifications.</li>
+			</ul>
+		</div>
 	</div>
 	<div class="dms-func-img-wrapper">
 		<div class="dms-func-img"></div>

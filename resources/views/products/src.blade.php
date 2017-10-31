@@ -16,7 +16,7 @@
     <div class="card text-white">
         <img src="http://placeimg.com/640/300/any" alt="" class="img-fluid card-img">
         <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
-            <h1>Smart Room Controller</h1>
+            <h1 class="Smart-Room-Controlle">Smart Room Controller</h1>
         </div>
     </div>
 </div>
@@ -42,8 +42,8 @@
     <div class="card text-white">
         <img src="http://placeimg.com/640/300/any" alt="" class="img-fluid card-img">
         <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
-            <h1>No Wire Solution</h1>
-            <h1>Zero Down Time</h1>
+            <h1 class="No-Wire-Solution-Zer">No Wire Solution</h1>
+            <h1 class="No-Wire-Solution-Zer">Zero Down Time</h1>
         </div>
     </div>
 </div>

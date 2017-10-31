@@ -15,8 +15,8 @@
 <div class="m-b-30">
     <div class="card text-white">
         <img src="http://placeimg.com/640/300/any" alt="" class="img-fluid card-img">
-        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
-            <h1>Walkie Talkie</h1>
+        <div class="card-img-overlay d-flex justify-content-center align-items-center">
+            <h1 class="Walkie-Talkie">Walkie Talkie</h1>
         </div>
     </div>
 </div>
@@ -50,20 +50,20 @@
 </div>
 
 {{-- img item --}}
-<div class="m-b-30 d-flex flex-wrap justify-content-center">
+<div class="m-b-30 mt-5 d-flex flex-wrap justify-content-center">
     <div class="p-4 d-flex justify-content-between flex-column align-items-center">
         <img src="http://placeimg.com/200/200/animals" alt="" class="rounded-circle">
-        <p>Radios</p>
+        <p class="Radios mt-3">Radios</p>
     </div>
 
     <div class="p-4 d-flex justify-content-between flex-column align-items-center">
         <img src="http://placeimg.com/200/200/nature" alt="" class="rounded-circle">
-        <p>Accessories</p>
+        <p class="Accessories mt-3">Accessories</p>
     </div>
 
     <div class="p-4 d-flex justify-content-between flex-column align-items-center">
         <img src="http://placeimg.com/200/200/architecture" alt="" class="rounded-circle">
-        <p>2-Way Radios</p>
+        <p class="-Way-Radios mt-3">2-Way Radios</p>
     </div>
 </div>
 @endsection

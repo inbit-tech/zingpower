@@ -24,8 +24,8 @@
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 		         	<a class="dropdown-item" href="/solutions/system-integration">System Integration</a>
-		        	<a class="dropdown-item" href="/solutions/dms">DMS</a>
-		        	<a class="dropdown-item" href="/solutions/lns">LNS</a>
+		        	<a class="dropdown-item" href="/solutions/dms">Device Management System</a>
+		        	<a class="dropdown-item" href="/solutions/lns">Zigbee Z-Wave or LoRaWAN Local Network System</a>
 		        </div>
 			</li>
 			<li class="nav-item">

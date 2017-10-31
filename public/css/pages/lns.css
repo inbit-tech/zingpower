@@ -35,20 +35,50 @@ div.lns-text p.lns-intro {
 	font-size: 1.5rem;
 }
 
-div.lns-card {
+.card-group {
+	width: 50%;
 	margin-bottom: 100px;
+}
+
+#lns-prod-wrapper {
+	width: 80%;
+	margin: 0 auto;
 	text-align: center;
 }
 
-div.card {
+#lns-prod-wrapper .lns-prod {
+	width: 60%;
 	display: inline-block;
-	margin: 0 25px;
+	margin-bottom: 100px;
 }
 
-div.lns-prod-wrapper {
+#lns-prod-wrapper .lns-prod .prod-wrapper .image-wrapper {
+	float: left;
+}
+
+#lns-prod-wrapper .lns-prod .prod-wrapper .image-wrapper .prod-image {
+	display: flex;
+	justify-content: center;
+	align-item: center;
+	overflow: hidden;
+}
+
+#lns-prod-wrapper .lns-prod .prod-wrapper .image-wrapper .prod-image img {
+	flex-shrink: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+#lns-prod-wrapper .lns-prod .prod-wrapper .prod-info-wrapper {
+	float: left;
+	margin-left: 100px;
+}
+
+div.prod-name h4 {
+	padding-bottom: 18px;
 	text-align: center;
 }
 
-div.lns-prod-wrapper div.lns-prod {
-	margin-bottom: 100px;
+.table {
+	font-size: .8rem;
 }

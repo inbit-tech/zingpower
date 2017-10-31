@@ -49,10 +49,23 @@ div.dms-func-img-wrapper div.dms-func-img {
 	background-size: 50%;
 }
 
-div.table-wrapper {
+div.table-title {
 	text-align: center;
+	font-size: 3.5rem;
+	margin-bottom: 50px;
 }
 
 .table {
 	width: 50%;
+	text-align: center;
+}
+
+tr th {
+	text-align: center;
+}
+
+tr.table-row-header {
+	text-align: center;
+	font-size: 1.5rem;
+	color: #bdbdbd;
 }

@@ -13,7 +13,9 @@
 @section ('content')
 <!-- Cover Image -->
 <section id="cover-wrapper">
-	<div class="cover-image"></div>
+	<div class="cover-image">
+		<p class="cover-text">Zigbee Z-Wave or LoRaWAN<br/>Local Network Setup</p>
+	</div>
 </section>
 
 <section id="content-wrapper">

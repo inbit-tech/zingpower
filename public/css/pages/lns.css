@@ -11,7 +11,7 @@
 }
 
 #content-wrapper div.lns-func-wrapper {
-	margin: 120px auto;
+	margin: 100px auto;
 	text-align: center;
 }
 
@@ -23,20 +23,20 @@
 }
 
 p.lns-func-title {
-	margin-top: 15px;
+	margin-top: 25px;
 }
 
 div.lns-text {
-	width: 768px;
-	margin-bottom: 120px;
+	width: 960px;
+	margin-bottom: 100px;
 }
 
 div.lns-text p.lns-intro {
-	font-size: 2.3rem;
+	font-size: 1.5rem;
 }
 
 div.lns-card {
-	margin-bottom: 120px;
+	margin-bottom: 100px;
 	text-align: center;
 }
 

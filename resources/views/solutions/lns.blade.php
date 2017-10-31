@@ -20,18 +20,15 @@
 	<div class="lns-func-wrapper mx-auto">
 		<!-- Function 1 -->
 		<div class="lns-func">
-			<img src="http://placeimg.com/150/150/any" alt="">
-			<p class="lns-func-title">LoRa</p>
+			<img src="/img/lns/lora.png" alt="">
 		</div>
 		<!-- Function 2 -->
 		<div class="lns-func">
-			<img src="http://placeimg.com/150/150/any" alt="">
-			<p class="lns-func-title">Zigbee</p>
+			<img src="/img/lns/zigbee.png" alt="">
 		</div>
 		<!-- Function 3 -->
 		<div class="lns-func">
-			<img src="http://placeimg.com/150/150/any" alt="">
-			<p class="lns-func-title">Z-Wave</p>
+			<img src="/img/lns/zwave.png" alt="">
 		</div>
 	</div>
 	
@@ -40,22 +37,22 @@
 	</div>
 
 	<div class="card-group mx-auto">
-	  <div class="card">
-	    <img class="card-img-top" src="http://placeimg.com/386/180/any" alt="Card image cap">
+	  <div class="card border-0">
+	    <img class="card-img-top" src="/img/lns/cost.png" alt="Card image cap">
 	    <div class="card-body">
 	      <h4 class="card-title">Low Cost</h4>
 	      <p class="card-text">Because its on public frequency, there is no data cast. Powered by battery which last for 1 to 2 years so minimum power required therefore power supply related work/cost saved.</p>
 	    </div>
 	  </div>
-	  <div class="card">
-	    <img class="card-img-top" src="http://placeimg.com/386/180/any" alt="Card image cap">
+	  <div class="card border-0">
+	    <img class="card-img-top" src="/img/lns/deploy.png" alt="Card image cap">
 	    <div class="card-body">
 	      <h4 class="card-title">Easy to Deploy</h4>
 	      <p class="card-text">Installation is very simple, registered electrician can easily handle the job within couple of weeks for the size of a Five star hotel.</p>
 	    </div>
 	  </div>
-	  <div class="card">
-	    <img class="card-img-top" src="http://placeimg.com/386/180/any" alt="Card image cap">
+	  <div class="card border-0">
+	    <img class="card-img-top" src="/img/lns/use.png" alt="Card image cap">
 	    <div class="card-body">
 	      <h4 class="card-title">Simple to Use</h4>
 	      <p class="card-text">User friendly interface, also customizable according to client request, management terminal can be a laptop, desktop or mobile phone. We also open API to serve your database.</p>
@@ -68,7 +65,7 @@
 			<div class="prod-wrapper">
 				<div class="image-wrapper">
 					<div class="prod-image">
-						<img src="https://placeimg.com/360/360/tech" alt="">
+						<img src="/img/lns/product_01.png" alt="">
 					</div>
 				</div>
 				<div class="prod-info-wrapper">
@@ -125,7 +122,7 @@
 			<div class="prod-wrapper">
 				<div class="image-wrapper">
 					<div class="prod-image">
-						<img src="https://placeimg.com/360/360/tech" alt="">
+						<img src="/img/lns/product_02.png" alt="">
 					</div>
 				</div>
 				<div class="prod-info-wrapper">

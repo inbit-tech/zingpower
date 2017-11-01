@@ -16,7 +16,7 @@
     <div class="card text-white">
         <img src="http://placeimg.com/640/300/any" alt="" class="img-fluid card-img">
         <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
-            <h1>Mobile Phone</h1>
+            <h1 class="Mobile-Phone">Mobile Phone</h1>
         </div>
     </div>
 </div>

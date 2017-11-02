@@ -2,19 +2,14 @@
 * @Author: vayne
 * @Date:   2017-10-19 12:27:56
 * @Last Modified by:   vayne
-* @Last Modified time: 2017-10-31 14:32:38
+* @Last Modified time: 2017-11-03 00:28:08
 */
 
 .m-b-30 {
     margin-bottom: 30px;
 }
 
-.btn_learnmore {
-    width: 165px;
-    height: 50px;
-    border-radius: 8px;
-    background-color: #4a90e2;
-}
+
 
 
 
@@ -57,8 +52,6 @@
         height: 100vh;
     }
     .txt_slogan {
-        width: 749px;
-        height: 87px;
         font-family: OpenSans;
         font-size: 64px;
         font-weight: 800;
@@ -66,10 +59,62 @@
         color: #ffffff;
         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     }
-
+    .btn_learnmore {
+        width: 165px;
+        height: 50px;
+        margin-top: 27px;
+        border-radius: 8px;
+        background-color: #4a90e2;
+    }
+    .icon_phone {
+        margin-left: 201px;
+        margin-top: 83px;
+    }
+    .icon_txt_phone {
+        margin-top: 28px;
+        margin-bottom: 64px;
+        font-family: OpenSans;
+        font-size: 18px;
+        text-align: center;
+        color: #4a4a4a;
+    }
+    .icon_talkie {
+        margin-left: 114px;
+        margin-top: 83px;
+    }
+    .icon_txt_talkie {
+        margin-top: 28px;
+        margin-bottom: 64px;
+        font-family: OpenSans;
+        font-size: 18px;
+        text-align: center;
+        color: #4a4a4a;
+    }
+    .icon_charger {
+        margin-left: 127px;
+        margin-top: 83px;
+    }
+    .icon_txt_charger {
+        margin-top: 28px;
+        margin-bottom: 64px;
+        font-family: OpenSans;
+        font-size: 18px;
+        text-align: center;
+        color: #4a4a4a;
+    }
+    .icon_controller {
+        margin-left: 125px;
+        margin-top: 83px;
+    }
+    .icon_txt_controller {
+        margin-top: 28px;
+        margin-bottom: 64px;
+        font-family: OpenSans;
+        font-size: 18px;
+        text-align: center;
+        color: #4a4a4a;
+    }
     .txt_integration_title {
-        width: 283px;
-        height: 96px;
         font-family: OpenSans;
         font-size: 48px;
         font-weight: 800;
@@ -78,18 +123,32 @@
         color: #ffffff;
         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     }
-
     .General-introduction {
-        width: 253px;
-        height: 81px;
         font-family: OpenSans;
         font-size: 20px;
         text-align: left;
         color: #ffffff;
         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     }
-    .m-l-200{
-        margin-left:215px; 
+    .m-l-93{
+        margin-left: 93px;
+    }
+    .txt_one_device {
+        font-family: OpenSans;
+        font-size: 48px;
+        font-weight: 800;
+        text-align: left;
+        color: #4a4a4a;
+    }
+    .General-infomation-a {
+        font-family: OpenSans;
+        font-size: 20px;
+        line-height: 0.9;
+        text-align: left;
+        color: #4a4a4a;
+    }
+    .m-l-200 {
+        margin-left: 215px;
     }
     .card-xl {
         position: relative;
@@ -111,5 +170,26 @@
         bottom: 0;
         left: 0;
         padding: 1.25rem;
+    }
+    .ZERO-DOWN-ZERO-WIRE {
+        font-family: OpenSans;
+        font-size: 64px;
+        font-weight: 800;
+        text-align: left;
+        color: #ffffff;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .txt_our_clients {
+        font-family: OpenSans;
+        font-size: 52px;
+        font-weight: 800;
+        text-align: left;
+        color: #4a4a4a;
+    }
+    .number {
+        font-family: OpenSans;
+        font-size: 64px;
+        text-align: left;
+        color: #4a4a4a;
     }
 }

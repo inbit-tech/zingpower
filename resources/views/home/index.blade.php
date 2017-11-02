@@ -12,7 +12,7 @@
 
 @section ('content')
 {{-- top area HTML --}}
-<div class="m-b-30">
+<div class="">
     <div class="card text-white">
         <img src="http://placeimg.com/640/480/any" alt="" class="img-fluid card-img">
         <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
@@ -24,18 +24,18 @@
 
 
 {{-- products area HTML --}}
-<div class="d-flex flex-wrap justify-content-around my-5 mx-5 px-5">
-    <div class="d-flex flex-column align-items-center">
-        <img src="http://placeimg.com/125/125/tech" alt=""  class=" rounded-circle"><p class="mt-4">Mobile Phone</p>
+<div class="d-flex flex-wrap">
+    <div class="d-flex flex-column align-items-center icon_phone">
+        <img src="http://placeimg.com/125/125/tech" alt=""  class=" rounded-circle"><p class="icon_txt_phone">Mobile Phone</p>
     </div>
-    <div class="d-flex flex-column align-items-center">
-        <img src="http://placeimg.com/125/125/people" alt=""  class=" rounded-circle"><p class="mt-4">Walkie Talkie</p>
+    <div class="d-flex flex-column align-items-center icon_talkie">
+        <img src="http://placeimg.com/125/125/people" alt=""  class=" rounded-circle"><p class="icon_txt_talkie">Walkie Talkie</p>
     </div>
-    <div class="d-flex flex-column align-items-center">
-        <img src="http://placeimg.com/125/125/nature" alt=""  class=" rounded-circle"><p class="mt-4">Wireless Charger</p>
+    <div class="d-flex flex-column align-items-center icon_charger">
+        <img src="http://placeimg.com/125/125/nature" alt=""  class=" rounded-circle"><p class="icon_txt_charger">Wireless Charger</p>
     </div>
-    <div class="d-flex flex-column align-items-center"> 
-        <img src="http://placeimg.com/125/125/any" alt=""  class=" rounded-circle"><p class="mt-4">Smart Controller</p>
+    <div class="d-flex flex-column align-items-center icon_controller"> 
+        <img src="http://placeimg.com/125/125/any" alt=""  class=" rounded-circle"><p class="icon_txt_controller">Smart Controller</p>
     </div>
 </div>
 
@@ -54,10 +54,10 @@
 
 <div class="m-b-30">
     <div class="d-flex flex-wrap justify-content-around">
-        <img src="http://placeimg.com/350/500/any" alt="" class="">
-        <div class="d-flex flex-column justify-content-around padding-sm">
-            <h3 class="font-weight-bold">One Device to Rule Them All</h3>
-            <p>General  information about Device Management System Zero downtime implementation.</p>
+        <img src="http://placeimg.com/350/500/any" alt="" class="m-l-93">
+        <div class="d-flex flex-column justify-content-around ">
+            <h3 class="txt_one_device">One Device to Rule Them All</h3>
+            <p class="General-infomation-a">General  information about Device Management System Zero downtime implementation.</p>
             <button type="" class="btn btn-warning text-white ml-auto p-2">Learn More</button>
         </div>
     </div>
@@ -68,8 +68,8 @@
     <div class="card text-white">
         <img src="http://placeimg.com/640/480/any" alt="" class="img-fluid card-img">
         <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
-            <h1 class="card-text font-weight-bold">ZERO DOWN</h1>
-            <h1 class="card-text font-weight-bold">ZERO WIRE</h1>
+            <h1 class="card-text ZERO-DOWN-ZERO-WIRE">ZERO DOWN</h1>
+            <h1 class="card-text ZERO-DOWN-ZERO-WIRE">ZERO WIRE</h1>
         </div>
     </div>
 </div>
@@ -77,8 +77,8 @@
 {{-- client area HTML --}}
 <div class="m-b-30 d-flex flex-column align-items-center">
     <div class="d-flex flex-column align-items-center">
-        <h1 class="font-weight-bold">Our Clients Are Saving</h1>
-        <h2 class="font-weight-bold">$ 123,456,789</h2>
+        <h1 class="txt_our_clients">Our Clients Are Saving</h1>
+        <h2 class="number">$ 123,456,789</h2>
     </div>
     <div class="d-flex flex-wrap justify-content-around align-items-center w-50">
         <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">

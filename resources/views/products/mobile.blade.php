@@ -23,7 +23,7 @@
 
 {{-- Product introduction --}}
 <div class="m-b-30 d-flex justify-content-center text-center p-5">
-    <p class="width-25">We deliver a complete and comprehensive working solution to help our customers to achieve seamless operations and excellence in their services, cost reduction and simultaneously drive their revenue growth.</p>
+    <p class="We-deliver-a-complet">We deliver a complete and comprehensive working solution to help our customers to achieve seamless operations and excellence in their services, cost reduction and simultaneously drive their revenue growth.</p>
 </div>
 
 {{-- products other page --}}

@@ -2,7 +2,7 @@
 * @Author: vayne
 * @Date:   2017-10-27 11:55:38
 * @Last Modified by:   vayne
-* @Last Modified time: 2017-11-01 23:18:19
+* @Last Modified time: 2017-11-03 20:17:33
 */
 
 .productsText {
@@ -49,5 +49,13 @@
         font-style: italic;
         text-align: center;
         color: #ffffff;
+    }
+    .We-deliver-a-complet {
+        width: 749px;
+        height: 245px;
+        font-family: OpenSans;
+        font-size: 36px;
+        text-align: center;
+        color: #4a4a4a;
     }
 }

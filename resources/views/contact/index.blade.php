@@ -14,7 +14,7 @@
 @section ('content')
 <div class="m-b-30">
     <div class="card text-white">
-        <img src="http://placeimg.com/1000/300/any" alt="" class="img-fluid card-img">
+        <img src="http://placeimg.com/1000/300/any" alt="" class="card-img">
         <div class="card-img-overlay d-flex justify-content-center align-items-end">
             <h4 class="card-text font-weight-bold text-uppercase">contact us</h4> 
         </div>
@@ -46,12 +46,11 @@
 </div>
 
 {{-- enterprise display --}}
-<div class="m-b-30 d-flex flex-wrap">
-    <div class="width-50 my-3 p-5 d-flex flex-column justify-content-center align-items-center" id="whoWeAre">
+<div class="m-b-30 d-flex flex-wrap justify-content-center">
+    <div class="width-50 my-3  d-flex flex-column justify-content-center align-items-center" id="whoWeAre">
         <h1 id="whoWeAre-title">Who We Are</h1>
     </div>
-    <div class="width-50 my-3 p-5 d-flex flex-column justify-content-center
-    align-items-center" id="whatWeDo">
+    <div class="width-50 my-3 p-5 d-flex flex-column justify-content-center align-items-center" id="whatWeDo">
         <h1 id="whatWeDo-title">What We Do</h1>
     </div>
 </div>

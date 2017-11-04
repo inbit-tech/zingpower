@@ -2,17 +2,21 @@
 * @Author: vayne
 * @Date:   2017-10-20 15:45:58
 * @Last Modified by:   vayne
-* @Last Modified time: 2017-10-29 02:26:03
+* @Last Modified time: 2017-11-03 20:50:53
 */
 
 #whoWeAre {
     background-color: red;
     color: white;
+    width: 450px;
+    height: 420px;
 }
 
 #whatWeDo {
     background-color: orange;
     color: white;
+    width: 450px;
+    height: 420px;
 }
 
 .input-bg-color {
@@ -34,12 +38,7 @@ textarea::-webkit-input-placeholder {
     .width-25 {
         width: 75%!important;
     }
-    .width-50{
-        width: 100%!important;
-    }
+
 }
 @media (min-width: 1224px){
-    .width-50{
-        width: 50%!important;
-    }
 }

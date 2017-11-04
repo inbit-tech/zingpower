@@ -14,7 +14,7 @@
 {{-- hero picture --}}
 <div class="m-b-30">
     <div class="card text-white">
-        <img src="http://placeimg.com/640/300/any" alt="" class="img-fluid card-img">
+        <img src="/img/products/mobilephone.png" alt="" class="img-fluid card-img">
         <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
             <h1 class="Mobile-Phone">Mobile Phone</h1>
         </div>

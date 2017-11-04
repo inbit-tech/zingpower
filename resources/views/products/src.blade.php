@@ -14,7 +14,7 @@
 {{-- hero picture --}}
 <div class="m-b-30">
     <div class="card text-white">
-        <img src="http://placeimg.com/640/300/any" alt="" class="img-fluid card-img">
+        <img src="/img/products/smartcontroller.jpeg" alt="" class="img-fluid card-img">
         <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
             <h1 class="Smart-Room-Controlle">Smart Room Controller</h1>
         </div>
@@ -40,7 +40,7 @@
 {{-- hero picture --}}
 <div class="m-b-30">
     <div class="card text-white">
-        <img src="http://placeimg.com/640/300/any" alt="" class="img-fluid card-img">
+        <img src="/img/products/controller.jpeg" alt="" class="img-fluid card-img">
         <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
             <h1 class="No-Wire-Solution-Zer">No Wire Solution</h1>
             <h1 class="No-Wire-Solution-Zer">Zero Down Time</h1>

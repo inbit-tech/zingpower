@@ -14,7 +14,7 @@
 {{-- hero picture --}}
 <div class="m-b-30">
     <div class="card text-white">
-        <img src="http://placeimg.com/640/300/any" alt="" class="img-fluid card-img">
+        <img src="/img/products/walkietalkie.jpeg" alt="" class="img-fluid card-img">
         <div class="card-img-overlay d-flex justify-content-center align-items-center">
             <h1 class="Walkie-Talkie">Walkie Talkie</h1>
         </div>
@@ -30,13 +30,13 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="http://placeimg.com/640/200/people" alt="First slide">
+      <img class="d-block w-100 img_slide" src="/img/products/slide1.jpeg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="http://placeimg.com/640/200/tech" alt="Second slide">
+      <img class="d-block w-100 img_slide" src="/img/products/slide2.jpeg" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="http://placeimg.com/640/200/any" alt="Third slide">
+      <img class="d-block w-100 img_slide" src="/img/products/slide3.jpeg" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

@@ -14,7 +14,7 @@
 {{-- top area HTML --}}
 <div class="">
     <div class="card text-white">
-        <img src="http://placeimg.com/640/480/any" alt="" class="img-fluid card-img">
+        <img src="/img/homepage/img_hotel.jpg" alt="" class="img-fluid card-img">
         <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
             <h1 class="card-text txt_slogan">Make Your Space Alive</h1> 
             <button type="" class="btn btn-primary btn_learnmore">Learn More</button>
@@ -42,7 +42,7 @@
 {{-- SystemIntegration area HTML --}}
 <div class="m-b-30">
     <div class="card-xl text-white">
-        <img src="http://placeimg.com/1500/400/any" class="card-img" alt="Card image">
+        <img src="/img/homepage/img_system.jpg" class="card-img img_system" alt="Card image">
         <div class="d-flex flex-column justify-content-center align-items-start card-img-overlay-xl width-25 card-img-overlay-sm color-black-sm m-l-200">
             <h3 class="txt_integration_title">System Integration</h3>
             <p class="General-introduction">General introduction info about system integration functionality</p>
@@ -66,7 +66,7 @@
 {{-- fullPicture area HTML --}}
 <div class="m-b-30">
     <div class="card text-white">
-        <img src="http://placeimg.com/640/480/any" alt="" class="img-fluid card-img">
+        <img src="/img/homepage/zerowire.jpg" alt="" class="img-fluid card-img">
         <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
             <h1 class="card-text ZERO-DOWN-ZERO-WIRE">ZERO DOWN</h1>
             <h1 class="card-text ZERO-DOWN-ZERO-WIRE">ZERO WIRE</h1>
@@ -81,21 +81,21 @@
         <h2 class="number">$ 123,456,789</h2>
     </div>
     <div class="d-flex flex-wrap justify-content-around align-items-center w-50">
-        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
-        <img src="http://via.digital.com/120x120" alt=""  class=" rounded-circle">
+        <img src="/img/homepage/logo_1.png" alt=""  class="client_logo rounded-circle">
+        <img src="/img/homepage/logo_2.png" alt=""  class="client_logo rounded-circle">
+        <img src="/img/homepage/logo_3.png" alt=""  class="client_logo rounded-circle">
+        <img src="/img/homepage/logo_4.png" alt=""  class="client_logo rounded-circle">
+        <img src="/img/homepage/logo_5.png" alt=""  class="client_logo rounded-circle">
+        <img src="/img/homepage/logo_1.png" alt=""  class="client_logo rounded-circle">
+        <img src="/img/homepage/logo_2.png" alt=""  class="client_logo rounded-circle">
+        <img src="/img/homepage/logo_3.png" alt=""  class="client_logo rounded-circle">
+        <img src="/img/homepage/logo_4.png" alt=""  class="client_logo rounded-circle">
+        <img src="/img/homepage/logo_5.png" alt=""  class="client_logo rounded-circle">
+        <img src="/img/homepage/logo_1.png" alt=""  class="client_logo rounded-circle">
+        <img src="/img/homepage/logo_2.png" alt=""  class="client_logo rounded-circle">
+        <img src="/img/homepage/logo_3.png" alt=""  class="client_logo rounded-circle">
+        <img src="/img/homepage/logo_4.png" alt=""  class="client_logo rounded-circle">
+        <img src="/img/homepage/logo_5.png" alt=""  class="client_logo rounded-circle">
     </div>
 </div>
 

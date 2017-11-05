@@ -69,17 +69,6 @@
     </a>
 </div>
 
-<!-- <div class="">
-    <div class="card text-white">
-        <img src="/img/home/img_hotel.jpg" alt="" class="img-fluid card-img">
-        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
-            <h1 class="card-text txt_slogan">Make Your Space Alive</h1> 
-            <button type="" class="btn btn-primary btn_learnmore">Learn More</button>
-        </div>
-    </div>
-</div> -->
-
-
 {{-- products area HTML --}}
 <div class="d-flex flex-wrap">
     <div class="d-flex flex-column align-items-center icon_phone">

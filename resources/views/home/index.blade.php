@@ -11,63 +11,64 @@
 @endsection
 
 @section ('content')
-{{-- Slider with Products + Solutions --}}
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img class="d-block w-100" src="/img/home/cover-room.jpg" alt="First slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h3>Room</h3>
+<section id="cover-wrapper">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="ad1 cover-img"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Room</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="ad2 cover-img"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Curtain</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="ad3 cover-img"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Television</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="ad4 cover-img"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Light</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="ad5 cover-img"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Music</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="ad6 cover-img"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Room Service</h2>
+                </div>
             </div>
         </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="/img/home/cover-curtain.jpg" alt="Second slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h3>Curtain</h3>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="/img/home/cover-tv.jpg" alt="Third slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h3>Television</h3>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="/img/home/cover-light.jpg" alt="Fourth slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h3>Light</h3>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="/img/home/cover-music.jpg" alt="Fifth slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h3>Music</h3>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="/img/home/cover-rs.jpg" alt="Sixth slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h3>Room Service</h3>
-            </div>
-        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
+</section>
 
 {{-- products area HTML --}}
 <div class="d-flex flex-wrap">
@@ -96,7 +97,6 @@
         </div>
     </div>
 </div>
-
 
 <div class="m-b-30">
     <div class="d-flex flex-wrap justify-content-around">

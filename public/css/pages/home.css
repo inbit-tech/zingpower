@@ -9,6 +9,47 @@
     margin-bottom: 30px;
 }
 
+/*
+ * Modified by Xiaonan Cui on 5th Nov
+ */
+
+.ad1 {
+    height: 680px;
+    background-image: url('/img/home/cover-room.jpg');
+}
+
+.ad2 {
+    height: 680px;
+    background-image: url('/img/home/cover-curtain.jpg');
+}
+
+.ad3 {
+    height: 680px;
+    background-image: url('/img/home/cover-tv.jpg');
+}
+
+.ad4 {
+    height: 680px;
+    background-image: url('/img/home/cover-light.jpg');
+}
+
+.ad5 {
+    height: 680px;
+    background-image: url('/img/home/cover-music.jpg');
+}
+
+.ad6 {
+    height: 680px;
+    background-image: url('/img/home/cover-rs.jpg');
+}
+
+.cover-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Modification Ends */
 
 @media (max-width: 575px) {
     h1 {

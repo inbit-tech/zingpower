@@ -7,7 +7,7 @@
 
 
 @section('custom-css')
-<link rel="stylesheet" type="text/css" href="{{ asset('/css/pages/homepage.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('/css/pages/home.css') }}">
 @endsection
 
 @section ('content')

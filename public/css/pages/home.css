@@ -12,7 +12,6 @@
 /*
  * Modified by Xiaonan Cui on 5th Nov
  */
-
 .ad1 {
     height: 680px;
     background-image: url('/img/home/cover-room.jpg');
@@ -47,6 +46,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.cover-text {
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 320px;
+    text-shadow: 1px 1px #000;
 }
 
 /* Modification Ends */

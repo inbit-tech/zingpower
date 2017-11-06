@@ -106,7 +106,7 @@ p.sysint-intro {
 }
 
 .dms-wrapper {
-    margin-bottom: 200px;
+    margin-bottom: 250px;
     width: 80%;
     position: relative;
 }
@@ -149,15 +149,23 @@ td a img:hover {
 
 .video-wrapper {
     width: 100%;
-    height: 100%;
-    margin: 120px 0;
+    height: auto;
+    background-color: #fff;
+    margin-bottom: 100px;
 }
 
-video#zero-bg-video {
-    min-width: 100%;
-    min-height: 50%;
+.video-wrapper #zero-bg-video {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.5;
 }
 
 .client-wrapper {
-    margin-top: 150px;
+
+}
+
+.poster {
+    background-size: cover;
 }

@@ -204,7 +204,8 @@
 
 {{-- fullPicture area HTML --}}
 <div class="video-wrapper">
-    <video playsinline autoplay muted loop poster="polina.jpg" id="zero-bg-video">
+    <video playsinline autoplay muted loop poster="/img/home/home-video-cover.jpg" id="zero-bg-video">
+        <h1 class="text-overlay">Zero Downtime Deploy</h1>
         <source src="//otyhzy70j.bkt.clouddn.com/hotel-deco.mp4" type="video/mp4">
     </video>
 </div>

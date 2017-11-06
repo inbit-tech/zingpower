@@ -23,39 +23,51 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="ad1 cover-img"></div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>Room</h2>
+                <div class="ad1 cover-img">
+                    <p class="cover-img-text">
+                        <img src="/img/home/icon_iphone.png" alt="">
+                        Make Your Space Alive
+                    </p>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="ad2 cover-img"></div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>Curtain</h2>
+                <div class="ad2 cover-img">
+                    <p class="cover-img-text">
+                        <img src="/img/home/icon_iphone.png" alt="">
+                        Control Your Curtain
+                    </p>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="ad3 cover-img"></div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>Television</h2>
+                <div class="ad3 cover-img">
+                    <p class="cover-img-text">
+                        <img src="/img/home/icon_iphone.png" alt="">
+                        Enjoy Your TV Show
+                    </p>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="ad4 cover-img"></div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>Light</h2>
+                <div class="ad4 cover-img">
+                    <p class="cover-img-text">
+                        <img src="/img/home/icon_iphone.png" alt="">
+                        Turn On Your Light
+                    </p>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="ad5 cover-img"></div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>Music</h2>
+                <div class="ad5 cover-img">
+                    <p class="cover-img-text">
+                        <img src="/img/home/icon_iphone.png" alt="">
+                        Play Your Music
+                    </p>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="ad6 cover-img"></div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>Room Service</h2>
+                <div class="ad6 cover-img">
+                    <p class="cover-img-text">
+                        <img src="/img/home/icon_iphone.png" alt="">
+                        Order Your Room Service
+                    </p>
                 </div>
             </div>
         </div>

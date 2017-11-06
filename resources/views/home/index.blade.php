@@ -128,7 +128,7 @@
 <div class="dms-wrapper row mx-auto">
     <img class="dms-device" src="/img/home/dms_default.png" id="dms-bg" alt="" />
     <div class="dms-device-intro">
-        <h2>Device Management System</h2>
+        <h2 class="dms-header-text">Device Management System</h2>
         <table class="table borderless">
             <tbody>
                 <tr class="hotel-service-list">

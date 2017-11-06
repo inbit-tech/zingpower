@@ -23,7 +23,7 @@
 	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
 	<!-- Google Fonts -->
-	<link href="https://fonts.cat.net/css?family=Open+Sans" rel="stylesheet" type="text/css">
+	<link href="https://fonts.cat.net/css?family=Fredoka+One|Roboto:100|Ubuntu" rel="stylesheet" type="text/css">
 
 	<!-- Custom CSS -->
 	<link href="{{ asset('/css/master.css') }}" rel="stylesheet" />

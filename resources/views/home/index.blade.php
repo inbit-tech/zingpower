@@ -83,19 +83,39 @@
 </section>
 
 {{-- products area HTML --}}
-<div class="d-flex flex-wrap">
-    <div class="d-flex flex-column align-items-center">
-        <img src="http://placeimg.com/125/125/tech" alt=""  class=" rounded-circle"><p class="icon_txt_phone">Mobile Phone</p>
-    </div>
-    <div class="d-flex flex-column align-items-center">
-        <img src="http://placeimg.com/125/125/people" alt=""  class=" rounded-circle"><p class="icon_txt_talkie">Walkie Talkie</p>
-    </div>
-    <div class="d-flex flex-column align-items-center">
-        <img src="http://placeimg.com/125/125/nature" alt=""  class=" rounded-circle"><p class="icon_txt_charger">Wireless Charger</p>
-    </div>
-    <div class="d-flex flex-column align-items-center"> 
-        <img src="http://placeimg.com/125/125/any" alt=""  class=" rounded-circle"><p class="icon_txt_controller">Smart Controller</p>
-    </div>
+<div class="home-prod-wrapper">
+    <figure class="figure">
+        <a href="/products/mobile-phone">
+            <img src="/img/home/icon_phone.png" class="figure-img img-fluid rounded" alt="">
+        </a>
+        <figcaption class="figure-caption">
+            <a href="/products/mobile-phone">Mobile Phone</a>
+        </figcaption>
+    </figure>
+    <figure class="figure">
+        <a href="/products/walkie-talkie">
+            <img src="/img/home/icon_talkie.png" class="figure-img img-fluid rounded" alt="">
+        </a>
+        <figcaption class="figure-caption">
+            <a href="/products/walkie-talkie">Walkie Talkie</a>
+        </figcaption>
+    </figure>
+    <figure class="figure">
+        <a href="/products/wireless-charger">
+            <img src="/img/home/icon_charge.png" class="figure-img img-fluid rounded" alt="">
+        </a>
+        <figcaption class="figure-caption">
+            <a href="/products/wireless-charger">Wireless Charger</a>
+        </figcaption>
+    </figure>
+    <figure class="figure">
+        <a href="/products/smart-room-controller">
+            <img src="/img/home/icon_controller.png" class="figure-img img-fluid rounded" alt="">
+        </a>
+        <figcaption class="figure-caption">
+            <a href="/products/smart-room-controller">Smart Room Controller</a>
+        </figcaption>
+    </figure>
 </div>
 
 {{-- SystemIntegration area HTML --}}

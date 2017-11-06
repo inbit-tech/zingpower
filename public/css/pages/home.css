@@ -1,17 +1,3 @@
-/*
-* @Author: vayne
-* @Date:   2017-10-19 12:27:56
-* @Last Modified by:   vayne
-* @Last Modified time: 2017-11-05 00:01:15
-*/
-
-.m-b-30 {
-    margin-bottom: 30px;
-}
-
-/*
- * Modified by Xiaonan Cui on 5th Nov
- */
 .ad1 {
     background-image: url('/img/home/cover-room.jpg');
 }
@@ -51,129 +37,153 @@
     text-shadow: 1px 1px #000;
 }
 
+div.home-prod-wrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.figure img {
+    padding: 0 60px;
+}
+
+.figure-caption {
+    font-size: 1.2rem;
+    padding-top: 15px;
+}
+
+a {
+    color: #868e96;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #222;
+}
+
 /* Modification Ends */
 
-@media (max-width: 575px) {
-    h1 {
-        font-size: 2rem;
-    }
-    .width-25 {
-        width: 75%;
-    }
-    .padding-sm {
-        padding: 1rem;
-    }
-    .card-img-overlay-sm {
-        position: relative;
-        top: 10px;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 1.25rem;
-    }
-    .color-black-sm {
-        color: black;
-    }
-}
+// @media (max-width: 575px) {
+//     h1 {
+//         font-size: 2rem;
+//     }
+//     .width-25 {
+//         width: 75%;
+//     }
+//     .padding-sm {
+//         padding: 1rem;
+//     }
+//     .card-img-overlay-sm {
+//         position: relative;
+//         top: 10px;
+//         right: 0;
+//         bottom: 0;
+//         left: 0;
+//         padding: 1.25rem;
+//     }
+//     .color-black-sm {
+//         color: black;
+//     }
+// }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .width-25 {
-        width: 50%;
-    }
-}
+// @media only screen and (min-width: 768px) and (max-width: 1024px) {
+//     .width-25 {
+//         width: 50%;
+//     }
+// }
 
-@media (min-width: 1224px) {
-    .width-25 {
-        width: 25%;
-    }
-    .img-fluid {
-        max-width: 100%;
-        height: 100vh;
-    }
-    .txt_integration_title {
-        font-family: OpenSans;
-        font-size: 48px;
-        font-weight: 800;
-        line-height: 1;
-        text-align: left;
-        color: #ffffff;
-        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    }
-    .General-introduction {
-        font-family: OpenSans;
-        font-size: 20px;
-        text-align: left;
-        color: #ffffff;
-        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    }
-    .m-l-93{
-        margin-left: 93px;
-    }
-    .txt_one_device {
-        font-family: OpenSans;
-        font-size: 48px;
-        font-weight: 800;
-        text-align: left;
-        color: #4a4a4a;
-    }
-    .General-infomation-a {
-        font-family: OpenSans;
-        font-size: 20px;
-        line-height: 0.9;
-        text-align: left;
-        color: #4a4a4a;
-    }
-    .img_system{
-        max-width: 100%;
-        height: 300px;
-    }
-    .m-l-200 {
-        margin-left: 215px;
-    }
-    .card-xl {
-        position: relative;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        min-width: 0;
-        word-wrap: break-word;
-        background-color: #fff;
-        background-clip: border-box;
-        border: 1px solid rgba(0, 0, 0, .125);
-        border-radius: .25rem;
-    }
-    .card-img-overlay-xl {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 1.25rem;
-    }
-    .ZERO-DOWN-ZERO-WIRE {
-        font-family: OpenSans;
-        font-size: 64px;
-        font-weight: 800;
-        text-align: left;
-        color: #ffffff;
-        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    }
-    .txt_our_clients {
-        font-family: OpenSans;
-        font-size: 52px;
-        font-weight: 800;
-        text-align: left;
-        color: #4a4a4a;
-    }
-    .number {
-        font-family: OpenSans;
-        font-size: 64px;
-        text-align: left;
-        color: #4a4a4a;
-    }
-    .client_logo{
-        width: 120px;
-        height: 120px;
-    }
-}
+// @media (min-width: 1224px) {
+//     .width-25 {
+//         width: 25%;
+//     }
+//     .img-fluid {
+//         max-width: 100%;
+//         height: 100vh;
+//     }
+//     .txt_integration_title {
+//         font-family: OpenSans;
+//         font-size: 48px;
+//         font-weight: 800;
+//         line-height: 1;
+//         text-align: left;
+//         color: #ffffff;
+//         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+//     }
+//     .General-introduction {
+//         font-family: OpenSans;
+//         font-size: 20px;
+//         text-align: left;
+//         color: #ffffff;
+//         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+//     }
+//     .m-l-93{
+//         margin-left: 93px;
+//     }
+//     .txt_one_device {
+//         font-family: OpenSans;
+//         font-size: 48px;
+//         font-weight: 800;
+//         text-align: left;
+//         color: #4a4a4a;
+//     }
+//     .General-infomation-a {
+//         font-family: OpenSans;
+//         font-size: 20px;
+//         line-height: 0.9;
+//         text-align: left;
+//         color: #4a4a4a;
+//     }
+//     .img_system{
+//         max-width: 100%;
+//         height: 300px;
+//     }
+//     .m-l-200 {
+//         margin-left: 215px;
+//     }
+//     .card-xl {
+//         position: relative;
+//         display: -ms-flexbox;
+//         display: flex;
+//         -ms-flex-direction: column;
+//         flex-direction: column;
+//         min-width: 0;
+//         word-wrap: break-word;
+//         background-color: #fff;
+//         background-clip: border-box;
+//         border: 1px solid rgba(0, 0, 0, .125);
+//         border-radius: .25rem;
+//     }
+//     .card-img-overlay-xl {
+//         position: absolute;
+//         top: 0;
+//         right: 0;
+//         bottom: 0;
+//         left: 0;
+//         padding: 1.25rem;
+//     }
+//     .ZERO-DOWN-ZERO-WIRE {
+//         font-family: OpenSans;
+//         font-size: 64px;
+//         font-weight: 800;
+//         text-align: left;
+//         color: #ffffff;
+//         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+//     }
+//     .txt_our_clients {
+//         font-family: OpenSans;
+//         font-size: 52px;
+//         font-weight: 800;
+//         text-align: left;
+//         color: #4a4a4a;
+//     }
+//     .number {
+//         font-family: OpenSans;
+//         font-size: 64px;
+//         text-align: left;
+//         color: #4a4a4a;
+//     }
+//     .client_logo{
+//         width: 120px;
+//         height: 120px;
+//     }
+// }

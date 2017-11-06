@@ -205,9 +205,12 @@
 {{-- fullPicture area HTML --}}
 <div class="video-wrapper">
     <video playsinline autoplay muted loop poster="/img/home/home-video-cover.jpg" id="zero-bg-video">
-        <h1 class="text-overlay">Zero Downtime Deploy</h1>
         <source src="//otyhzy70j.bkt.clouddn.com/hotel-deco.mp4" type="video/mp4">
     </video>
+    <div class="text-overlay justify-content-center">
+        <p>Zero Downtime Deployment</p>
+        <button type="button" class="btn btn-outline-light btn-lg" onclick="window.location.href='/solutions/dms'">Learn More</button>
+    </div>
 </div>
 
 {{-- client area HTML --}}

@@ -142,6 +142,10 @@ tr.hotel-service-list {
     width: 60%;
 }
 
+.poster {
+    background-size: cover;
+}
+
 td a img:hover {
     position: relative;
     top: -10px;
@@ -152,20 +156,27 @@ td a img:hover {
     height: auto;
     background-color: #fff;
     margin-bottom: 100px;
+    position: relative;
+    text-align: center;
 }
 
-.video-wrapper #zero-bg-video {
+#zero-bg-video {
     width: 100%;
     height: auto;
     background-size: cover;
-    z-index: -1;
-    opacity: 0.5;
+    z-index: 0;
+    opacity: 0.8;
+}
+
+.text-overlay {
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    font-size: 3.0rem;
+    color: #fff;
+    text-shadow: 1px 1px #000;
 }
 
 .client-wrapper {
 
-}
-
-.poster {
-    background-size: cover;
 }

@@ -205,12 +205,12 @@
 {{-- fullPicture area HTML --}}
 <div class="video-wrapper">
     <video playsinline autoplay muted loop poster="polina.jpg" id="zero-bg-video">
-        <source src="polina.mp4" type="video/mp4">
+        <source src="//otyhzy70j.bkt.clouddn.com/hotel-deco.mp4" type="video/mp4">
     </video>
 </div>
 
 {{-- client area HTML --}}
-<div class="d-flex flex-column align-items-center">
+<div class="client-wrapper">
     <div class="d-flex flex-column align-items-center">
         <h1 class="txt_our_clients">Our Clients Are Saving</h1>
         <h2 class="number">$ 123,456,789</h2>

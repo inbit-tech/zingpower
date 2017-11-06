@@ -122,11 +122,85 @@
 <div class="sysint-wrapper color-gradient">
     <h1 class="sysint-title">System Integration</h1>
     <p class="sysint-intro mx-auto">Our exclusive solution includes combinations of smart devices, apps, backend system, database and etc, it is customizable to match each customers' unique requirements. </p>
-    <button type="button" class="btn btn-outline-light btn-lg">Learn More</button>
+    <button type="button" class="btn btn-outline-light btn-lg" onclick="window.location.href='/solutions/system-integration'">Learn More</button>
 </div>
 
-<div class="dms-wrapper">
-    <img class="dms-device" src="/img/home/dms-device.png" alt="">
+<div class="dms-wrapper row mx-auto">
+    <img class="col-xs-6 dms-device" src="/img/home/dms-device.png" alt="">
+    <img class="dms-device-interface" src="/img/home/dms-default.png">
+    <div class="col-xs-6 dms-device-intro">
+        <h2>Device Management System</h2>
+        <table class="table borderless">
+            <tbody>
+                <tr class="hotel-service-list">
+                    <td>
+                        <a href="">
+                        <img src="/img/home/icon_main_menu.png" alt="">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="">
+                        <img src="/img/home/icon_room_service.png" alt="">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="">
+                        <img src="/img/home/icon_service.png" alt="">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="">
+                        <img src="/img/home/icon_hotel.png" alt="">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="">
+                        <img src="/img/home/icon_aircon.png" alt="">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="">
+                        <img src="/img/home/icon_light.png" alt="">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="">
+                        <img src="/img/home/icon_curtain.png" alt="">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="">
+                        <img src="/img/home/icon_room_control.png" alt="">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="">
+                        <img src="/img/home/icon_tv_control.png" alt="">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="">
+                        <img src="/img/home/icon_room_clean.png" alt="">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="">
+                        <img src="/img/home/icon_food.png" alt="">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="">
+                        <img src="/img/home/icon_concierge.png" alt="">
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
 
 {{-- fullPicture area HTML --}}

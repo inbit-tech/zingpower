@@ -93,6 +93,11 @@ h1.sysint-title {
     margin-top: 25px;
 }
 
+.btn:hover {
+    color: DeepSkyBlue;
+    cursor: pointer;
+}
+
 p.sysint-intro {
     font-size: 1.5rem;
     color: #fff;
@@ -101,11 +106,43 @@ p.sysint-intro {
 }
 
 .dms-wrapper {
-    padding-bottom: 150px;
+    margin-bottom: 150px;
+    width: 75%;
 }
 
 img.dms-device {
     height: 650px;
+    display: relative;
+    padding-left: 200px;
+}
+
+.dms-device-intro {
+    width: 35%;
+    margin-left: 150px;
+    text-align: center;
+}
+
+.dms-device-intro h2 {
+    padding-top: 120px;
+    margin-bottom: 35px;
+}
+
+tr.hotel-service-list {
+    border: none;
+}
+
+.borderless td {
+    border: none;
+    padding-top: 35px;
+}
+
+.borderless td img {
+    width: 60%;
+}
+
+td a img:hover {
+    position: relative;
+    top: -10px;
 }
 
 /* Modification Ends */

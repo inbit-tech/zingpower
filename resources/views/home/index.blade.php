@@ -207,7 +207,7 @@
     <video playsinline autoplay muted loop poster="/img/home/home-video-cover.jpg" id="zero-bg-video">
         <source src="//otyhzy70j.bkt.clouddn.com/hotel-deco.mp4" type="video/mp4">
     </video>
-    <div class="text-overlay justify-content-center">
+    <div class="text-overlay mx-auto">
         <p>Zero Downtime Deployment</p>
         <button type="button" class="btn btn-outline-light btn-lg" onclick="window.location.href='/solutions/dms'">Learn More</button>
     </div>
@@ -215,16 +215,49 @@
 
 {{-- client area HTML --}}
 <div class="client-wrapper">
-    <div class="d-flex flex-column align-items-center">
-        <h1 class="txt_our_clients">Our Clients Are Saving</h1>
-        <h2 class="number">$ 123,456,789</h2>
+    <div class="client-expense-counter">
+        <h1>Helping Our Clients Save</h1>
+        <h1 class="counter">$100000000</h1>
     </div>
-    <div class="d-flex flex-wrap justify-content-around align-items-center w-50">
-        <img src="/img/home/logo_1.png" alt="" class="client_logo rounded-circle" style="width: 50px;">
-        <img src="/img/home/logo_2.png" alt="" class="client_logo rounded-circle" style="width: 50px;">
-        <img src="/img/home/logo_3.png" alt="" class="client_logo rounded-circle" style="width: 50px;">
-        <img src="/img/home/logo_4.png" alt="" class="client_logo rounded-circle" style="width: 50px;">
-        <img src="/img/home/logo_5.png" alt="" class="client_logo rounded-circle" style="width: 50px;">
+    <div class="client-showcase">
+        <table class="table borderless">
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="/img/home/client_logo01.jpg" alt="">
+                    </td>
+                    <td>
+                        <img src="/img/home/client_logo02.jpg" alt="">
+                    </td>
+                    <td>
+                        <img src="/img/home/client_logo03.jpg" alt="">
+                    </td>
+                    <td>
+                        <img src="/img/home/client_logo04.jpg" alt="">
+                    </td>
+                    <td>
+                        <img src="/img/home/client_logo05.jpg" alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="/img/home/client_logo06.jpg" alt="">
+                    </td>
+                    <td>
+                        <img src="/img/home/client_logo07.jpg" alt="">
+                    </td>
+                    <td>
+                        <img src="/img/home/client_logo08.jpg" alt="">
+                    </td>
+                    <td>
+                        <img src="/img/home/client_logo09.jpg" alt="">
+                    </td>
+                    <td>
+                        <img src="/img/home/client_logo10.jpg" alt="">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </div>
 

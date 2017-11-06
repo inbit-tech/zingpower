@@ -170,13 +170,34 @@ td a img:hover {
 
 .text-overlay {
     position: absolute;
-    left: 100px;
-    top: 50%;
+    width: 100%;
+    top: 45%;
+    left: 0;
     font-size: 3.0rem;
     color: #fff;
     text-shadow: 1px 1px #000;
 }
 
 .client-wrapper {
+    text-align: center;
+}
 
+h1.counter {
+    font-size: 6.5rem;
+    padding-top: 35px;
+    padding-bottom: 85px;
+}
+
+.client-showcase {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.client-showcase .table {
+    margin: auto;
+    width: 50% !important;
+}
+
+.table td {
+    text-align: center;
 }

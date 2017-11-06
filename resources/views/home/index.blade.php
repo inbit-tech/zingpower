@@ -126,74 +126,73 @@
 </div>
 
 <div class="dms-wrapper row mx-auto">
-    <img class="col-xs-6 dms-device" src="/img/home/dms-device.png" alt="">
-    <img class="dms-device-interface" src="/img/home/dms-default.png">
-    <div class="col-xs-6 dms-device-intro">
+    <img class="dms-device" src="/img/home/dms_default.png" id="dms-bg" alt="" />
+    <div class="dms-device-intro">
         <h2>Device Management System</h2>
         <table class="table borderless">
             <tbody>
                 <tr class="hotel-service-list">
                     <td>
-                        <a href="">
+                        <a href="" class="dms-menu-link">
                         <img src="/img/home/icon_main_menu.png" alt="">
                         </a>
                     </td>
                     <td>
-                        <a href="">
+                        <a href="" class="dms-room-service-link">
                         <img src="/img/home/icon_room_service.png" alt="">
                         </a>
                     </td>
                     <td>
-                        <a href="">
+                        <a href="" class="dms-service-link">
                         <img src="/img/home/icon_service.png" alt="">
                         </a>
                     </td>
                     <td>
-                        <a href="">
+                        <a href="" class="dms-hotel-link">
                         <img src="/img/home/icon_hotel.png" alt="">
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="">
+                        <a href="" class="dms-aircon-link">
                         <img src="/img/home/icon_aircon.png" alt="">
                         </a>
                     </td>
                     <td>
-                        <a href="">
+                        <a href="" class="dms-light-link">
                         <img src="/img/home/icon_light.png" alt="">
                         </a>
                     </td>
                     <td>
-                        <a href="">
+                        <a href="" class="dms-curtain-link">
                         <img src="/img/home/icon_curtain.png" alt="">
                         </a>
                     </td>
                     <td>
-                        <a href="">
+                        <a href="" class="dms-room-control-link">
                         <img src="/img/home/icon_room_control.png" alt="">
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="">
+                        <a href="" class="dms-tv-control-link">
                         <img src="/img/home/icon_tv_control.png" alt="">
                         </a>
                     </td>
                     <td>
-                        <a href="">
+                        <a href="" class="dms-room-clean-link">
                         <img src="/img/home/icon_room_clean.png" alt="">
                         </a>
                     </td>
                     <td>
-                        <a href="">
+                        <a href="" class="dms-food-link">
                         <img src="/img/home/icon_food.png" alt="">
                         </a>
                     </td>
                     <td>
-                        <a href="">
+                        <a href="" class="dms-concierge-link">
                         <img src="/img/home/icon_concierge.png" alt="">
                         </a>
                     </td>
@@ -205,13 +204,7 @@
 
 {{-- fullPicture area HTML --}}
 <div class="">
-    <div class="card text-white">
-        <img src="/img/home/zerowire.jpg" alt="" class="img-fluid card-img">
-        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
-            <h1 class="card-text ZERO-DOWN-ZERO-WIRE">ZERO DOWN</h1>
-            <h1 class="card-text ZERO-DOWN-ZERO-WIRE">ZERO WIRE</h1>
-        </div>
-    </div>
+    
 </div>
 
 {{-- client area HTML --}}
@@ -232,6 +225,6 @@
 @endsection
 
 @section ('custom-js')
-
+<script src="{{ asset('/js/pages/home.js') }}" type="text/javascript" charset="utf-8" async defer></script>
 @endsection
 

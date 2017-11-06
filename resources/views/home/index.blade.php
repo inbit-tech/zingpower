@@ -215,10 +215,7 @@
 
 {{-- client area HTML --}}
 <div class="client-wrapper">
-    <div class="client-expense-counter">
-        <h1>Helping Our Clients Save</h1>
-        <h1 class="counter">$100000000</h1>
-    </div>
+    <h1>Our Clients</h1>
     <div class="client-showcase">
         <table class="table borderless">
             <tbody>

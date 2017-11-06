@@ -182,10 +182,8 @@ td a img:hover {
     text-align: center;
 }
 
-h1.counter {
-    font-size: 6.5rem;
-    padding-top: 35px;
-    padding-bottom: 85px;
+.client-wrapper h1 {
+    padding-bottom: 20px;
 }
 
 .client-showcase {

@@ -119,30 +119,24 @@
 </div>
 
 {{-- SystemIntegration area HTML --}}
-<div class="m-b-30">
-    <div class="card-xl text-white">
-        <img src="/img/home/img_system.jpg" class="card-img img_system" alt="Card image">
-        <div class="d-flex flex-column justify-content-center align-items-start card-img-overlay-xl width-25 card-img-overlay-sm color-black-sm m-l-200">
-            <h3 class="txt_integration_title">System Integration</h3>
-            <p class="General-introduction">General introduction info about system integration functionality</p>
-            <button type="" class="btn btn-success btn-sm">Learn More</button>
-        </div>
-    </div>
+<div class="sysint-wrapper color-gradient">
+    <h1 class="sysint-title">System Integration</h1>
+    <p class="sysint-intro mx-auto">Our exclusive solution includes combinations of smart devices, apps, backend system, database and etc, it is customizable to match each customers' unique requirements. </p>
+    <button type="button" class="btn btn-outline-light btn-lg">Learn More</button>
 </div>
 
-<div class="m-b-30">
+<div class="">
     <div class="d-flex flex-wrap justify-content-around">
         <img src="http://placeimg.com/350/500/any" alt="" class="m-l-93">
         <div class="d-flex flex-column justify-content-around ">
             <h3 class="txt_one_device">One Device to Rule Them All</h3>
             <p class="General-infomation-a">General  information about Device Management System Zero downtime implementation.</p>
-            <button type="" class="btn btn-warning text-white ml-auto p-2">Learn More</button>
         </div>
     </div>
 </div>
 
 {{-- fullPicture area HTML --}}
-<div class="m-b-30">
+<div class="">
     <div class="card text-white">
         <img src="/img/home/zerowire.jpg" alt="" class="img-fluid card-img">
         <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
@@ -153,7 +147,7 @@
 </div>
 
 {{-- client area HTML --}}
-<div class="m-b-30 d-flex flex-column align-items-center">
+<div class="d-flex flex-column align-items-center">
     <div class="d-flex flex-column align-items-center">
         <h1 class="txt_our_clients">Our Clients Are Saving</h1>
         <h2 class="number">$ 123,456,789</h2>
@@ -179,4 +173,7 @@
 
 @endsection
 
+@section ('custom-js')
+
+@endsection
 

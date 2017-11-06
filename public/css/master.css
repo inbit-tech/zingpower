@@ -24,18 +24,20 @@ div#navbarNavDropdown {
 /* Style adjustment for footer section */
 nav#footer-wrapper {
     position: relative;
-    height: 250px;
+    height: 350px;
     margin-top: 60px;
+    text-align: center;
 }
 
 nav#footer-wrapper .footer {
-    padding-top: 28px;
-    width: 768px;
+    padding-top: 65px;
+    width: 960px;
 }
 
 nav#footer-wrapper .footer h4 {
     font-size: 1.0rem;
     color: #000;
+    padding-bottom: 15px;
 }
 
 nav#footer-wrapper .footer ul {
@@ -50,6 +52,10 @@ nav#footer-wrapper .footer ul li {
 nav#footer-wrapper .footer ul li a {
     text-decoration: none;
     color: #bdbdbd;
+}
+
+nav#footer-wrapper .footer ul li a:hover {
+    color: #999;
 }
 
 div.col-4 img {
@@ -70,9 +76,20 @@ div#copyright {
 
 div#copyright p {
     padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* footer-component */
+.products ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+}
+
+.solutions ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+}
+
 @media (max-width: 575px) {
     #footer{
         font-size: 1.2rem;

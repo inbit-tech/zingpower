@@ -44,6 +44,6 @@
         </div>
     </div>
     <div id="copyright" class="w-100 text-center bg-secondary text-white">
-        <p>copyright &copy; 2017</p>
+        <p>copyright &copy; 2009-2017</p>
     </div>
 </nav>

@@ -34,7 +34,7 @@
                 <div class="ad2 cover-img">
                     <p class="cover-img-text">
                         <img src="/img/home/icon_iphone.png" alt="">
-                        Control Your Curtain
+                        Open Your Curtain
                     </p>
                 </div>
             </div>
@@ -84,16 +84,16 @@
 
 {{-- products area HTML --}}
 <div class="d-flex flex-wrap">
-    <div class="d-flex flex-column align-items-center icon_phone">
+    <div class="d-flex flex-column align-items-center">
         <img src="http://placeimg.com/125/125/tech" alt=""  class=" rounded-circle"><p class="icon_txt_phone">Mobile Phone</p>
     </div>
-    <div class="d-flex flex-column align-items-center icon_talkie">
+    <div class="d-flex flex-column align-items-center">
         <img src="http://placeimg.com/125/125/people" alt=""  class=" rounded-circle"><p class="icon_txt_talkie">Walkie Talkie</p>
     </div>
-    <div class="d-flex flex-column align-items-center icon_charger">
+    <div class="d-flex flex-column align-items-center">
         <img src="http://placeimg.com/125/125/nature" alt=""  class=" rounded-circle"><p class="icon_txt_charger">Wireless Charger</p>
     </div>
-    <div class="d-flex flex-column align-items-center icon_controller"> 
+    <div class="d-flex flex-column align-items-center"> 
         <img src="http://placeimg.com/125/125/any" alt=""  class=" rounded-circle"><p class="icon_txt_controller">Smart Controller</p>
     </div>
 </div>

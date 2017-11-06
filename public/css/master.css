@@ -11,14 +11,20 @@ html, body {
  * make it visually centralized
  */
 a.navbar-brand { 
-    width: 65%;
+    width: 56%;
     text-align: right;
+    padding-top: 5px;
 }
 
-div#navbarNavDropdown {
+#navbarNavDropdown {
     width: 50%;
     margin-left: 100px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    padding-top: 5px;
+}
+
+#navbarNavDropdown ul li {
+    padding-right: 60px;
 }
 
 /* Style adjustment for footer section */

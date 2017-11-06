@@ -1,12 +1,9 @@
 html, body {
     color: #636b6f;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     height: 100vh;
     margin: 0;
     font-size: 16px;
-}
-.m-b-30{
-    margin-bottom: 30px;
 }
 
 /*
@@ -14,31 +11,39 @@ html, body {
  * make it visually centralized
  */
 a.navbar-brand { 
-    width: 65%;
+    width: 56%;
     text-align: right;
+    padding-top: 5px;
 }
 
-div#navbarNavDropdown {
+#navbarNavDropdown {
     width: 50%;
     margin-left: 100px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    padding-top: 5px;
+}
+
+#navbarNavDropdown ul li {
+    padding-right: 60px;
 }
 
 /* Style adjustment for footer section */
 nav#footer-wrapper {
     position: relative;
-    height: 250px;
+    height: 350px;
     margin-top: 60px;
+    text-align: center;
 }
 
 nav#footer-wrapper .footer {
-    padding-top: 28px;
-    width: 768px;
+    padding-top: 65px;
+    width: 960px;
 }
 
 nav#footer-wrapper .footer h4 {
     font-size: 1.0rem;
     color: #000;
+    padding-bottom: 15px;
 }
 
 nav#footer-wrapper .footer ul {
@@ -53,6 +58,10 @@ nav#footer-wrapper .footer ul li {
 nav#footer-wrapper .footer ul li a {
     text-decoration: none;
     color: #bdbdbd;
+}
+
+nav#footer-wrapper .footer ul li a:hover {
+    color: #999;
 }
 
 div.col-4 img {
@@ -73,15 +82,26 @@ div#copyright {
 
 div#copyright p {
     padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* footer-component */
+.products ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+}
+
+.solutions ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+}
+
 @media (max-width: 575px) {
     #footer{
         font-size: 1.2rem;
     }
     .mr-auto-sm {
-        margin-right: auto!important;
+        margin-right: auto !important;
     }
     .text-align-sm {
         text-align: center;

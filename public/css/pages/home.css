@@ -100,6 +100,14 @@ p.sysint-intro {
     padding-top: 15px;
 }
 
+.dms-wrapper {
+    padding-bottom: 150px;
+}
+
+img.dms-device {
+    height: 650px;
+}
+
 /* Modification Ends */
 
 // @media (max-width: 575px) {

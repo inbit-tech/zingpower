@@ -125,14 +125,8 @@
     <button type="button" class="btn btn-outline-light btn-lg">Learn More</button>
 </div>
 
-<div class="">
-    <div class="d-flex flex-wrap justify-content-around">
-        <img src="http://placeimg.com/350/500/any" alt="" class="m-l-93">
-        <div class="d-flex flex-column justify-content-around ">
-            <h3 class="txt_one_device">One Device to Rule Them All</h3>
-            <p class="General-infomation-a">General  information about Device Management System Zero downtime implementation.</p>
-        </div>
-    </div>
+<div class="dms-wrapper">
+    <img class="dms-device" src="/img/home/dms-device.png" alt="">
 </div>
 
 {{-- fullPicture area HTML --}}
@@ -153,21 +147,11 @@
         <h2 class="number">$ 123,456,789</h2>
     </div>
     <div class="d-flex flex-wrap justify-content-around align-items-center w-50">
-        <img src="/img/home/logo_1.png" alt=""  class="client_logo rounded-circle">
-        <img src="/img/home/logo_2.png" alt=""  class="client_logo rounded-circle">
-        <img src="/img/home/logo_3.png" alt=""  class="client_logo rounded-circle">
-        <img src="/img/home/logo_4.png" alt=""  class="client_logo rounded-circle">
-        <img src="/img/home/logo_5.png" alt=""  class="client_logo rounded-circle">
-        <img src="/img/home/logo_1.png" alt=""  class="client_logo rounded-circle">
-        <img src="/img/home/logo_2.png" alt=""  class="client_logo rounded-circle">
-        <img src="/img/home/logo_3.png" alt=""  class="client_logo rounded-circle">
-        <img src="/img/home/logo_4.png" alt=""  class="client_logo rounded-circle">
-        <img src="/img/home/logo_5.png" alt=""  class="client_logo rounded-circle">
-        <img src="/img/home/logo_1.png" alt=""  class="client_logo rounded-circle">
-        <img src="/img/home/logo_2.png" alt=""  class="client_logo rounded-circle">
-        <img src="/img/home/logo_3.png" alt=""  class="client_logo rounded-circle">
-        <img src="/img/home/logo_4.png" alt=""  class="client_logo rounded-circle">
-        <img src="/img/home/logo_5.png" alt=""  class="client_logo rounded-circle">
+        <img src="/img/home/logo_1.png" alt="" class="client_logo rounded-circle" style="width: 50px;">
+        <img src="/img/home/logo_2.png" alt="" class="client_logo rounded-circle" style="width: 50px;">
+        <img src="/img/home/logo_3.png" alt="" class="client_logo rounded-circle" style="width: 50px;">
+        <img src="/img/home/logo_4.png" alt="" class="client_logo rounded-circle" style="width: 50px;">
+        <img src="/img/home/logo_5.png" alt="" class="client_logo rounded-circle" style="width: 50px;">
     </div>
 </div>
 

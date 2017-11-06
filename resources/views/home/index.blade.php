@@ -203,8 +203,10 @@
 </div>
 
 {{-- fullPicture area HTML --}}
-<div class="">
-    
+<div class="video-wrapper">
+    <video playsinline autoplay muted loop poster="polina.jpg" id="zero-bg-video">
+        <source src="polina.mp4" type="video/mp4">
+    </video>
 </div>
 
 {{-- client area HTML --}}

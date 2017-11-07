@@ -62,7 +62,8 @@ nav#footer-wrapper .footer ul li a {
 }
 
 nav#footer-wrapper .footer ul li a:hover {
-    color: #999;
+    color: #000;
+    font-weight: bold;
 }
 
 div.col-4 img {

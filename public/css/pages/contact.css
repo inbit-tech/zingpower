@@ -1,9 +1,37 @@
-/*
-* @Author: vayne
-* @Date:   2017-10-20 15:45:58
-* @Last Modified by:   vayne
-* @Last Modified time: 2017-11-03 20:50:53
-*/
+#contact-cover-wrapper {
+    height: 48%;
+}
+
+#contact-cover-wrapper div.cover-image {
+    background-image: url('/img/contact/cover-contact.jpg');
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: center;
+    text-align: center;
+}
+
+p.cover-text {
+    color: #fff;
+    font-size: 4.0rem;
+    text-shadow: 1px 1px #000;
+    font-family: 'Fredoka One', cursive;
+    padding-top: 175px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #whoWeAre {
     background-color: red;

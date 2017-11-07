@@ -12,14 +12,11 @@
 
 {{-- top picture HTML--}}
 @section ('content')
-<div class="m-b-30">
-    <div class="card text-white">
-        <img src="http://placeimg.com/1000/300/any" alt="" class="card-img">
-        <div class="card-img-overlay d-flex justify-content-center align-items-end">
-            <h4 class="card-text font-weight-bold text-uppercase">contact us</h4> 
-        </div>
+<section id="contact-cover-wrapper">
+    <div class="cover-image">
+        <p class="cover-text">Contact Us</p>
     </div>
-</div>
+</section>
 
 {{-- address HTML --}}
 <div class="m-b-30 d-flex justify-content-center">

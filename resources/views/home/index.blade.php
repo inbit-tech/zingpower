@@ -119,10 +119,12 @@
 </div>
 
 {{-- SystemIntegration area HTML --}}
-<div class="sysint-wrapper color-gradient">
-    <h1 class="sysint-title">System Integration</h1>
-    <p class="sysint-intro mx-auto">Our exclusive solution includes combinations of smart devices, apps, backend system, database and etc, it is customizable to match each customers' unique requirements. </p>
-    <button type="button" class="btn btn-outline-light btn-lg" onclick="window.location.href='/solutions/system-integration'">Learn More</button>
+<div id="sip-particles" class="sysint-wrapper color-gradient">
+    <div id="sip-intro">
+        <h1>System Integration</h1>
+        <p>Our exclusive solution includes combinations of smart devices, apps, backend system, database and etc, it is customizable to match each customers' unique requirements. </p>
+        <button type="button" class="btn btn-outline-light btn-lg" onclick="window.location.href='/solutions/system-integration'">Learn More</button>
+    </div>
 </div>
 
 <div class="dms-wrapper row mx-auto">
@@ -261,6 +263,7 @@
 @endsection
 
 @section ('custom-js')
+<script src="{{ asset('/js/jquery.particleground.min.js') }}" type="text/javascript" charset="utf-8" async defer></script>
 <script src="{{ asset('/js/pages/home.js') }}" type="text/javascript" charset="utf-8" async defer></script>
 @endsection
 

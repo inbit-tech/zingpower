@@ -67,6 +67,10 @@ figure a img:hover {
     top: -10px;
 }
 
+#sip-particles {
+    position: relative;
+}
+
 .sysint-wrapper {
     width: 100%;
     height: 650px;
@@ -82,12 +86,23 @@ figure a img:hover {
     background: linear-gradient(to bottom right, Turquoise, DeepSkyBlue); 
 }
 
-h1.sysint-title {
-    font-size: 2.5rem;
+#sip-intro {
+    position: absolute;
     color: #fff;
-    z-index: 999;
-    padding-top: 200px;
+    width: 35%;
+    top: 29%;
+    left: 33%;
+}
+
+#sip-intro h1 {
+    font-size: 3.2rem;
     font-family: 'Fredoka One', cursive;
+}
+
+#sip-intro p {
+    font-size: 1.4rem;
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn {
@@ -97,14 +112,6 @@ h1.sysint-title {
 .btn:hover {
     color: DeepSkyBlue;
     cursor: pointer;
-}
-
-p.sysint-intro {
-    font-size: 1.5rem;
-    color: #fff;
-    width: 45%;
-    padding-top: 15px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .dms-wrapper {

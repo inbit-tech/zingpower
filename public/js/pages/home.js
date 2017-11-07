@@ -1,9 +1,18 @@
+/*
+ * Particialground effect for System Integration section
+ */
+$(document).ready(function() {
+    $('#sip-particles').particleground({
+        dotColor: '#fff',
+        lineColor: '#fff'
+    });
+});
+
 $(function() {
 	/*
 	 * DMS section
 	 * click image to change phone interface
 	 */
-	
 	$('.dms-menu-link').click(function() {
 		$('#dms-bg').attr('src', "/img/home/dms_main_menu.png");
 		return false;
@@ -68,7 +77,6 @@ $(function() {
 	 * DMS Section
 	 * hover icon to change overhead text
 	 */
-	
 	$('.dms-menu-link').hover(function() {
 		$('.dms-header-text').text("Main Menu");
 	}, function() {

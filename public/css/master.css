@@ -70,6 +70,10 @@ div.col-4 img {
     width: 28px;
 }
 
+div.follow-us a {
+    text-decoration: none;
+}
+
 div.follow-us img {
     padding-left: 8px;
 }

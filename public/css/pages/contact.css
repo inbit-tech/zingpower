@@ -19,7 +19,15 @@ p.cover-text {
     padding-top: 175px;
 }
 
+.card-group {
+    width: 60%;
+    margin-bottom: 100px;
+    text-align: center;
+}
 
+.card-group .card {
+    margin: 0 25px;
+}
 
 
 

@@ -12,13 +12,40 @@
 
 {{-- top picture HTML--}}
 @section ('content')
-<section id="contact-cover-wrapper">
+<div id="contact-cover-wrapper">
     <div class="cover-image">
         <p class="cover-text">Contact Us</p>
     </div>
-</section>
+</div>
 
 {{-- address HTML --}}
+<div class="card-group mx-auto">
+    <div class="card">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+</div>
+
 <div class="m-b-30 d-flex justify-content-center">
     <div class="w-75 d-flex flex-wrap justify-content-around align-items-start flex-column-sm align-items-center-sm">
         <div class="w-25 d-flex justify-content-between flex-column align-items-center width-25">
@@ -39,16 +66,6 @@
             <p class="font-weight-bold text-uppercase">email</p>
             <p>info@ zingpower.co</p>
         </div>
-    </div>
-</div>
-
-{{-- enterprise display --}}
-<div class="m-b-30 d-flex flex-wrap justify-content-center">
-    <div class="width-50 my-3  d-flex flex-column justify-content-center align-items-center" id="whoWeAre">
-        <h1 id="whoWeAre-title">Who We Are</h1>
-    </div>
-    <div class="width-50 my-3 p-5 d-flex flex-column justify-content-center align-items-center" id="whatWeDo">
-        <h1 id="whatWeDo-title">What We Do</h1>
     </div>
 </div>
 

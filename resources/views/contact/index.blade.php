@@ -23,48 +23,24 @@
     <div class="card">
         <img class="card-img-top" src="..." alt="Card image cap">
         <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text">+86 18066860099</p>
+            <p class="card-text">+86 29 87580960</p>
         </div>
     </div>
     <div class="card">
         <img class="card-img-top" src="..." alt="Card image cap">
         <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text">3rd Floor, No.333 Xingtai South Road, Euro-Asia Creative Design Park Incubation Center, Xi'an Chan-Ba Ecological District.</p>
         </div>
     </div>
     <div class="card">
         <img class="card-img-top" src="..." alt="Card image cap">
         <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-    </div>
-</div>
-
-<div class="m-b-30 d-flex justify-content-center">
-    <div class="w-75 d-flex flex-wrap justify-content-around align-items-start flex-column-sm align-items-center-sm">
-        <div class="w-25 d-flex justify-content-between flex-column align-items-center width-25">
-            <img src="http://placeimg.com/50/50/any" alt="">
-            <p class="font-weight-bold text-uppercase">TEL</p>
-            <p>+86 18066860099</p>
-            <p>+86 29 87580960</p>
-        </div>
-
-        <div class="w-25 d-flex justify-content-between flex-column align-items-center width-25">
-            <img src="http://placeimg.com/50/50/any" alt="">
-            <p class="font-weight-bold text-uppercase">address</p>
-            <p class="text-center"> 3rd Floor, No.333 Xingtai South Road, Euro-Asia Creative Design Park Incubation Center, Xi'an Chan-Ba Ecological District.</p>
-        </div>
-
-        <div class="w-25 d-flex justify-content-between flex-column align-items-center width-25">
-            <img src="http://placeimg.com/50/50/any" alt="">
-            <p class="font-weight-bold text-uppercase">email</p>
-            <p>info@ zingpower.co</p>
+            <p class="card-text">
+                <a href="mailto:info@zingpower.co">
+                    info@zingpower.co 
+                </a>
+            </p>
         </div>
     </div>
 </div>

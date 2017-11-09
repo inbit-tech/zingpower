@@ -78,40 +78,39 @@ button.btn.btn-primary:hover {
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.input-bg-color {
-    background-color: #dadada;
+.social-wrapper {
+    margin-bottom: 120px;
 }
 
-input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder {
+.social-wrapper h3 {
+    font-family: 'Fredoka One', cursive;
+    padding-bottom: 35px;
+}
+
+.social-list {
+    width: 50%;
     text-align: center;
 }
 
-@media (max-width: 575px) {
-    .flex-column-sm {
-        flex-direction: column;
-    }
-    .align-items-center-sm {
-        align-items: center!important;
-    }
-    .width-25 {
-        width: 75%!important;
-    }
+.social-list a {
+    text-decoration: none;
+}
 
+.social-list a:hover {
+    position: relative;
+    top: -5px;
 }
-@media (min-width: 1224px){
+
+.social-list img {
+    width: 48px;
+    margin: 0 18px;
 }
+
+
+
+
+
+
+
+
+

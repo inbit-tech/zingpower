@@ -80,11 +80,15 @@
 </div>
 
 {{-- connect with us --}}
-<div class="m-b-30 d-flex flex-column justify-content-between align-items-center">
+<div class="social-wrapper d-flex flex-column justify-content-between align-items-center">
     <h3 class="text-uppercase">connect with us</h3>
-    <div>
-        <img src="http://placeimg.com/50/50/people" alt="">
-        <img src="http://placeimg.com/50/50/tech" alt="">
+    <div class="social-list">
+        <a href="//www.facebook.com/Zing-Power-218782381993140">
+            <img src="/img/contact/social_facebook.png" alt="">
+        </a>
+        <a href="//twitter.com/ZingPowerCo">
+            <img src="/img/contact/social_twitter.png" alt="">
+        </a>
     </div>
 </div>
 

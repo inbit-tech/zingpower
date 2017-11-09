@@ -20,14 +20,44 @@ p.cover-text {
 }
 
 .card-group {
-    width: 60%;
+    width: 70%;
+    margin-top: 120px;
     margin-bottom: 100px;
     text-align: center;
+    font-size: .9rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .card-group .card {
     margin: 0 25px;
 }
+
+.borderless {
+    border: none;
+}
+
+img.card-img-top {
+    width: 25%;
+}
+
+div.card-body {
+    padding-top: 25px;
+}
+
+div.card-body .align-email {
+    padding-top: 15px;
+}
+
+div.card-body .align-email a {
+    text-decoration: none;
+    color: #696969;
+}
+
+div.card-body .align-email a:hover {
+    color: deepskyblue;
+}
+
+
 
 
 

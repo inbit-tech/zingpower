@@ -20,23 +20,23 @@
 
 {{-- address HTML --}}
 <div class="card-group mx-auto">
-    <div class="card">
-        <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card borderless">
+        <img class="card-img-top mx-auto" src="/img/contact/icon_phone.png" alt="Phone">
         <div class="card-body">
-            <p class="card-text">+86 18066860099</p>
-            <p class="card-text">+86 29 87580960</p>
+            <p class="card-text">+86-18066860099</p>
+            <p class="card-text">+86-29-87580960</p>
         </div>
     </div>
-    <div class="card">
-        <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card borderless">
+        <img class="card-img-top mx-auto" src="/img/contact/icon_addr.png" alt="Address">
         <div class="card-body">
             <p class="card-text">3rd Floor, No.333 Xingtai South Road, Euro-Asia Creative Design Park Incubation Center, Xi'an Chan-Ba Ecological District.</p>
         </div>
     </div>
-    <div class="card">
-        <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card borderless">
+        <img class="card-img-top mx-auto" src="/img/contact/icon_email.png" alt="eMail">
         <div class="card-body">
-            <p class="card-text">
+            <p class="card-text align-email">
                 <a href="mailto:info@zingpower.co">
                     info@zingpower.co 
                 </a>

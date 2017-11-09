@@ -46,14 +46,14 @@
 </div>
 
 {{-- message HTML --}}
-<div class="m-b-30 d-flex flex-column justify-content-between align-items-center">
-    <h3 class="text-uppercase m-b-30">send us message if you have any questions</h3>
-    <form action="{{ url('contact/save') }}" method="post" accept-charset="utf-8" class="w-50 d-flex flex-column justify-content-between align-items-center">
+<div class="d-flex flex-column justify-content-between align-items-center">
+    <h3 class="contact-text text-uppercase">send us message if you have any questions</h3>
+    <form action="{{ url('contact/save') }}" method="post" accept-charset="utf-8" class="contact-form w-50 d-flex flex-column justify-content-between align-items-center">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
-        <input type="text" name="name" class="form-control form-control-lg m-b-30 input-bg-color" id="exampleFormControlInput1" placeholder="Full Name" required>
-        <input type="number" name="phone" class="form-control form-control-lg m-b-30 input-bg-color" id="exampleFormControlInput1" placeholder="Phone Number" required>
-        <input type="email" name="email" class="form-control form-control-lg m-b-30 input-bg-color" id="exampleFormControlInput1" placeholder="Email" required>
-        <textarea name="question" class="form-control m-b-30 input-bg-color" id="exampleFormControlTextarea1" rows="3" placeholder="Question" required></textarea>
+        <input type="text" name="name" class="form-control form-control-lg input-bg-color" id="exampleFormControlInput1" placeholder="Full Name" required>
+        <input type="number" name="phone" class="form-control form-control-lg input-bg-color" id="exampleFormControlInput1" placeholder="Phone Number" required>
+        <input type="email" name="email" class="form-control form-control-lg input-bg-color" id="exampleFormControlInput1" placeholder="Email" required>
+        <textarea name="question" class="form-control input-bg-color" id="exampleFormControlTextarea1" rows="3" placeholder="Question" required></textarea>
         <button type="submit" class="btn btn-primary">Send Message</button>
     </form>
 </div>

@@ -57,6 +57,19 @@ div.card-body .align-email a:hover {
     color: deepskyblue;
 }
 
+h3.contact-text {
+    padding-bottom: 60px;
+    font-family: 'Fredoka One', cursive;
+}
+
+div form {
+    margin-bottom: 120px;
+}
+
+button.btn.btn-primary {
+    margin-top: 60px;
+}
+
 
 
 

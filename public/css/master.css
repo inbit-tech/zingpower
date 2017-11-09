@@ -18,8 +18,7 @@ a.navbar-brand {
 }
 
 #navbarNavDropdown {
-    width: 50%;
-    margin-left: 100px;
+    width: 100%;
     font-size: 1.2rem;
     padding-top: 5px;
 }
@@ -68,6 +67,10 @@ nav#footer-wrapper .footer ul li a:hover {
 
 div.col-4 img {
     width: 28px;
+}
+
+div.follow-us a {
+    text-decoration: none;
 }
 
 div.follow-us img {

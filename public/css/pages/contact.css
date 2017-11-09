@@ -66,8 +66,16 @@ div form {
     margin-bottom: 120px;
 }
 
-button.btn.btn-primary {
-    margin-top: 60px;
+.contact-form, div.form-group {
+    width: 55%;
+}
+
+button.btn.btn-lg {
+    margin-top: 45px;
+}
+
+button.btn.btn-primary:hover {
+    cursor: pointer;
 }
 
 

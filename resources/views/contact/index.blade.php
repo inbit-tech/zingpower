@@ -48,14 +48,35 @@
 {{-- message HTML --}}
 <div class="d-flex flex-column justify-content-between align-items-center">
     <h3 class="contact-text text-uppercase">send us message if you have any questions</h3>
-    <form action="{{ url('contact/save') }}" method="post" accept-charset="utf-8" class="contact-form w-50 d-flex flex-column justify-content-between align-items-center">
+
+    <form action="{{ url('contact/save') }}" method="post" accept-charset="utf-8" class="contact-form d-flex flex-column justify-content-between align-items-center">
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Your Name</label>
+            <input type="text" class="form-control" placeholder="How could we address you?">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Working Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Cell Phone</label>
+            <input type="phone" class="form-control" id="exampleFormControlInput1" placeholder="+CountryCode ...">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Your Question</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Please enter your info"></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline-info btn-lg">Send Message</button>
+    </form>
+
+    {{-- <form action="{{ url('contact/save') }}" method="post" accept-charset="utf-8" class="contact-form w-50 d-flex flex-column justify-content-between align-items-center">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
         <input type="text" name="name" class="form-control form-control-lg input-bg-color" id="exampleFormControlInput1" placeholder="Full Name" required>
         <input type="number" name="phone" class="form-control form-control-lg input-bg-color" id="exampleFormControlInput1" placeholder="Phone Number" required>
         <input type="email" name="email" class="form-control form-control-lg input-bg-color" id="exampleFormControlInput1" placeholder="Email" required>
         <textarea name="question" class="form-control input-bg-color" id="exampleFormControlTextarea1" rows="3" placeholder="Question" required></textarea>
         <button type="submit" class="btn btn-primary">Send Message</button>
-    </form>
+    </form> --}}
 </div>
 
 {{-- connect with us --}}

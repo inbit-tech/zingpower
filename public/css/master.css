@@ -15,14 +15,12 @@ a.navbar-brand {
     width: 56%;
     text-align: right;
     padding-top: 5px;
-    background-color: blue;
 }
 
 #navbarNavDropdown {
     width: 100%;
     font-size: 1.2rem;
     padding-top: 5px;
-    background-color: red;
 }
 
 #navbarNavDropdown ul li {

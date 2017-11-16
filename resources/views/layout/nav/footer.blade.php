@@ -1,12 +1,9 @@
 <nav class="navbar sticky-bottom navbar-light bg-light d-flex flex-column align-items-center" id="footer-wrapper">
     <div class="footer">
         <div class="row">
-            <div class="col-4 products">
+            <div class="col-3 footer">
                 <h4>Products</h4>
                 <ul>
-                    <li>
-                        <a href="/products/mobile-phone">Mobile Phone</a>
-                    </li>
                     <li>
                         <a href="/products/walkie-talkie">Walkie Talkie</a>
                     </li>
@@ -18,7 +15,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-4 solutions">
+            <div class="col-3 footer">
                 <h4>Solutions</h4>
                 <ul>
                     <li>
@@ -32,7 +29,24 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-4 follow-us">
+            <div class="col-3 footer">
+                <h4>Zing Power</h4>
+                <ul>
+                    <li>
+                        <a href="">About Us</a>
+                    </li>
+                    <li>
+                        <a href="">Our Vision</a>
+                    </li>
+                    <li>
+                        <a href="">Our Mission</a>
+                    </li>
+                    <li>
+                        <a href="/contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-3 follow-us">
                 <h4>Follow Us</h4>
                 <a href="//www.facebook.com/Zing-Power-218782381993140">
                     <img src=" {{ asset('/img/facebook.png') }} " alt="">

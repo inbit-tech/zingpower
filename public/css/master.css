@@ -36,7 +36,7 @@ nav#footer-wrapper {
 }
 
 nav#footer-wrapper .footer {
-    padding-top: 65px;
+    padding-top: 35px;
     width: 960px;
 }
 
@@ -57,16 +57,15 @@ nav#footer-wrapper .footer ul li {
 
 nav#footer-wrapper .footer ul li a {
     text-decoration: none;
-    color: #bdbdbd;
+    color: #222;
 }
 
 nav#footer-wrapper .footer ul li a:hover {
-    color: #000;
-    font-weight: bold;
+    color: deepskyblue;
 }
 
-div.col-4 img {
-    width: 28px;
+div.follow-us {
+    padding-top: 35px;
 }
 
 div.follow-us a {
@@ -91,14 +90,13 @@ div#copyright p {
 }
 
 /* footer-component */
-.products ul li a {
+.footer ul li a {
     font-family: 'Roboto', sans-serif;
     font-size: .8rem;
 }
 
-.solutions ul li a {
-    font-family: 'Roboto', sans-serif;
-    font-size: .8rem;
+.footer img {
+    width: 32px;
 }
 
 @media (max-width: 575px) {

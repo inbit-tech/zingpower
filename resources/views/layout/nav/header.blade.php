@@ -15,7 +15,6 @@
 					Products
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-		         	<a class="dropdown-item" href="/products/mobile-phone">Mobile Phone</a>
 		        	<a class="dropdown-item" href="/products/walkie-talkie">Walkie Talkie</a>
 		        	<a class="dropdown-item" href="/products/wirelss-charger">Wireless Charger</a>
 		        	<a class="dropdown-item" href="/products/smart-room-controller">Smart Room Controller</a>

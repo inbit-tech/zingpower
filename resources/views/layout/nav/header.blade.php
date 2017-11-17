@@ -17,7 +17,7 @@
 				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 		        	<a class="dropdown-item" href="/products/walkie-talkie">Walkie Talkie</a>
 		        	<a class="dropdown-item" href="/products/wirelss-charger">Wireless Charger</a>
-		        	<a class="dropdown-item" href="/products/smart-room-controller">Smart Room Controller</a>
+		        	<a class="dropdown-item" href="/products/smart-room-controller">Smart Room App</a>
 		        </div>
 			</li>
 			<li class="nav-item dropdown">
@@ -27,7 +27,7 @@
 				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 		         	<a class="dropdown-item" href="/solutions/system-integration">System Integration</a>
 		        	<a class="dropdown-item" href="/solutions/dms">Device Management System</a>
-		        	<a class="dropdown-item" href="/solutions/lns">Zigbee Z-Wave or LoRaWAN Local Network System</a>
+		        	<a class="dropdown-item" href="/solutions/lns">IoT</a>
 		        </div>
 			</li>
 			<li class="nav-item">

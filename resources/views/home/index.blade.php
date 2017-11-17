@@ -8,6 +8,7 @@
 
 @section('custom-css')
 <link rel="stylesheet" type="text/css" href="{{ asset('/css/pages/home.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('/css/animate.css') }}">
 @endsection
 
 @section ('content')
@@ -205,13 +206,26 @@
 </div>
 
 {{-- fullPicture area HTML --}}
-<div class="video-wrapper">
+{{-- <div class="video-wrapper">
     <video playsinline autoplay muted loop poster="/img/home/home-video-cover.jpg" id="zero-bg-video">
         <source src="//otyhzy70j.bkt.clouddn.com/hotel-deco.mp4" type="video/mp4">
     </video>
     <div class="text-overlay mx-auto">
         <p>Zero Downtime Deployment</p>
         <button type="button" class="btn btn-outline-light btn-lg" onclick="window.location.href='/solutions/dms'">Learn More</button>
+    </div>
+</div> --}}
+<div class="d-flex justify-content-center">
+    <div class="room-container">
+        <img src="/img/homepage/room.jpg" alt="" id="room">
+        <img src="/img/homepage/icons8-0_percents.png" alt="" id="room-icon-circular"> 
+        <img src="/img/homepage/icons8-visible_filled.png" alt="" id="room-icon-eye">
+        <p class="room-text">see inside</p>
+        <img src="" alt="" id="room-line">
+        <img src="" alt="" id="room-button-red">
+        <img src="" alt="" id="room-button-green">
+        <img src="" alt="" id="room-button-red-alone">
+        <img src="" alt="" id="room-button-green-alone">
     </div>
 </div>
 
@@ -265,5 +279,6 @@
 @section ('custom-js')
 <script src="{{ asset('/js/jquery.particleground.min.js') }}" type="text/javascript" charset="utf-8" async defer></script>
 <script src="{{ asset('/js/pages/home.js') }}" type="text/javascript" charset="utf-8" async defer></script>
+<script src="{{ asset('/js/pages/home-wireframe.js') }}" type="text/javascript"></script>
 @endsection
 

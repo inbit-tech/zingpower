@@ -83,7 +83,7 @@ figure a img:hover {
     background: #999;
     background: -webkit-linear-gradient(top left, Turquoise, DeepSkyBlue);
     background: -o-linear-gradient(top left, Turquoise, DeepSkyBlue);
-    background: linear-gradient(to bottom right, Turquoise, DeepSkyBlue); 
+    background: linear-gradient(to bottom right, Turquoise, DeepSkyBlue);
 }
 
 #sip-intro {
@@ -213,4 +213,75 @@ td a img:hover {
 
 .table td {
     text-align: center;
+}
+
+
+
+
+
+/* Scheme interaction */
+
+.room-container {
+    position: relative;
+}
+
+#room-icon-circular {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 38%;
+    right: 47%;
+}
+
+#room-icon-eye {
+    position: absolute;
+    top: 40%;
+    right: 50.7%;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.room-text {
+    color: white;
+    position: absolute;
+    top: 45%;
+    right: 48.7%;
+}
+
+#room-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#room-button-red {
+    width: 220px;
+    height: 70px;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+
+#room-button-green {
+    width: 220px;
+    height: 70px;
+    position: absolute;
+    top: 80%;
+    right: 10%;
+}
+
+#room-button-red-alone {
+    width: 220px;
+    height: 70px;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
+#room-button-green-alone {
+    width: 220px;
+    height: 70px;
+    position: absolute;
+    top: 80%;
+    left: 40%;
 }

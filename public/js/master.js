@@ -7,7 +7,7 @@ $(window).bind('scroll', function() {
 		});
 		$('#zp-logo').height(26);
 		$('#navbarNavDropdown').css({
-			'font-size': '1.0rem'
+			'font-size': '1.1rem'
 		})
 	} else {
 		$('#zp-navi').removeClass('zp-navi-small');

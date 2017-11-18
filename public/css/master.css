@@ -11,14 +11,12 @@ html, body {
  * Adjust brand section and menu item
  * make it visually centralized
  */
-#zp-navi.zp-navi-large {
-    background-color: red;
+.zp-navi-large {
     height: 86px;
 }
 
-#zp-navi.zp-navi-small {
-    background-color: blue;
-    height: 36px;
+.zp-navi-small {
+    height: 48px;
 }
 
 #zp-logo {

@@ -1,4 +1,4 @@
-<nav class="navbar fixed-top navbar-light navbar-expand-xl zp-navi-large" id="zp-navi">
+<nav class="navbar fixed-top navbar-light navbar-expand-xl zp-navi-large bg-light" id="zp-navi">
 	<div class="zp-navi-inner">
 		<div class="zp-navi-item">
 			<a class="navbar-brand" href="/">

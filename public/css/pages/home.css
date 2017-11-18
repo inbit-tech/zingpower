@@ -32,7 +32,7 @@
 .cover-img-text {
     color: #fff;
     text-align: center;
-    font-family: 'Passion One', cursive;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 3.5rem;
     padding-top: 300px;
     text-shadow: 1px 1px #000;
@@ -96,13 +96,12 @@ figure a img:hover {
 
 #sip-intro h1 {
     font-size: 3.2rem;
-    font-family: 'Passion One', cursive;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 #sip-intro p {
     font-size: 1.4rem;
     padding-top: 15px;
-    font-family: 'Abel', sans-serif;
 }
 
 .btn {
@@ -136,7 +135,7 @@ img.dms-device {
 .dms-device-intro h2 {
     padding-top: 50px;
     margin-bottom: 35px;
-    font-family: 'Passion One', cursive;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 tr.hotel-service-list {
@@ -189,7 +188,7 @@ td a img:hover {
 }
 
 .text-overlay p {
-    font-family: 'Passion One', cursive;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .client-wrapper {
@@ -198,7 +197,7 @@ td a img:hover {
 
 .client-wrapper h1 {
     padding-bottom: 20px;
-    font-family: 'Passion One', cursive;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .client-showcase {

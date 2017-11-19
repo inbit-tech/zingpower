@@ -1,5 +1,5 @@
 $(window).bind('scroll', function() {
-	if ($(window).scrollTop() > 50) {
+	if ($(window).scrollTop() > ($('#cover-wrapper').height() - $('.navbar').height())) {
 		$('.navbar').removeClass('zp-navi-large');
 		$('.navbar').addClass('zp-navi-small');
 		$('#zp-logo').attr({
@@ -7,7 +7,7 @@ $(window).bind('scroll', function() {
 		});
 		$('#zp-logo').height(26);
 		$('#navbarNavDropdown').css({
-			'font-size': '1.1rem'
+			'font-size': '1.0rem'
 		})
 	} else {
 		$('#zp-navi').removeClass('zp-navi-small');
@@ -17,7 +17,7 @@ $(window).bind('scroll', function() {
 		});
 		$('#zp-logo').height(48);
 		$('#navbarNavDropdown').css({
-			'font-size': '1.2rem'
+			'font-size': '1.1rem'
 		})
 	}
 });

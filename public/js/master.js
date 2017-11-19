@@ -1,5 +1,5 @@
 $(window).bind('scroll', function() {
-	if ($(window).scrollTop() > ($('#cover-wrapper').height() - $('.navbar').height())) {
+	if ($(window).scrollTop() > 50 ) {
 		$('.navbar').removeClass('zp-navi-large');
 		$('.navbar').addClass('zp-navi-small');
 		$('#zp-logo').attr({

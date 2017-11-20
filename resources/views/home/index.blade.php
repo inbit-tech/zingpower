@@ -215,11 +215,14 @@
         <button type="button" class="btn btn-outline-light btn-lg" onclick="window.location.href='/solutions/dms'">Learn More</button>
     </div>
 </div> --}}
-<div class="d-flex justify-content-center">
+<div class="zing-scheme d-flex justify-content-center">
     <div class="room-container">
         <img src="/img/homepage/room.jpg" alt="" id="room">
-        <img src="/img/homepage/icons8-0_percents.png" alt="" id="room-icon-circular"> 
-        <img src="/img/homepage/icons8-visible_filled.png" alt="" id="room-icon-eye">
+        {{-- <img src="/img/homepage/icons8-0_percents.png" alt="" id="room-icon-circular">  --}}
+        <canvas id="room-icon-circular">
+            您的浏览器不支持。
+        </canvas>
+        <img src="/img/homepage/icons8-visible.png" alt="" id="room-icon-eye">
         <p class="room-text">see inside</p>
         <img src="" alt="" id="room-line">
         <img src="" alt="" id="room-button-red">

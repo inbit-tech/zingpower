@@ -1,3 +1,12 @@
+var c = document.getElementById("room-icon-circular");
+var cxt = c.getContext("2d");
+cxt.beginPath();
+cxt.arc(200, 70, 67, 0, 2 * Math.PI);
+cxt.strokeStyle = '#ffffff';
+cxt.lineWidth = '3'
+cxt.stroke();
+cxt.closePath();
+
 // icon-eye animation
 $('#room-icon-circular').hover(function() {
     $('#room-icon-eye').addClass('animated bounceIn')
@@ -40,8 +49,8 @@ $('#room-button-green').click(function() {
     $('#room-button-red-alone').attr("src", "/img/homepage/room-button-red.png");
 });
 
-$('#room-button-red-alone').click(function(){
-    $('#room-line').attr("src","/img/homepage/room-line.png");
+$('#room-button-red-alone').click(function() {
+    $('#room-line').attr("src", "/img/homepage/room-line.png");
     $('#room-button-red-alone').detach()
 })
 
@@ -56,8 +65,7 @@ $('#room-button-red').click(function() {
     $('#room-button-green-alone').attr("src", "/img/homepage/room-button-green.png");
 });
 
-$('#room-button-green-alone').click(function(){
+$('#room-button-green-alone').click(function() {
     $('#room-button-green-alone').detach()
     $('#room-line').detach()
 });
-

@@ -219,33 +219,40 @@ td a img:hover {
 
 
 
+
 /* Scheme interaction */
+
+.zing-scheme {
+    margin-bottom: 150px;
+}
 
 .room-container {
     position: relative;
 }
 
 #room-icon-circular {
-    width: 100px;
-    height: 100px;
+    height: 200px;
     position: absolute;
-    top: 38%;
-    right: 47%;
+    top: 30%;
+    right: 39%;
 }
 
 #room-icon-eye {
+    height: 50px;
+    width: 50px;
     position: absolute;
-    top: 40%;
-    right: 50.7%;
+    top: 35%;
+    right: 49.6%;
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
 
 .room-text {
+    font-size: 30px;
     color: white;
     position: absolute;
     top: 45%;
-    right: 48.7%;
+    right: 46%;
 }
 
 #room-line {

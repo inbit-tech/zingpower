@@ -1,9 +1,49 @@
-/*
-* @Author: vayne
-* @Date:   2017-10-27 11:55:38
-* @Last Modified by:   vayne
-* @Last Modified time: 2017-10-31 15:11:43
-*/
+.dms-wrapper {
+    margin-bottom: 250px;
+    width: 80%;
+    position: relative;
+}
+
+img.dms-device {
+    position: absolute;
+    height: 615px;
+    top: -11%;
+    left: 15%;
+}
+
+.dms-device-intro {
+    width: 35%;
+    margin-left: 55%;
+    text-align: center;
+}
+
+.dms-device-intro h2 {
+    padding-top: 50px;
+    margin-bottom: 35px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+tr.hotel-service-list {
+    border: none;
+}
+
+.borderless td {
+    border: none;
+    padding-top: 35px;
+}
+
+.borderless td img {
+    width: 60%;
+}
+
+.poster {
+    background-size: cover;
+}
+
+td a img:hover {
+    position: relative;
+    top: -10px;
+}
 
 @media (max-width: 575px) {
     .width-25 {

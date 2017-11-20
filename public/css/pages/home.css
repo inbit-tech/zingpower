@@ -1,70 +1,13 @@
-.ad1 {
-    background-image: url('/img/home/cover-room.jpg');
+#cover-wrapper {
+    height: 100%;
+    width: 100%;
+    background-color: #696969;
 }
 
-.ad2 {
-    background-image: url('/img/home/cover-curtain.jpg');
-}
-
-.ad3 {
-    background-image: url('/img/home/cover-tv.jpg');
-}
-
-.ad4 {
-    background-image: url('/img/home/cover-light.jpg');
-}
-
-.ad5 {
-    background-image: url('/img/home/cover-music.jpg');
-}
-
-.ad6 {
-    background-image: url('/img/home/cover-rs.jpg');
-}
-
-.cover-img {
-    height: 680px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.cover-img-text {
-    color: #fff;
+#vision-wrapper {
+    height: 480px;
     text-align: center;
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 3.5rem;
-    padding-top: 300px;
-    text-shadow: 1px 1px #000;
-}
-
-div.home-prod-wrapper {
-    margin-top: 150px;
-    margin-bottom: 150px;
-    text-align: center;
-}
-
-.figure img {
-    padding: 0 60px;
-}
-
-.figure-caption {
-    font-size: 1.1rem;
-    padding-top: 15px;
-}
-
-figure a {
-    color: #868e96;
-}
-
-figure a:hover {
-    text-decoration: none;
-    color: #222;
-}
-
-figure a img:hover {
-    position: relative;
-    top: -10px;
+    background-color: blue;
 }
 
 #sip-particles {
@@ -73,9 +16,8 @@ figure a img:hover {
 
 .sysint-wrapper {
     width: 100%;
-    height: 650px;
+    height: 640px;
     margin-top: 0;
-    margin-bottom: 200px;
     text-align: center;
 }
 
@@ -113,51 +55,10 @@ figure a img:hover {
     cursor: pointer;
 }
 
-.dms-wrapper {
-    margin-bottom: 250px;
-    width: 80%;
-    position: relative;
-}
-
-img.dms-device {
-    position: absolute;
-    height: 615px;
-    top: -11%;
-    left: 15%;
-}
-
-.dms-device-intro {
-    width: 35%;
-    margin-left: 55%;
-    text-align: center;
-}
-
-.dms-device-intro h2 {
-    padding-top: 50px;
-    margin-bottom: 35px;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-tr.hotel-service-list {
-    border: none;
-}
-
-.borderless td {
-    border: none;
-    padding-top: 35px;
-}
-
-.borderless td img {
-    width: 60%;
-}
-
-.poster {
-    background-size: cover;
-}
-
-td a img:hover {
-    position: relative;
-    top: -10px;
+.custom-wrapper {
+    height: 650px;
+    width: 100%;
+    background-color: #000;
 }
 
 .video-wrapper {

@@ -12,74 +12,8 @@
 
 @section ('content')
 <section id="cover-wrapper">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="ad1 cover-img">
-                    <p class="cover-img-text">
-                        <img src="/img/home/icon_iphone.png" alt="">
-                        Make Your Space Alive
-                    </p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="ad2 cover-img">
-                    <p class="cover-img-text">
-                        <img src="/img/home/icon_iphone.png" alt="">
-                        Open Your Curtain
-                    </p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="ad3 cover-img">
-                    <p class="cover-img-text">
-                        <img src="/img/home/icon_iphone.png" alt="">
-                        Enjoy Your TV Show
-                    </p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="ad4 cover-img">
-                    <p class="cover-img-text">
-                        <img src="/img/home/icon_iphone.png" alt="">
-                        Turn On Your Light
-                    </p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="ad5 cover-img">
-                    <p class="cover-img-text">
-                        <img src="/img/home/icon_iphone.png" alt="">
-                        Play Your Music
-                    </p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="ad6 cover-img">
-                    <p class="cover-img-text">
-                        <img src="/img/home/icon_iphone.png" alt="">
-                        Order Your Room Service
-                    </p>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+    <h1>Make Your Space Alive</h1>
+    <img src="" alt="">
 </section>
 
 {{-- products area HTML --}}

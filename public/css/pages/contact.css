@@ -109,12 +109,12 @@ nav#footer-wrapper {
     margin-top: 0;
 }
 
-#allmap {
+#map {
     width: 100%;
     height: 650px;
-    overflow: hidden;
-    margin:0;
-    font-family:"微软雅黑";
+    //overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 

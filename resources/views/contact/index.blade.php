@@ -93,11 +93,11 @@
 </div>
 
 {{-- Google map API --}}
-{{-- Use Baidu maps temporarily and replace Google later --}}
-<div id="allmap"></div>
+<div id="map"></div>
 @endsection
 
 @section('custom-js')
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=erSy2zZmTiGEzwnz8DHGdupdNYVh6yxv"></script>
 <script type="text/javascript" src="{{ asset('/js/pages/contact.js') }}"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGHOztTdRyk20w4IYvs0LR6jQOCv218q4&callback=initMap"></script>
 @endsection

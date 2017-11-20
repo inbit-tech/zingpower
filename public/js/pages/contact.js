@@ -1,3 +1,15 @@
-// 百度地图API功能
-var map = new BMap.Map("allmap");  // 创建Map实例
-map.centerAndZoom("西安",15);      // 初始化地图,用城市名设置地图中心点
+function initMap() {
+	var zingpower = {lat: 34.33203885, lng: 109.01300758};
+	
+	var map = new google.maps.Map(document.getElementById('map'), {
+		zoom: 14,
+		center: zingpower,
+		map: map
+	});
+
+	var marker = new google.maps.Marker({
+		position: zingpower,
+		map: map,
+		title: 'Zing Power'
+	});
+}

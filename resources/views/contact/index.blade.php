@@ -23,14 +23,18 @@
     <div class="card borderless">
         <img class="card-img-top mx-auto" src="/img/contact/icon_phone.png" alt="Phone">
         <div class="card-body">
-            <p class="card-text">+86-18066860099</p>
-            <p class="card-text">+86-29-87580960</p>
+            <a href="tel:+8618066860099" class="card-text">+86 18066860099</a>
+            <a href="tel:+862987580960" class="card-text">+86-29-87580960</a>
         </div>
     </div>
     <div class="card borderless">
         <img class="card-img-top mx-auto" src="/img/contact/icon_addr.png" alt="Address">
         <div class="card-body">
-            <p class="card-text">3rd Floor, No.333 Xingtai South Road, Euro-Asia Creative Design Park Incubation Center, Xi'an Chan-Ba Ecological District.</p>
+            <a href="#map" class="card-text">
+                3rd Floor, No.333 Xingtai South Road, <br/>
+                Euro-Asia Creative Design Park Incubation Center, <br/>
+                Xi'an Chan-Ba Ecological District, Shaanxi, China
+            </a>
         </div>
     </div>
     <div class="card borderless">

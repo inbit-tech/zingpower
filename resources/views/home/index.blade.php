@@ -31,81 +31,8 @@
     </div>
 </div>
 
-<div class="dms-wrapper row mx-auto">
-    <img class="dms-device" src="/img/home/dms_default.png" id="dms-bg" alt="" />
-    <div class="dms-device-intro">
-        <h2 class="dms-header-text">Device Management System</h2>
-        <table class="table borderless">
-            <tbody>
-                <tr class="hotel-service-list">
-                    <td>
-                        <a href="" class="dms-menu-link">
-                        <img src="/img/home/icon_main_menu.png" alt="">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="" class="dms-room-service-link">
-                        <img src="/img/home/icon_room_service.png" alt="">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="" class="dms-service-link">
-                        <img src="/img/home/icon_service.png" alt="">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="" class="dms-hotel-link">
-                        <img src="/img/home/icon_hotel.png" alt="">
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="" class="dms-aircon-link">
-                        <img src="/img/home/icon_aircon.png" alt="">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="" class="dms-light-link">
-                        <img src="/img/home/icon_light.png" alt="">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="" class="dms-curtain-link">
-                        <img src="/img/home/icon_curtain.png" alt="">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="" class="dms-room-control-link">
-                        <img src="/img/home/icon_room_control.png" alt="">
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="" class="dms-tv-control-link">
-                        <img src="/img/home/icon_tv_control.png" alt="">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="" class="dms-room-clean-link">
-                        <img src="/img/home/icon_room_clean.png" alt="">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="" class="dms-food-link">
-                        <img src="/img/home/icon_food.png" alt="">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="" class="dms-concierge-link">
-                        <img src="/img/home/icon_concierge.png" alt="">
-                        </a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+<div class="custom-wrapper row mx-auto">
+    
 </div>
 
 {{-- fullPicture area HTML --}}

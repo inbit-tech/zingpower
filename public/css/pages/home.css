@@ -25,36 +25,13 @@
 #cover-wrapper {
     height: 100%;
     width: 100%;
-    background-color: red;
+    background-color: #696969;
 }
 
-div.home-prod-wrapper {
-    margin-top: 150px;
-    margin-bottom: 150px;
+#vision-wrapper {
+    height: 450px;
     text-align: center;
-}
-
-.figure img {
-    padding: 0 60px;
-}
-
-.figure-caption {
-    font-size: 1.1rem;
-    padding-top: 15px;
-}
-
-figure a {
-    color: #868e96;
-}
-
-figure a:hover {
-    text-decoration: none;
-    color: #222;
-}
-
-figure a img:hover {
-    position: relative;
-    top: -10px;
+    background-color: blue;
 }
 
 #sip-particles {

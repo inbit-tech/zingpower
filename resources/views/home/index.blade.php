@@ -218,7 +218,6 @@
 <div class="zing-scheme d-flex justify-content-center">
     <div class="room-container">
         <img src="/img/homepage/room.jpg" alt="" id="room">
-        {{-- <img src="/img/homepage/icons8-0_percents.png" alt="" id="room-icon-circular">  --}}
         <canvas id="room-icon-circular">
             您的浏览器不支持。
         </canvas>

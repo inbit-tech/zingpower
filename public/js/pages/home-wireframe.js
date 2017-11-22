@@ -1,3 +1,4 @@
+// draw zing-scheme section's ring 
 var c = document.getElementById("room-icon-circular");
 var cxt = c.getContext("2d");
 cxt.beginPath();

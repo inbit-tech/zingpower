@@ -86,7 +86,7 @@ button.btn.btn-lg {
     margin-top: 45px;
 }
 
-button.btn.btn-primary:hover {
+button.btn.btn-outline-primary:hover {
     cursor: pointer;
 }
 

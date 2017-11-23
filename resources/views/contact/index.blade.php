@@ -69,7 +69,7 @@
             <label for="exampleFormControlTextarea1">Your Question</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Please enter your info"></textarea>
         </div>
-        <button type="submit" class="btn btn-outline-info btn-lg">Send Message</button>
+        <button type="submit" class="btn btn-outline-primary btn-lg">Send Message</button>
     </form>
 
     {{-- <form action="{{ url('contact/save') }}" method="post" accept-charset="utf-8" class="contact-form w-50 d-flex flex-column justify-content-between align-items-center">

@@ -13,9 +13,19 @@
 
 @section ('content')
 {{-- Add Room Controller Interactive Module --}}
-<section id="cover-wrapper">
-    <h1>Make Your Space Alive</h1>
-    <img src="" alt="">
+<section id="cover-wrapper" class="d-flex justify-content-center">
+    <div class="room-ctrl-module-container">
+        <img src="/img/room-ctrl/original.jpg" alt="" id="room-ctrl-original-img">
+        <img src="/img/room-ctrl/logo.png" alt="" id="room-ctrl-logo">
+        <img src="/img/room-ctrl/phone-ctrl.png" alt="" id="room-ctrl-phone-ctrl">
+        <img src="/img/room-ctrl/rolling.png" alt="" id="room-ctrl-rolling" class="opacity">
+        <img src="/img/room-ctrl/icon-finger.png" alt="" id="room-ctrl-icon-finger">
+        <div id="room-ctrl-tip-text-container">
+            <p id="room-ctrl-tip-text">click to control the room</p>            
+        </div>
+        <div id="room-ctrl-module-phone-container">
+        </div> 
+    </div>
 </section>
 
 {{-- products area HTML --}}
@@ -36,16 +46,7 @@
     
 </div>
 
-{{-- fullPicture area HTML --}}
-{{-- <div class="video-wrapper">
-    <video playsinline autoplay muted loop poster="/img/home/home-video-cover.jpg" id="zero-bg-video">
-        <source src="//otyhzy70j.bkt.clouddn.com/hotel-deco.mp4" type="video/mp4">
-    </video>
-    <div class="text-overlay mx-auto">
-        <p>Zero Downtime Deployment</p>
-        <button type="button" class="btn btn-outline-light btn-lg" onclick="window.location.href='/solutions/dms'">Learn More</button>
-    </div>
-</div> --}}
+{{-- Wireframe Interaction Module area HTML --}}
 <div class="zing-scheme d-flex justify-content-center">
     <div class="room-container">
         <img src="/img/homepage/room.jpg" alt="" id="room">
@@ -113,5 +114,6 @@
 <script src="{{ asset('/js/jquery.particleground.min.js') }}" type="text/javascript" charset="utf-8" async defer></script>
 <script src="{{ asset('/js/pages/home.js') }}" type="text/javascript" charset="utf-8" async defer></script>
 <script src="{{ asset('/js/pages/home-wireframe.js') }}" type="text/javascript"></script>
+<script src="{{ asset('/js/pages/room-ctrl-module.js') }}" type="text/javascript"></script>
 @endsection
 

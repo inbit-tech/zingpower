@@ -1,0 +1,358 @@
+/*
+* @Author: vayne
+* @Date:   2017-11-28 12:00:00
+* @Last Modified by:   vayne
+* @Last Modified time: 2017-11-29 02:57:56
+*/
+
+
+/* Wireframe Interaction Module */
+
+.zing-scheme {
+    margin-bottom: 150px;
+}
+
+.room-container {
+    width: 100%;
+    position: relative;
+}
+
+#room {
+    width: 100%;
+    position: relative;
+}
+
+#room-scenograph {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#room-line-helf {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.rolling-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 50%;
+}
+
+#room-icon-circular {
+    position: absolute;
+}
+
+#room-icon-eye {
+    height: 50px;
+    width: 50px;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    z-index: 10;
+}
+
+.room-text {
+    font-size: 30px;
+    color: white;
+}
+
+#room-line {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.z-index-9 {
+    z-index: 9;
+}
+
+.z-index-10 {
+    z-index: 10;
+}
+
+.z-index-11 {
+    z-index: 11;
+}
+
+#room-button-red {
+    width: 220px;
+    height: 70px;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+
+
+#room-button-green {
+    width: 220px;
+    height: 70px;
+    position: absolute;
+    top: 80%;
+    right: 10%;
+}
+
+
+#room-button-red-alone {
+    width: 220px;
+    height: 70px;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
+#room-button-green-alone {
+    width: 220px;
+    height: 70px;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* picture fade animation */
+
+@keyframes img-fade {
+    from {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.75;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.25;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.img-fade {
+    animation-name: img-fade;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+
+
+
+
+
+
+
+
+/* picture appear animation */
+
+@keyframes img-appear {
+    from {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.img-appear {
+    animation-name: img-appear;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
+
+/* two button animation */
+
+@keyframes red-button-appear {
+    from {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+        z-index: 100;
+    }
+}
+
+.red-button-appear {
+    animation-name: red-button-appear;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes green-button-appear {
+    from {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+        z-index: 100;
+    }
+}
+
+.green-button-appear {
+    animation-name: green-button-appear;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes green-button-alone-appear {
+    from {
+        opacity: 0;
+        top: 80%;
+        left: 40%;
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        opacity: 0.5;
+        top: 80%;
+        left: 40%;
+        transform: scale3d(1.25, 1.25, 1.25);
+    }
+    to {
+        opacity: 1;
+        top: 80%;
+        left: 40%;
+        transform: scale3d(1, 1, 1);
+        z-index: 100;
+    }
+}
+
+.green-button-alone-appear {
+    animation-name: green-button-alone-appear;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes red-button-alone-appear {
+    from {
+        opacity: 0;
+        top: 80%;
+        left: 40%;
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        opacity: 0.5;
+        top: 80%;
+        left: 40%;
+        transform: scale3d(1.25, 1.25, 1.25);
+    }
+    to {
+        opacity: 1;
+        top: 80%;
+        left: 40%;
+        transform: scale3d(1, 1, 1);
+        z-index: 100;
+    }
+}
+
+.red-button-alone-appear {
+    animation-name: red-button-alone-appear;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes roomline-appear {
+    from {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.roomline-appear {
+    animation-name: roomline-appear;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes roomline-fade {
+    from {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.75;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.roomline-fade {
+    animation-name: roomline-fade;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}

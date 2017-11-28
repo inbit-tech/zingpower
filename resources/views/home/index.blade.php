@@ -9,6 +9,7 @@
 @section('custom-css')
 <link rel="stylesheet" type="text/css" href="{{ asset('/css/pages/home.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('/css/animate.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('/css/pages/room-line.css') }}">
 @endsection
 
 @section ('content')
@@ -18,7 +19,7 @@
         <img src="/img/room-ctrl/original.jpg" alt="" id="room-ctrl-original-img">
         <img src="/img/room-ctrl/logo.png" alt="" id="room-ctrl-logo">
         <img src="/img/room-ctrl/phone-ctrl.png" alt="" id="room-ctrl-phone-ctrl">
-        <img src="/img/room-ctrl/rolling.png" alt="" id="room-ctrl-rolling" class="opacity">
+        <img src="/img/room-ctrl/rolling.png" alt="" id="room-ctrl-rolling" class="opacity-20">
         <img src="/img/room-ctrl/icon-finger.png" alt="" id="room-ctrl-icon-finger">
         <div id="room-ctrl-tip-text-container">
             <p id="room-ctrl-tip-text">click to control the room</p>            
@@ -49,17 +50,21 @@
 {{-- Wireframe Interaction Module area HTML --}}
 <div class="zing-scheme d-flex justify-content-center">
     <div class="room-container">
+        <img src="/img/homepage/room-line-helf.png" alt="" id="room-line-helf">
+        <img src="/img/homepage/room-button-red.png"" alt="" id="room-button-red">
+        <img src="/img/homepage/room-button-green.png"" alt="" id="room-button-green">
+        <img src="/img/homepage/room-line.png" alt="" id="room-line">
+        <img src="/img/homepage/room-scenograph.jpg" alt="" id="room-scenograph">
         <img src="/img/homepage/room.jpg" alt="" id="room">
-        <canvas id="room-icon-circular">
+        <div class="rolling-container">
+            <canvas id="room-icon-circular" width="220" height="220" class="opacity-80">
             您的浏览器不支持。
-        </canvas>
-        <img src="/img/homepage/icons8-visible.png" alt="" id="room-icon-eye">
-        <p class="room-text">see inside</p>
-        <img src="" alt="" id="room-line">
-        <img src="" alt="" id="room-button-red">
-        <img src="" alt="" id="room-button-green">
-        <img src="" alt="" id="room-button-red-alone">
-        <img src="" alt="" id="room-button-green-alone">
+            </canvas>
+            <img src="/img/homepage/icons8-visible.png" alt="" id="room-icon-eye">
+            <p class="room-text">see inside</p>   
+        </div>
+        <img src="/img/homepage/room-button-red.png" alt="" id="room-button-red-alone" class="opacity-0">
+        <img src="/img/homepage/room-button-green.png" alt="" id="room-button-green-alone" class="opacity-0">
     </div>
 </div>
 

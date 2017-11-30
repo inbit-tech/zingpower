@@ -9,23 +9,45 @@
 @section('custom-css')
 <link rel="stylesheet" type="text/css" href="{{ asset('/css/pages/home.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('/css/animate.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('/css/pages/room-ctrl.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('/css/pages/room-line.css') }}">
 @endsection
 
 @section ('content')
 {{-- Add Room Controller Interactive Module --}}
 <section id="cover-wrapper" class="d-flex justify-content-center">
-    <div class="room-ctrl-module-container">
+    <div class="room-ctrl-container">
         <img src="/img/room-ctrl/original.jpg" alt="" id="room-ctrl-original-img">
+        {{--  click room services after this change corresponding img display --}}
+        <img src="/img/room-ctrl/room-ctrl-air-wind.png" id="icon-air-click-after-img" class="icon-click-after-img" style="display: none;">
+        <img src="/img/room-ctrl/room-ctrl-tv-light.png" id="icon-tv-click-after-img" class="icon-click-after-img" style="display: none;">
+        <img src="/img/room-ctrl/room-ctrl-curtain-open.png" id="icon-curtain-click-after-img" class="icon-click-after-img" style="display: none;">
+
         <img src="/img/room-ctrl/logo.png" alt="" id="room-ctrl-logo">
-        <img src="/img/room-ctrl/phone-ctrl.png" alt="" id="room-ctrl-phone-ctrl">
-        <img src="/img/room-ctrl/rolling.png" alt="" id="room-ctrl-rolling" class="opacity-20">
-        <img src="/img/room-ctrl/icon-finger.png" alt="" id="room-ctrl-icon-finger">
-        <div id="room-ctrl-tip-text-container">
+        <img src="/img/room-ctrl/phone.png" alt="" id="room-ctrl-phone">
+
+        {{-- click room services after phone container --}}
+        <div id="room-ctrl-phone-container-room-ser" style="display: none;">
+            <img src="/img/room-ctrl/phone/phone-bg.png" alt="" id="room-ctrl-phone-bg">
+            <p id="room-ser-text">ROOM CONTROL</p>
+            <img src="/img/room-ctrl/phone/phone-room-ctrl-icon.png" alt="" id="phone-room-ctrl-icon">
+            <img src="/img/room-ctrl/phone/phone-room-ctrl-icon-air.png" alt="" id="phone-room-ctrl-icon-air">
+            <img src="/img/room-ctrl/phone/phone-room-ctrl-icon-light.png" alt="" id="phone-room-ctrl-icon-light">
+            <img src="/img/room-ctrl/phone/phone-room-ctrl-icon-tv.png" alt="" id="phone-room-ctrl-icon-tv">
+            <img src="/img/room-ctrl/phone/phone-room-ctrl-icon-curtain.png" alt="" id="phone-room-ctrl-icon-curtain">
+        </div>
+
+        {{-- click icon-finger after phone container --}}
+        <div id="room-ctrl-phone-container">
+        </div> 
+
+        {{-- original phone container --}}
+        <div id="room-ctrl-phone-original-container">
+            <img src="/img/room-ctrl/rolling.png" alt="" id="room-ctrl-rolling" class="opacity-20">
+            <img src="/img/room-ctrl/icon-finger.png" alt="" id="room-ctrl-icon-finger">
             <p id="room-ctrl-tip-text">click to control the room</p>            
         </div>
-        <div id="room-ctrl-module-phone-container">
-        </div> 
+
     </div>
 </section>
 

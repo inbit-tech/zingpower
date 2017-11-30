@@ -1,0 +1,225 @@
+/*
+* @Author: vayne
+* @Date:   2017-11-29 10:37:02
+* @Last Modified by:   vayne
+* @Last Modified time: 2017-11-30 15:52:37
+*/
+
+
+/* Room Controller Interactive Module */
+
+.room-ctrl-container {
+    width: 100%;
+    position: relative;
+}
+
+#room-ctrl-original-img {
+    width: 100%;
+    position: relative;
+}
+
+#room-ctrl-logo {
+    position: absolute;
+    top: 12%;
+    left: 3%;
+}
+
+#room-ctrl-phone {
+    width: 20%;
+    height: 65%;
+    position: absolute;
+    right: 5%;
+    bottom: 2%;
+}
+
+#room-ctrl-phone-original-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 65%;
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+    text-align: center;
+}
+
+#room-ctrl-rolling {
+    width: 40%;
+    height: 20%;
+    position: absolute;
+    top: 25%;
+    transform: rotate(130deg);
+}
+
+#room-ctrl-icon-finger {
+    width: 30%;
+    position: absolute;
+    top: 35%;
+    right: 30%;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+#room-ctrl-tip-text {
+    width: 50%;
+    font-size: 1.2rem;
+    color: #ffffff;
+    position: absolute;
+    top: 55%;
+}
+
+.gray {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* click icon-finger after phone container */
+
+#room-ctrl-phone-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 65%;
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+    text-align: center;
+}
+
+#room-ctrl-phone-bg {
+    width: 85%;
+    position: absolute;
+}
+
+#room-ctrl-phone-ctrl-option {
+    width: 80%;
+    position: absolute;
+}
+
+#room-ctrl-phone-ctrl-open-btn {
+    width: 20%;
+    position: absolute;
+    top: 46%;
+}
+
+#room-ctrl-phone-ctrl-room-ser {
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    right: 50%;
+}
+
+#room-ctrl-phone-ctrl-hotel-ser {
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    left: 50.1%;
+}
+
+#room-ctrl-hotel-ser {
+    position: absolute;
+    top: 41%;
+    left: 19%;
+}
+
+
+
+
+
+
+
+
+
+
+/* click room services after phone container */
+
+#room-ctrl-phone-container-room-ser {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 65%;
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+    text-align: center;
+}
+
+#room-ser-text {
+    position: absolute;
+    color: white;
+    top: 20%;
+}
+
+#phone-room-ctrl-icon {
+    width: 20%;
+    position: absolute;
+    top: 30%;
+}
+
+
+/* 
+    Each icon's css behind is click this icon after appear img's css
+*/
+#phone-room-ctrl-icon-air {
+    width: 25%;
+    position: absolute;
+    top: 43%;
+    left: 20%;
+}
+
+#phone-room-ctrl-icon-light {
+    width: 23%;
+    position: absolute;
+    top: 43%;
+    right: 20%;
+}
+
+#phone-room-ctrl-icon-tv {
+    width: 24%;
+    position: absolute;
+    top: 63%;
+    left: 20%;
+}
+
+#phone-room-ctrl-icon-curtain {
+    width: 29%;
+    position: absolute;
+    top: 63%;
+    right: 19%;
+}
+
+.icon-click-after-img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+/* Room Controller Interactive Module end

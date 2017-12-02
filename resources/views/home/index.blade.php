@@ -120,7 +120,7 @@
 <div class="client-wrapper">
     <h1>Our Clients</h1>
     <div class="client-showcase">
-        <table class="table borderless">
+        <table class="client-table">
             <tbody>
                 <tr>
                     <td>

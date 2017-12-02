@@ -35,6 +35,9 @@ Route::get('/solutions/system-integration', 'PagesController@sysIntegration');
 Route::get('/solutions/dms', 'PagesController@dms');
 Route::get('/solutions/iot', 'PagesController@iot');
 
+// Route for About Us
+Route::get('/about-us', 'PagesController@about');
+
 // Route for Contact Us
 Route::get('/contact-us', 'PagesController@contact');
 

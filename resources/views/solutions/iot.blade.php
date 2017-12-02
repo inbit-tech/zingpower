@@ -2,7 +2,7 @@
 
 <!-- Page Title -->
 @section ('page-title')
-<title>Zigbee Z-Wave or LoRaWAN Local Network Setup - Solutions - Zing Power</title>
+<title>Internet of Things - Solutions - Zing Power</title>
 @endsection
 
 <!-- Custom CSS for Mobile Phone Product Page -->

@@ -54,6 +54,12 @@ class PagesController extends Controller
     	return view('solutions.iot');
     }
 
+    // About Us
+    public function about()
+    {
+        return view('about.index');
+    }
+
     // Contact Us
     public function contact()
     {

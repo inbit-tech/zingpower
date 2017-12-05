@@ -105,37 +105,6 @@
     background-color: #000;
 }
 
-.video-wrapper {
-    width: 100%;
-    height: auto;
-    background-color: #fff;
-    margin-bottom: 100px;
-    position: relative;
-    text-align: center;
-}
-
-#zero-bg-video {
-    width: 100%;
-    height: auto;
-    background-size: cover;
-    z-index: 0;
-    opacity: 0.8;
-}
-
-.text-overlay {
-    position: absolute;
-    width: 100%;
-    top: 45%;
-    left: 0;
-    font-size: 3.0rem;
-    color: #fff;
-    text-shadow: 1px 1px #000;
-}
-
-.text-overlay p {
-    font-family: 'Titillium Web', sans-serif;
-}
-
 .client-wrapper {
     text-align: center;
 }

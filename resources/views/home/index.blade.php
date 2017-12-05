@@ -77,7 +77,7 @@
 
 {{-- products area HTML --}}
 <div id="vision-wrapper">
-
+    <h3>To integrate SMART solutions for in-room services by using quality products with innovative technology</h3>
 </div>
 
 {{-- SystemIntegration area HTML --}}

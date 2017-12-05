@@ -73,7 +73,6 @@
             <img src="/img/room-ctrl/icon-finger.png" alt="" id="room-ctrl-icon-finger">
             <p id="room-ctrl-tip-text">click to control the room</p>            
         </div>
-
     </div>
 </section>
 

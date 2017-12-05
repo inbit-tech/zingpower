@@ -10,12 +10,6 @@
     position: relative;
 }
 
-#room-ctrl-logo {
-    position: absolute;
-    top: 12%;
-    left: 3%;
-}
-
 #room-ctrl-phone {
     width: 20%;
     height: 65%;

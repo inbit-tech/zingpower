@@ -29,7 +29,6 @@
         <img src="/img/room-ctrl/room-ctrl-main-light-open.png" id="icon-main-light-click-after-img" class="icon-click-after-img" style="display: none;">
         <img src="/img/room-ctrl/room-ctrl-office-light-open.png" id="icon-office-light-click-after-img" class="icon-click-after-img" style="display: none;">
 
-        <img src="/img/room-ctrl/logo.png" alt="" id="room-ctrl-logo">
         <img src="/img/room-ctrl/phone.png" alt="" id="room-ctrl-phone">
 
         {{-- light control  phone container --}}
@@ -86,7 +85,7 @@
     <div id="sip-intro">
         <h1>System Integration</h1>
         <p>Our exclusive solution includes combinations of smart devices, apps, backend system, database and etc, it is customizable to match each customers' unique requirements. </p>
-        <button type="button" class="btn btn-outline-light btn-lg" onclick="window.location.href='/solutions/system-integration'">Learn More</button>
+        <button type="button" class="btn btn-outline-light btn-lg" onclick="window.location.href='/solutions/system-integration'" id="si-btn">Learn More</button>
     </div>
 </div>
 

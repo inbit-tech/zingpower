@@ -90,11 +90,11 @@
     padding-top: 15px;
 }
 
-.btn {
+#si-btn {
     margin-top: 25px;
 }
 
-.btn:hover {
+#si-btn:hover {
     color: DeepSkyBlue;
     cursor: pointer;
 }

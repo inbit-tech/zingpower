@@ -2,12 +2,12 @@
 
 <!-- Page Title -->
 @section ('page-title')
-<title>Zigbee Z-Wave or LoRaWAN Local Network Setup - Solutions - Zing Power</title>
+<title>Internet of Things - Solutions - Zing Power</title>
 @endsection
 
 <!-- Custom CSS for Mobile Phone Product Page -->
 @section ('custom-css')
-<link href="{{ asset('/css/pages/lns.css') }}" rel="stylesheet">
+<link href="{{ asset('/css/pages/iot.css') }}" rel="stylesheet">
 @endsection
 
 @section ('content')
@@ -15,8 +15,7 @@
 <section id="cover-wrapper">
 	<div class="cover-image">
 		<p class="cover-text">
-			Zigbee Z-Wave or LoRaWAN <br/> 
-		  	Local Network Setup
+			Internet of Things
 		</p>
 	</div>
 </section>
@@ -25,15 +24,15 @@
 	<div class="lns-func-wrapper mx-auto">
 		<!-- Function 1 -->
 		<div class="lns-func">
-			<img src="/img/lns/lora.png" alt="">
+			<img src="/img/iot/lora.png" alt="">
 		</div>
 		<!-- Function 2 -->
 		<div class="lns-func">
-			<img src="/img/lns/zigbee.png" alt="">
+			<img src="/img/iot/zigbee.png" alt="">
 		</div>
 		<!-- Function 3 -->
 		<div class="lns-func">
-			<img src="/img/lns/zwave.png" alt="">
+			<img src="/img/iot/zwave.png" alt="">
 		</div>
 	</div>
 	
@@ -43,21 +42,21 @@
 
 	<div class="card-group mx-auto">
 	  <div class="card border-0">
-	    <img class="card-img-top" src="/img/lns/cost.png" alt="Card image cap">
+	    <img class="card-img-top" src="/img/iot/cost.png" alt="Card image cap">
 	    <div class="card-body">
 	      <h4 class="card-title">Low Cost</h4>
 	      <p class="card-text">Because its on public frequency, there is no data cast. Powered by battery which last for 1 to 2 years so minimum power required therefore power supply related work/cost saved.</p>
 	    </div>
 	  </div>
 	  <div class="card border-0">
-	    <img class="card-img-top" src="/img/lns/deploy.png" alt="Card image cap">
+	    <img class="card-img-top" src="/img/iot/deploy.png" alt="Card image cap">
 	    <div class="card-body">
 	      <h4 class="card-title">Easy to Deploy</h4>
 	      <p class="card-text">Installation is very simple, registered electrician can easily handle the job within couple of weeks for the size of a Five star hotel.</p>
 	    </div>
 	  </div>
 	  <div class="card border-0">
-	    <img class="card-img-top" src="/img/lns/use.png" alt="Card image cap">
+	    <img class="card-img-top" src="/img/iot/use.png" alt="Card image cap">
 	    <div class="card-body">
 	      <h4 class="card-title">Simple to Use</h4>
 	      <p class="card-text">User friendly interface, also customizable according to client request, management terminal can be a laptop, desktop or mobile phone. We also open API to serve your database.</p>
@@ -70,7 +69,7 @@
 			<div class="prod-wrapper">
 				<div class="image-wrapper">
 					<div class="prod-image">
-						<img src="/img/lns/product_01.png" alt="">
+						<img src="/img/iot/product_01.png" alt="">
 					</div>
 				</div>
 				<div class="prod-info-wrapper">
@@ -127,7 +126,7 @@
 			<div class="prod-wrapper">
 				<div class="image-wrapper">
 					<div class="prod-image">
-						<img src="/img/lns/product_02.png" alt="">
+						<img src="/img/iot/product_02.png" alt="">
 					</div>
 				</div>
 				<div class="prod-info-wrapper">

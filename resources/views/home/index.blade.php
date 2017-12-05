@@ -76,8 +76,9 @@
 </section>
 
 {{-- products area HTML --}}
-<div id="vision-wrapper">
-    <h3>To integrate SMART solutions for in-room services by using quality products with innovative technology</h3>
+
+<div class="products-wrapper row mx-auto">
+    
 </div>
 
 {{-- SystemIntegration area HTML --}}
@@ -89,8 +90,12 @@
     </div>
 </div>
 
-<div class="custom-wrapper row mx-auto">
-    
+<div id="mission-wrapper">
+    <div id="mission-content-wrapper">
+        <h1>Our Mission</h1>
+        <p>To integrate SMART solutions for in-room services by using quality products with innovative technology</p>
+        <button type="button" class="btn btn-outline-primary btn-lg" onclick="window.location.href='/about-us'" id="mission-btn">Know more about us</button>
+    </div>
 </div>
 
 {{-- Wireframe Interaction Module area HTML --}}

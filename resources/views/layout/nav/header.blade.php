@@ -30,14 +30,14 @@
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 				         	<a class="dropdown-item" href="/solutions/system-integration">System Integration</a>
 				        	<a class="dropdown-item" href="/solutions/dms">Device Management System</a>
-				        	<a class="dropdown-item" href="/solutions/lns">IoT</a>
+				        	<a class="dropdown-item" href="/solutions/iot">Internet of Things</a>
 				        </div>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="/about-us">About Us</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/contact">Contact Us</a>
+						<a class="nav-link" href="/contact-us">Contact Us</a>
 					</li>
 				</ul>
 			</div>

@@ -29,7 +29,6 @@
         <img src="/img/room-ctrl/room-ctrl-main-light-open.png" id="icon-main-light-click-after-img" class="icon-click-after-img" style="display: none;">
         <img src="/img/room-ctrl/room-ctrl-office-light-open.png" id="icon-office-light-click-after-img" class="icon-click-after-img" style="display: none;">
 
-        <img src="/img/room-ctrl/logo.png" alt="" id="room-ctrl-logo">
         <img src="/img/room-ctrl/phone.png" alt="" id="room-ctrl-phone">
 
         {{-- light control  phone container --}}
@@ -77,8 +76,34 @@
 </section>
 
 {{-- products area HTML --}}
-<div id="vision-wrapper">
 
+<div class="products-wrapper row mx-auto">
+    <div class="card-deck">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title text-center">Walkie Talkie</h4>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="text-center"><a href="">了解更多 ></a></p>
+            </div>
+            <img class="card-img-bottom" src="/img/home/walkie-talkie.png" alt="Card image cap">
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title text-center">Wireless Charger</h4>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="text-center"><a href="">了解更多 ></a></p>
+            </div>
+            <img class="card-img-bottom" src="/img/home/wireless-charger.png" alt="Card image cap">
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title text-center">Room Control Unit</h4>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="text-center"><a href="">了解更多 ></a></p>
+            </div>
+            <img class="card-img-bottom" src="/img/home/room-control-unit.png" alt="Card image cap">
+        </div>
+    </div>
 </div>
 
 {{-- SystemIntegration area HTML --}}
@@ -86,12 +111,16 @@
     <div id="sip-intro">
         <h1>System Integration</h1>
         <p>Our exclusive solution includes combinations of smart devices, apps, backend system, database and etc, it is customizable to match each customers' unique requirements. </p>
-        <button type="button" class="btn btn-outline-light btn-lg" onclick="window.location.href='/solutions/system-integration'">Learn More</button>
+        <button type="button" class="btn btn-outline-light btn-lg" onclick="window.location.href='/solutions/system-integration'" id="si-btn">Learn More</button>
     </div>
 </div>
 
-<div class="custom-wrapper row mx-auto">
-    
+<div id="mission-wrapper">
+    <div id="mission-content-wrapper">
+        <h1>Our Mission</h1>
+        <p>To integrate SMART solutions for in-room services by using quality products with innovative technology</p>
+        <button type="button" class="btn btn-outline-primary btn-lg" onclick="window.location.href='/about-us'" id="mission-btn">Know more about us</button>
+    </div>
 </div>
 
 {{-- Wireframe Interaction Module area HTML --}}
@@ -119,7 +148,7 @@
 <div class="client-wrapper">
     <h1>Our Clients</h1>
     <div class="client-showcase">
-        <table class="table borderless">
+        <table class="client-table">
             <tbody>
                 <tr>
                     <td>

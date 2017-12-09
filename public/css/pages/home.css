@@ -48,14 +48,6 @@
 }
 /* Interactive model public style end */
 
-
-
-#vision-wrapper {
-    height: 480px;
-    text-align: center;
-    background-color: blue;
-}
-
 #sip-particles {
     position: relative;
 }
@@ -92,50 +84,47 @@
     padding-top: 15px;
 }
 
-.btn {
+#si-btn {
     margin-top: 25px;
 }
 
-.btn:hover {
+#si-btn:hover {
     color: DeepSkyBlue;
     cursor: pointer;
 }
 
-.custom-wrapper {
-    height: 650px;
+#mission-wrapper {
     width: 100%;
-    background-color: #000;
+    height: 480px;
 }
 
-.video-wrapper {
-    width: 100%;
-    height: auto;
-    background-color: #fff;
-    margin-bottom: 100px;
-    position: relative;
+#mission-content-wrapper {
+    width: 35%;
+    height: 100%;
+    padding-top: 120px;
     text-align: center;
+    margin: 0 auto;
 }
 
-#zero-bg-video {
-    width: 100%;
-    height: auto;
-    background-size: cover;
-    z-index: 0;
-    opacity: 0.8;
-}
-
-.text-overlay {
-    position: absolute;
-    width: 100%;
-    top: 45%;
-    left: 0;
-    font-size: 3.0rem;
-    color: #fff;
-    text-shadow: 1px 1px #000;
-}
-
-.text-overlay p {
+#mission-content-wrapper h1 {
+    font-size: 3.2rem;
+    padding-bottom: 25px;
     font-family: 'Titillium Web', sans-serif;
+}
+
+#mission-content-wrapper p {
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+}
+
+.products-wrapper {
+    height: 650px;
+    width: 85%;
+    margin: 100px 0;
+}
+
+.card-body a {
+    text-align: center;
 }
 
 .client-wrapper {
@@ -152,11 +141,13 @@
     margin-bottom: 100px;
 }
 
-.client-showcase .table {
+.client-showcase .client-table {
     margin: auto;
     width: 50% !important;
 }
 
-.table td {
+.client-table td {
     text-align: center;
+    border: 0;
+    padding: 25px;
 }

@@ -33,10 +33,13 @@ Route::get('/products/smart-room-controller', 'PagesController@smartRoomControll
 // Router for Solutions
 Route::get('/solutions/system-integration', 'PagesController@sysIntegration');
 Route::get('/solutions/dms', 'PagesController@dms');
-Route::get('/solutions/lns', 'PagesController@lns');
+Route::get('/solutions/iot', 'PagesController@iot');
+
+// Route for About Us
+Route::get('/about-us', 'PagesController@about');
 
 // Route for Contact Us
-Route::get('/contact', 'PagesController@contact');
+Route::get('/contact-us', 'PagesController@contact');
 
 // Route for seed message in Contact Us page
 Route::any('/contact/save','SeedMessage@store');

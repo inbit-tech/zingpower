@@ -119,8 +119,8 @@
 
 .products-wrapper {
     height: 650px;
-    width: 100%;
-    background-color: #000;
+    width: 85%;
+    margin: 100px 0;
 }
 
 .client-wrapper {

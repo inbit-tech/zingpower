@@ -123,6 +123,10 @@
     margin: 100px 0;
 }
 
+.card-body a {
+    text-align: center;
+}
+
 .client-wrapper {
     text-align: center;
 }

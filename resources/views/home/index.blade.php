@@ -80,25 +80,28 @@
 <div class="products-wrapper row mx-auto">
     <div class="card-deck">
         <div class="card">
-            <img class="card-img-top" src="..." alt="Card image cap">
             <div class="card-body">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title text-center">Walkie Talkie</h4>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="text-center"><a href="">了解更多 ></a></p>
             </div>
+            <img class="card-img-bottom" src="..." alt="Card image cap">
         </div>
         <div class="card">
-            <img class="card-img-top" src="..." alt="Card image cap">
             <div class="card-body">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title text-center">Wireless Charger</h4>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="text-center"><a href="">了解更多 ></a></p>
             </div>
+            <img class="card-img-bottom" src="..." alt="Card image cap">
         </div>
         <div class="card">
-            <img class="card-img-top" src="..." alt="Card image cap">
             <div class="card-body">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title text-center">Room Control Unit</h4>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="text-center"><a href="">了解更多 ></a></p>
             </div>
+            <img class="card-img-bottom" src="..." alt="Card image cap">
         </div>
     </div>
 </div>

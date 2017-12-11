@@ -2,20 +2,20 @@
  * @Author: vayne
  * @Date:   2017-11-24 16:56:17
  * @Last Modified by:   vayne
- * @Last Modified time: 2017-12-12 01:36:08
+ * @Last Modified time: 2017-12-12 02:22:47
  */
 
 // room-ctrl-init-btn event
 // room-ctrl-init-btn hover event
-$('#room-ctrl-init-btn').hover(function(){
-    $(this).attr('src','/img/room-ctrl/room-ctrl-init-btn-hover.png');
-},function(){
-    $(this).attr('src','/img/room-ctrl/room-ctrl-init-btn.png');
+$('#room-ctrl-init-btn').hover(function() {
+    $(this).attr('src', '/img/room-ctrl/room-ctrl-init-btn-hover.png');
+}, function() {
+    $(this).attr('src', '/img/room-ctrl/room-ctrl-init-btn.png');
 })
 // room-ctrl-init-btn click event
 $('#room-ctrl-init-btn').click(function() {
     $(this).remove();
-    $('#room-ctrl-phone-original-container').css('display','');
+    $('#room-ctrl-phone-original-container').css('display', '');
     $('#room-ctrl-phone-original-container').addClass('animated fadeInUp');
 });
 
@@ -29,18 +29,24 @@ $('#room-ctrl-phone-original-container').hover(function() {
 
 // Click on the finger, inter hotel-services and room-services phone container
 $('#room-ctrl-icon-finger').click(function() {
-    $('#room-ctrl-original-img').attr("src","/img/room-ctrl/monochrome.jpg")
+    $('#room-ctrl-original-img').addClass('grayscale');
     $('#room-ctrl-phone-container-hotel-ser').css("display", "");
     $('#room-ctrl-phone-original-container').css("display", "none");
+    $('#room-ctrl-phone-container-room-ctrl').css("display", "none");
+    $('#room-ctrl-phone-container-light-ctrl').css("display", "none");
 
     // hover and click switch button event
-    $('#room-ctrl-phone-ctrl-open-btn').hover(function(){
-        $(this).attr("src","/img/room-ctrl/phone/phone-ctrl-open-btn.png");
-    },function(){
-        $(this).attr("src","/img/room-ctrl/phone/phone-ctrl-close-btn.png");
+    $('#room-ctrl-phone-ctrl-open-btn').hover(function() {
+        $(this).attr("src", "/img/room-ctrl/phone/phone-ctrl-close-btn.png");
+    }, function() {
+        $(this).attr("src", "/img/room-ctrl/phone/phone-ctrl-open-btn.png");
     });
-    $('#room-ctrl-phone-ctrl-open-btn').click(function(){
-        // code complete
+    $('#room-ctrl-phone-ctrl-open-btn').click(function() {
+        $('#room-ctrl-original-img').removeClass('grayscale');
+        $('#room-ctrl-phone-container-room-ctrl').css("display", "none");
+        $('#room-ctrl-phone-container-light-ctrl').css("display", "none");
+        $('#room-ctrl-phone-container-hotel-ser').css('display', 'none');
+        $('#room-ctrl-phone-original-container').css('display', '');
     })
 
     // HOTEL SERVICES
@@ -54,11 +60,11 @@ $('#room-ctrl-icon-finger').click(function() {
     var hotelCount = 0;
     $('#room-ctrl-phone-ctrl-hotel-ser').click(function() {
         hotelCount++;
-        if (hotelCount % 2 ==0) {
+        if (hotelCount % 2 == 0) {
             $('#room-ctrl-hotel-ser').removeClass('hotel-ser-fadeInLeft');
             $('#room-ctrl-hotel-ser').addClass('hotel-ser-fadeOutLeft');
         } else {
-            $('#room-ctrl-hotel-ser').css('display','');
+            $('#room-ctrl-hotel-ser').css('display', '');
             $('#room-ctrl-hotel-ser').removeClass('hotel-ser-fadeOutLeft');
             $('#room-ctrl-hotel-ser').addClass('hotel-ser-fadeInLeft');
         }
@@ -86,6 +92,7 @@ $('#room-ctrl-icon-finger').click(function() {
 $('#room-ctrl-icon-callback').click(function() {
     $('#room-ctrl-phone-container-hotel-ser').css("display", "");
     $('#room-ctrl-phone-container-light-ctrl').css("display", "none");
+    $('#room-ctrl-phone-container-room-ctrl').css("display", "none");
 })
 // icon-air hover event
 $('#phone-room-ctrl-icon-air').hover(function() {

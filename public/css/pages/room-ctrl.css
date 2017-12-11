@@ -5,6 +5,14 @@
     position: relative;
 }
 
+.grayscale {
+    filter: grayscale(1);
+    transition: filter 2s ease;
+}
+.opacity{
+    filter: opacity(100);
+    transition: filter 2s ease;
+}
 #room-ctrl-original-img {
     width: 100%;
     position: relative;
@@ -75,6 +83,7 @@
 
 
 
+
 /* click icon-finger after phone container */
 
 #room-ctrl-phone-container-hotel-ser {
@@ -132,6 +141,7 @@
 
 
 
+
 /* click room services after phone container */
 
 #room-ctrl-phone-container-room-ctrl {
@@ -165,6 +175,7 @@
     position: absolute;
     top: 30%;
 }
+
 
 
 
@@ -209,6 +220,7 @@
     top: 0;
     left: 0;
 }
+
 
 
 
@@ -284,6 +296,7 @@
     top: 65%;
     right: 20%;
 }
+
 
 
 

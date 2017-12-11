@@ -69,7 +69,7 @@
             <img src="/img/room-ctrl/phone/phone-ctrl-icon-gray.png" alt="" id="room-ctrl-phone-ctrl-option">
             <img src="/img/room-ctrl/phone/phone-ctrl-hotel-ser-origin.png" alt="" id="room-ctrl-phone-ctrl-hotel-ser">
             <img src="/img/room-ctrl/phone/phone-ctrl-room-ser-origin.png" alt="" id="room-ctrl-phone-ctrl-room-ser">
-            <img src="/img/room-ctrl/phone/phone-ctrl-close-btn.png" alt="" id="room-ctrl-phone-ctrl-open-btn">
+            <img src="/img/room-ctrl/phone/phone-ctrl-open-btn.png" alt="" id="room-ctrl-phone-ctrl-open-btn">
         </div> 
 
         {{-- original phone container --}}

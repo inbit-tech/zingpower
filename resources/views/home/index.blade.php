@@ -24,15 +24,15 @@
         <img src="/img/room-ctrl/room-ctrl-tv-light.png" id="icon-tv-click-after-img" class="icon-click-after-img opacity0">
         <img src="/img/room-ctrl/room-ctrl-curtain-open.png" id="icon-curtain-click-after-img" class="icon-click-after-img opacity0">
 
-        <img src="/img/room-ctrl/room-ctrl-init-btn.png" alt="" id="room-ctrl-init-btn">
+        
 
         {{-- dinning car --}}
         <img src="/img/room-ctrl/room-ctrl-hotel-ser.png" alt="" id="room-ctrl-hotel-ser" style="display: none">
 
         {{-- in light-control phone container click each icon after this change corresponding img display --}}
-        <img src="/img/room-ctrl/room-ctrl-bed-light-open.png" id="icon-bed-light-click-after-img" class="icon-click-after-img" style="display: none;">
-        <img src="/img/room-ctrl/room-ctrl-main-light-open.png" id="icon-main-light-click-after-img" class="icon-click-after-img" style="display: none;">
-        <img src="/img/room-ctrl/room-ctrl-office-light-open.png" id="icon-office-light-click-after-img" class="icon-click-after-img" style="display: none;">
+        <img src="/img/room-ctrl/room-ctrl-bed-light-open.png" id="icon-bed-light-click-after-img" class="icon-click-after-img opacity0">
+        <img src="/img/room-ctrl/room-ctrl-main-light-open.png" id="icon-main-light-click-after-img" class="icon-click-after-img opacity0">
+        <img src="/img/room-ctrl/room-ctrl-office-light-open.png" id="icon-office-light-click-after-img" class="icon-click-after-img opacity0">
 
 
 
@@ -80,6 +80,8 @@
             <img src="/img/room-ctrl/icon-finger.png" alt="" id="room-ctrl-icon-finger">
             <p id="room-ctrl-tip-text">click to control the room</p> 
         </div>
+
+        <img src="/img/room-ctrl/room-ctrl-init-btn.png" alt="" id="room-ctrl-init-btn">
     </div>
 </section>
 

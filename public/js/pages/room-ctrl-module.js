@@ -2,7 +2,7 @@
  * @Author: vayne
  * @Date:   2017-11-24 16:56:17
  * @Last Modified by:   vayne
- * @Last Modified time: 2017-12-12 02:42:59
+ * @Last Modified time: 2017-12-12 02:59:08
  */
 
 // room-ctrl-init-btn event
@@ -185,8 +185,16 @@ $('#bed-light').hover(function() {
     $(this).attr("src", "img/room-ctrl/phone/light-ctrl/bed-light.png");
 });
 // icon-bed-light click event
+var icon_bed_light = 0;
 $('#bed-light').click(function() {
-    $('#icon-bed-light-click-after-img').toggle();
+        icon_bed_light++;
+        if (icon_bed_light % 2 == 0) {
+            $('#icon-bed-light-click-after-img').removeClass('opacity100');
+            $('#icon-bed-light-click-after-img').addClass('opacity0');
+        } else {
+            $('#icon-bed-light-click-after-img').addClass('opacity100');
+            $('#icon-bed-light-click-after-img').removeClass('opacity0');
+        }
 });
 
 // icon-main-light hover event
@@ -196,8 +204,16 @@ $('#main-light').hover(function() {
     $(this).attr("src", "img/room-ctrl/phone/light-ctrl/main-light.png");
 });
 // icon-main-light click event
+var icon_main_light = 0;
 $('#main-light').click(function() {
-    $('#icon-main-light-click-after-img').toggle();
+        icon_main_light++;
+        if (icon_main_light % 2 == 0) {
+            $('#icon-main-light-click-after-img').removeClass('opacity100');
+            $('#icon-main-light-click-after-img').addClass('opacity0');
+        } else {
+            $('#icon-main-light-click-after-img').addClass('opacity100');
+            $('#icon-main-light-click-after-img').removeClass('opacity0');
+        }
 });
 
 // icon-office-light hover event
@@ -207,6 +223,16 @@ $('#office-light').hover(function() {
     $(this).attr("src", "img/room-ctrl/phone/light-ctrl/office-light.png");
 });
 // icon-office-light click event
+var icon_office_light = 0;
 $('#office-light').click(function() {
-    $('#icon-office-light-click-after-img').toggle();
+        icon_office_light++;
+        if (icon_office_light % 2 == 0) {
+            $('#office-light').attr("src", "img/room-ctrl/phone/light-ctrl/office-light.png");
+            $('#icon-office-light-click-after-img').removeClass('opacity100');
+            $('#icon-office-light-click-after-img').addClass('opacity0');
+        } else {
+            $('#office-light').attr("src", "img/room-ctrl/phone/light-ctrl/office-light-after.png");
+            $('#icon-office-light-click-after-img').addClass('opacity100');
+            $('#icon-office-light-click-after-img').removeClass('opacity0');
+        }
 });

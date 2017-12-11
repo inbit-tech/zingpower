@@ -2,7 +2,7 @@
  * @Author: vayne
  * @Date:   2017-11-24 16:56:17
  * @Last Modified by:   vayne
- * @Last Modified time: 2017-12-11 23:42:49
+ * @Last Modified time: 2017-12-12 00:43:58
  */
 
 // Move the mouse, zoom in and out, and change the transparency of the ring
@@ -37,9 +37,17 @@ $('#room-ctrl-icon-finger').click(function() {
         $(this).attr("src", "/img/room-ctrl/phone/phone-ctrl-hotel-ser-origin.png");
     })
     // HOTEL SERVICES click event
+    var hotelCount = 0;
     $('#room-ctrl-phone-ctrl-hotel-ser').click(function() {
-        $('#room-ctrl-hotel-ser').addClass('hotel-ser');
-        $('#room-ctrl-hotel-ser').toggle();
+        hotelCount++;
+        if (hotelCount % 2 ==0) {
+            $('#room-ctrl-hotel-ser').removeClass('hotel-ser-fadeInLeft');
+            $('#room-ctrl-hotel-ser').addClass('hotel-ser-fadeOutLeft');
+        } else {
+            $('#room-ctrl-hotel-ser').css('display','');
+            $('#room-ctrl-hotel-ser').removeClass('hotel-ser-fadeOutLeft');
+            $('#room-ctrl-hotel-ser').addClass('hotel-ser-fadeInLeft');
+        }
     });
 
     // ROOM SERVICES

@@ -18,6 +18,7 @@
 <section id="cover-wrapper" class="d-flex justify-content-center">
     <div class="room-ctrl-container">
         <img src="/img/room-ctrl/original.jpg" alt="" id="room-ctrl-original-img">
+        <img src="/img/room-ctrl/room-ctrl-init-btn.png" alt="" id="room-ctrl-init-btn">
 
         {{--  in room-control phone container click each icon after this change corresponding img display --}}
         <img src="/img/room-ctrl/room-ctrl-air-wind.png" id="icon-air-click-after-img" class="icon-click-after-img" style="display: none;">
@@ -32,10 +33,11 @@
         <img src="/img/room-ctrl/room-ctrl-main-light-open.png" id="icon-main-light-click-after-img" class="icon-click-after-img" style="display: none;">
         <img src="/img/room-ctrl/room-ctrl-office-light-open.png" id="icon-office-light-click-after-img" class="icon-click-after-img" style="display: none;">
 
-        <img src="/img/room-ctrl/phone.png" alt="" id="room-ctrl-phone">
+
 
         {{-- light control  phone container --}}
         <div id="room-ctrl-phone-container-light-ctrl" style="display: none;">
+            <img src="/img/room-ctrl/phone.png" alt="" id="room-ctrl-phone">
             <img src="/img/room-ctrl/phone/phone-bg.png" alt="" id="room-ctrl-phone-bg">
             <img src="img/room-ctrl/phone/light-ctrl/callback.png" alt="" id="light-ctrl-icon-callback">
             <p id="light-ctrl-text">LIGHT CONTROL</p>
@@ -49,6 +51,7 @@
 
         {{-- room control  phone container --}}
         <div id="room-ctrl-phone-container-room-ctrl" style="display: none;">
+            <img src="/img/room-ctrl/phone.png" alt="" id="room-ctrl-phone">
             <img src="/img/room-ctrl/phone/phone-bg.png" alt="" id="room-ctrl-phone-bg">
             <img src="img/room-ctrl/phone/light-ctrl/callback.png" alt="" id="room-ctrl-icon-callback">
             <p id="room-ser-text">ROOM CONTROL</p>
@@ -61,6 +64,7 @@
 
         {{-- hotel-services and room-services phone container --}}
         <div id="room-ctrl-phone-container-hotel-ser" style="display: none;">
+            <img src="/img/room-ctrl/phone.png" alt="" id="room-ctrl-phone">
             <img src="/img/room-ctrl/phone/phone-bg.png" alt="" id="room-ctrl-phone-bg">
             <img src="/img/room-ctrl/phone/phone-ctrl-icon-gray.png" alt="" id="room-ctrl-phone-ctrl-option">
             <img src="/img/room-ctrl/phone/phone-ctrl-hotel-ser-origin.png" alt="" id="room-ctrl-phone-ctrl-hotel-ser">
@@ -69,10 +73,11 @@
         </div> 
 
         {{-- original phone container --}}
-        <div id="room-ctrl-phone-original-container" style="display:">
+        <div id="room-ctrl-phone-original-container" style="display: none;">
+            <img src="/img/room-ctrl/phone.png" alt="" id="room-ctrl-phone"> 
             <img src="/img/room-ctrl/rolling.png" alt="" id="room-ctrl-rolling" class="opacity-20">
             <img src="/img/room-ctrl/icon-finger.png" alt="" id="room-ctrl-icon-finger">
-            <p id="room-ctrl-tip-text">click to control the room</p>            
+            <p id="room-ctrl-tip-text">click to control the room</p> 
         </div>
     </div>
 </section>

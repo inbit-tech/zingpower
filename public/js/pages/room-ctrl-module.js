@@ -2,8 +2,22 @@
  * @Author: vayne
  * @Date:   2017-11-24 16:56:17
  * @Last Modified by:   vayne
- * @Last Modified time: 2017-12-12 01:05:18
+ * @Last Modified time: 2017-12-12 01:36:08
  */
+
+// room-ctrl-init-btn event
+// room-ctrl-init-btn hover event
+$('#room-ctrl-init-btn').hover(function(){
+    $(this).attr('src','/img/room-ctrl/room-ctrl-init-btn-hover.png');
+},function(){
+    $(this).attr('src','/img/room-ctrl/room-ctrl-init-btn.png');
+})
+// room-ctrl-init-btn click event
+$('#room-ctrl-init-btn').click(function() {
+    $(this).remove();
+    $('#room-ctrl-phone-original-container').css('display','');
+    $('#room-ctrl-phone-original-container').addClass('animated fadeInUp');
+});
 
 // Move the mouse, zoom in and out, and change the transparency of the ring
 $('#room-ctrl-phone-original-container').hover(function() {

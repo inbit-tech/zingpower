@@ -5,17 +5,35 @@
     position: relative;
 }
 
+.grayscale {
+    filter: grayscale(1);
+    transition: filter 1s ease;
+}
+.opacity0{
+    filter: opacity(0);
+    transition: filter 1s ease;
+}
+.opacity100{
+    filter: opacity(100);
+    transition: filter 1s ease;
+}
 #room-ctrl-original-img {
     width: 100%;
     position: relative;
 }
 
-#room-ctrl-phone {
-    width: 20%;
-    height: 65%;
+#room-ctrl-init-btn {
+    width: 50%;
     position: absolute;
-    right: 5%;
-    bottom: 2%;
+    top: 32%;
+    left: 27%;
+}
+
+#room-ctrl-phone {
+    width: 98%;
+    position: absolute;
+    right: 2%;
+    bottom: -1%;
 }
 
 #room-ctrl-phone-original-container {
@@ -64,6 +82,12 @@
     filter: gray;
 }
 
+
+
+
+
+
+
 /* click icon-finger after phone container */
 
 #room-ctrl-phone-container-hotel-ser {
@@ -110,10 +134,17 @@
 }
 
 #room-ctrl-hotel-ser {
+    width: 23%;
     position: absolute;
-    bottom: 30%;
-    right: 260%;
+    bottom: 20%;
+    right: 57%;
 }
+
+
+
+
+
+
 
 /* click room services after phone container */
 
@@ -148,6 +179,12 @@
     position: absolute;
     top: 30%;
 }
+
+
+
+
+
+
 
 /* 
     Each icon's css behind is click this icon after appear img's css
@@ -187,6 +224,12 @@
     top: 0;
     left: 0;
 }
+
+
+
+
+
+
 
 /* click light control after phone container  */
 
@@ -258,4 +301,58 @@
     right: 20%;
 }
 
+
+
+
+
+
+
 /* Room Controller Interactive Module end
+
+/* 
+    Animation
+*/
+
+@keyframes hotel-ser-fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+    50% {
+        opacity: 0.25;
+        transform: translate3d(-50%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.hotel-ser-fadeInLeft {
+    animation-name: hotel-ser-fadeInLeft;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes hotel-ser-fadeOutLeft {
+    from {
+        opacity: 1;
+        transform: none;
+    }
+    50% {
+        opacity: 0.25;
+        transform: translate3d(-50%, 0, 0);
+    }
+    to {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+.hotel-ser-fadeOutLeft {
+    animation-name: hotel-ser-fadeOutLeft;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}

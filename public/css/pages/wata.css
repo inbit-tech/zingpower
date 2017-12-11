@@ -1,0 +1,63 @@
+#cover-wrapper {
+    height: 100%;
+}
+
+#cover-wrapper div.cover-image {
+    background-image: url('/img/wata/tk1000_bg1.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+p.cover-text {
+    color: #000;
+    font-size: 4.0rem;
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 8%;
+    padding-left: 8%;
+}
+
+#wata-wrapper {
+    margin: 100px 0;
+    font-size: 1.3rem;
+}
+
+div.walkie-talkie {
+    width: 70%;
+    text-align: center;
+}
+
+.wata-bg-wrapper {
+    height: 680px;
+    margin-bottom: 120px;
+}
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+div.wata-bg-1 {
+    background-image: url('/img/wata/tk1000_bg2.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 85%;
+}
+
+div.wata-bg-2 {
+    background-image: url('/img/wata/tk1000_lb_bg.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 85%;
+}
+
+div.wata-bg-3 {
+    background-image: url('/img/wata/tk1000_cradle_bg.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 85%;
+    margin-top: 85px;
+}

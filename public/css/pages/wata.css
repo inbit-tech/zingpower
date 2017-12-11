@@ -1,90 +1,63 @@
-/*
-* @Author: vayne
-* @Date:   2017-10-27 11:55:38
-* @Last Modified by:   vayne
-* @Last Modified time: 2017-11-05 00:18:59
-*/
-
-@media (max-width: 575px) {
-    .width-50 {
-        width: 100%;
-    }
-    .Walkie-Talkie {
-        font-family: NotoSans;
-        font-size: 2.5rem;
-        font-weight: bold;
-        font-style: italic;
-        text-align: center;
-        color: #ffffff;
-    }
-    .Radios {
-        font-family: OpenSans;
-        font-size: 1rem;
-        font-weight: 800;
-        font-style: italic;
-        text-align: justify;
-        color: #9b9b9b;
-    }
-    .Accessories {
-        font-family: OpenSans;
-        font-size: 1rem;
-        font-weight: 800;
-        font-style: italic;
-        text-align: justify;
-        color: #9b9b9b;
-    }
-    .-Way-Radios {
-        font-family: OpenSans;
-        font-size: 1rem;
-        font-weight: 800;
-        font-style: italic;
-        text-align: justify;
-        color: #9b9b9b;
-    }
+#cover-wrapper {
+    height: 100%;
 }
 
-@media (min-width: 1224px) {
-    .width-50 {
-        width: 50%;
-    }
-    .img-fluid {
-        max-width: 100%;
-        height: 100vh;
-    }
-    .img_slide{
-        max-width: 100%;
-        height: 500px;
-    }
-    .Walkie-Talkie {
-        font-family: NotoSans;
-        font-size: 4.5rem;
-        font-weight: bold;
-        font-style: italic;
-        text-align: center;
-        color: #ffffff;
-    }
-    .Radios {
-        font-family: OpenSans;
-        font-size: 2.25rem;
-        font-weight: 800;
-        font-style: italic;
-        text-align: justify;
-        color: #9b9b9b;
-    }
-    .Accessories {
-        font-family: OpenSans;
-        font-size: 2.25rem;
-        font-weight: 800;
-        font-style: italic;
-        text-align: justify;
-        color: #9b9b9b;
-    }
-    .-Way-Radios {
-        font-family: OpenSans;
-        font-size: 2.25rem;
-        font-weight: 800;
-        font-style: italic;
-        text-align: justify;
-        color: #9b9b9b;
-    }
+#cover-wrapper div.cover-image {
+    background-image: url('/img/wata/tk1000_bg1.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+p.cover-text {
+    color: #000;
+    font-size: 4.0rem;
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 8%;
+    padding-left: 8%;
+}
+
+#wata-wrapper {
+    margin: 100px 0;
+    font-size: 1.3rem;
+}
+
+div.walkie-talkie {
+    width: 70%;
+    text-align: center;
+}
+
+.wata-bg-wrapper {
+    height: 680px;
+    margin-bottom: 120px;
+}
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+div.wata-bg-1 {
+    background-image: url('/img/wata/tk1000_bg2.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 85%;
+}
+
+div.wata-bg-2 {
+    background-image: url('/img/wata/tk1000_lb_bg.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 85%;
+}
+
+div.wata-bg-3 {
+    background-image: url('/img/wata/tk1000_cradle_bg.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 85%;
+    margin-top: 85px;
 }

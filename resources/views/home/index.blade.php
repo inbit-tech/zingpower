@@ -24,6 +24,9 @@
         <img src="/img/room-ctrl/room-ctrl-tv-light.png" id="icon-tv-click-after-img" class="icon-click-after-img" style="display: none;">
         <img src="/img/room-ctrl/room-ctrl-curtain-open.png" id="icon-curtain-click-after-img" class="icon-click-after-img" style="display: none;">
 
+        {{-- dinning car --}}
+        <img src="/img/room-ctrl/room-ctrl-hotel-ser.png" alt="" id="room-ctrl-hotel-ser" style="display: none">
+
         {{-- in light-control phone container click each icon after this change corresponding img display --}}
         <img src="/img/room-ctrl/room-ctrl-bed-light-open.png" id="icon-bed-light-click-after-img" class="icon-click-after-img" style="display: none;">
         <img src="/img/room-ctrl/room-ctrl-main-light-open.png" id="icon-main-light-click-after-img" class="icon-click-after-img" style="display: none;">
@@ -63,7 +66,6 @@
             <img src="/img/room-ctrl/phone/phone-ctrl-hotel-ser-origin.png" alt="" id="room-ctrl-phone-ctrl-hotel-ser">
             <img src="/img/room-ctrl/phone/phone-ctrl-room-ser-origin.png" alt="" id="room-ctrl-phone-ctrl-room-ser">
             <img src="/img/room-ctrl/phone/phone-ctrl-close-btn.png" alt="" id="room-ctrl-phone-ctrl-open-btn">
-            <img src="/img/room-ctrl/room-ctrl-hotel-ser.png" alt="" id="room-ctrl-hotel-ser" style="display: none">
         </div> 
 
         {{-- original phone container --}}

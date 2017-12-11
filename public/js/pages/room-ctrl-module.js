@@ -2,7 +2,7 @@
  * @Author: vayne
  * @Date:   2017-11-24 16:56:17
  * @Last Modified by:   vayne
- * @Last Modified time: 2017-12-12 00:43:58
+ * @Last Modified time: 2017-12-12 01:05:18
  */
 
 // Move the mouse, zoom in and out, and change the transparency of the ring
@@ -72,13 +72,6 @@ $('#room-ctrl-icon-finger').click(function() {
 $('#room-ctrl-icon-callback').click(function() {
     $('#room-ctrl-phone-container-hotel-ser').css("display", "");
     $('#room-ctrl-phone-container-light-ctrl').css("display", "none");
-    // when click room-ctrl-icon-callback ,
-    // that init hotel-services and room-services phone container
-    $('#room-ctrl-hotel-ser').css("display", "none");
-    $('#icon-air-click-after-img').css("display", "none");
-    $('#icon-tv-click-after-img').css("display", "none");
-    $('#icon-curtain-click-after-img').css("display", "none");
-
 })
 // icon-air hover event
 $('#phone-room-ctrl-icon-air').hover(function() {
@@ -135,11 +128,6 @@ $('#phone-room-ctrl-icon-light').click(function() {
 $('#light-ctrl-icon-callback').click(function() {
     $('#room-ctrl-phone-container-room-ctrl').css("display", "");
     $('#room-ctrl-phone-container-light-ctrl').css("display", "none");
-    // when click light-ctrl-icon-callback ,
-    // that init room control  phone container
-    $('#icon-bed-light-click-after-img').css("display", "none");
-    $('#icon-main-light-click-after-img').css("display", "none");
-    $('#icon-office-light-click-after-img').css("display", "none");
 })
 
 // icon-bed-light hover event

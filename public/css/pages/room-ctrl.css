@@ -113,10 +113,10 @@
 }
 
 #room-ctrl-hotel-ser {
-    width: 100%;
+    width: 23%;
     position: absolute;
-    bottom: 30%;
-    right: 270%;
+    bottom: 20%;
+    right: 57%;
 }
 
 
@@ -299,6 +299,7 @@
     animation-name: hotel-ser-fadeInLeft;
     animation-duration: 1s;
     animation-timing-function: linear;
+    animation-direction:alternate;
 }
 
 @keyframes hotel-ser-fadeOutLeft {

@@ -7,11 +7,15 @@
 
 .grayscale {
     filter: grayscale(1);
-    transition: filter 2s ease;
+    transition: filter 1s ease;
 }
-.opacity{
+.opacity0{
+    filter: opacity(0);
+    transition: filter 1s ease;
+}
+.opacity100{
     filter: opacity(100);
-    transition: filter 2s ease;
+    transition: filter 1s ease;
 }
 #room-ctrl-original-img {
     width: 100%;

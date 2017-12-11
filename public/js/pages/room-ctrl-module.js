@@ -2,7 +2,7 @@
  * @Author: vayne
  * @Date:   2017-11-24 16:56:17
  * @Last Modified by:   vayne
- * @Last Modified time: 2017-12-12 02:22:47
+ * @Last Modified time: 2017-12-12 02:42:59
  */
 
 // room-ctrl-init-btn event
@@ -29,7 +29,7 @@ $('#room-ctrl-phone-original-container').hover(function() {
 
 // Click on the finger, inter hotel-services and room-services phone container
 $('#room-ctrl-icon-finger').click(function() {
-    $('#room-ctrl-original-img').addClass('grayscale');
+    $('#room-ctrl-original-img').attr('src','/img/room-ctrl/monochrome.jpg');
     $('#room-ctrl-phone-container-hotel-ser').css("display", "");
     $('#room-ctrl-phone-original-container').css("display", "none");
     $('#room-ctrl-phone-container-room-ctrl').css("display", "none");
@@ -101,8 +101,17 @@ $('#phone-room-ctrl-icon-air').hover(function() {
     $(this).attr('src', "/img/room-ctrl/phone/phone-room-ctrl-icon-air.png");
 })
 // click icon-air event
+var icon_air = 0;
 $('#phone-room-ctrl-icon-air').click(function() {
-    $('#icon-air-click-after-img').toggle();
+        icon_air++;
+        if (icon_air % 2 == 0) {
+            $('#icon-air-click-after-img').removeClass('opacity100');
+            $('#icon-air-click-after-img').addClass('opacity0');
+        } else {
+            $('#icon-air-click-after-img').css('display', '');
+            $('#icon-air-click-after-img').addClass('opacity100');
+            $('#icon-air-click-after-img').removeClass('opacity0');
+        }
 })
 
 // icon-tv hover event
@@ -112,8 +121,17 @@ $('#phone-room-ctrl-icon-tv').hover(function() {
     $(this).attr('src', "/img/room-ctrl/phone/phone-room-ctrl-icon-tv.png");
 })
 // click icon-tv event
+var icon_tv = 0
 $('#phone-room-ctrl-icon-tv').click(function() {
-    $('#icon-tv-click-after-img').toggle();
+        icon_tv++;
+        if (icon_tv % 2 == 0) {
+            $('#icon-tv-click-after-img').removeClass('opacity100');
+            $('#icon-tv-click-after-img').addClass('opacity0');
+        } else {
+            $('#icon-tv-click-after-img').css('display', '');
+            $('#icon-tv-click-after-img').addClass('opacity100');
+            $('#icon-tv-click-after-img').removeClass('opacity0');
+        }
 })
 
 // icon-curtain hover event
@@ -123,8 +141,17 @@ $('#phone-room-ctrl-icon-curtain').hover(function() {
     $(this).attr('src', "/img/room-ctrl/phone/phone-room-ctrl-icon-curtain.png");
 })
 // click icon-curtain event
+var icon_curtain = 0
 $('#phone-room-ctrl-icon-curtain').click(function() {
-    $('#icon-curtain-click-after-img').toggle();
+        icon_curtain++;
+        if (icon_curtain % 2 == 0) {
+            $('#icon-curtain-click-after-img').removeClass('opacity100');
+            $('#icon-curtain-click-after-img').addClass('opacity0');
+        } else {
+            $('#icon-curtain-click-after-img').css('display', '');
+            $('#icon-curtain-click-after-img').addClass('opacity100');
+            $('#icon-curtain-click-after-img').removeClass('opacity0');
+        }
 })
 
 // icon-light hover event

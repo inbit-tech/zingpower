@@ -18,12 +18,13 @@
 <section id="cover-wrapper" class="d-flex justify-content-center">
     <div class="room-ctrl-container">
         <img src="/img/room-ctrl/original.jpg" alt="" id="room-ctrl-original-img">
-        <img src="/img/room-ctrl/room-ctrl-init-btn.png" alt="" id="room-ctrl-init-btn">
-
+        
         {{--  in room-control phone container click each icon after this change corresponding img display --}}
-        <img src="/img/room-ctrl/room-ctrl-air-wind.png" id="icon-air-click-after-img" class="icon-click-after-img" style="display: none;">
-        <img src="/img/room-ctrl/room-ctrl-tv-light.png" id="icon-tv-click-after-img" class="icon-click-after-img" style="display: none;">
-        <img src="/img/room-ctrl/room-ctrl-curtain-open.png" id="icon-curtain-click-after-img" class="icon-click-after-img" style="display: none;">
+        <img src="/img/room-ctrl/room-ctrl-air-wind.png" id="icon-air-click-after-img" class="icon-click-after-img opacity0">
+        <img src="/img/room-ctrl/room-ctrl-tv-light.png" id="icon-tv-click-after-img" class="icon-click-after-img opacity0">
+        <img src="/img/room-ctrl/room-ctrl-curtain-open.png" id="icon-curtain-click-after-img" class="icon-click-after-img opacity0">
+
+        <img src="/img/room-ctrl/room-ctrl-init-btn.png" alt="" id="room-ctrl-init-btn">
 
         {{-- dinning car --}}
         <img src="/img/room-ctrl/room-ctrl-hotel-ser.png" alt="" id="room-ctrl-hotel-ser" style="display: none">

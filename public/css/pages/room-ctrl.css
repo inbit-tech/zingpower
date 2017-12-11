@@ -64,6 +64,7 @@
     filter: gray;
 }
 
+
 /* click icon-finger after phone container */
 
 #room-ctrl-phone-container-hotel-ser {
@@ -110,10 +111,12 @@
 }
 
 #room-ctrl-hotel-ser {
+    width: 100%;
     position: absolute;
     bottom: 30%;
-    right: 260%;
+    right: 270%;
 }
+
 
 /* click room services after phone container */
 
@@ -148,6 +151,7 @@
     position: absolute;
     top: 30%;
 }
+
 
 /* 
     Each icon's css behind is click this icon after appear img's css
@@ -187,6 +191,7 @@
     top: 0;
     left: 0;
 }
+
 
 /* click light control after phone container  */
 
@@ -258,4 +263,30 @@
     right: 20%;
 }
 
+
 /* Room Controller Interactive Module end
+
+/* 
+    Animation
+*/
+
+@keyframes hotel-ser {
+    from {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+    50%{
+        opacity: 0.25;
+        transform: translate3d(-50%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.hotel-ser {
+    animation-name: hotel-ser;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}

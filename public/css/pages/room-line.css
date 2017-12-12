@@ -2,7 +2,7 @@
 * @Author: vayne
 * @Date:   2017-11-28 12:00:00
 * @Last Modified by:   vayne
-* @Last Modified time: 2017-11-30 15:04:19
+* @Last Modified time: 2017-12-12 14:00:00
 */
 
 
@@ -103,6 +103,13 @@
     left: 40%;
 }
 
+#init-house {
+    width: 5%;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
 
 
 /* picture fade animation */
@@ -124,6 +131,7 @@
         opacity: 0;
     }
 }
+
 .img-fade {
     animation-name: img-fade;
     animation-duration: 2s;
@@ -133,7 +141,9 @@
 }
 
 
+
 /* picture appear animation */
+
 @keyframes img-appear {
     from {
         opacity: 0;
@@ -151,6 +161,7 @@
         opacity: 1;
     }
 }
+
 .img-appear {
     animation-name: img-appear;
     animation-duration: 2s;
@@ -159,7 +170,9 @@
 }
 
 
+
 /* two button animation */
+
 @keyframes red-button-appear {
     from {
         opacity: 0;
@@ -172,6 +185,7 @@
         z-index: 100;
     }
 }
+
 .red-button-appear {
     animation-name: red-button-appear;
     animation-duration: 2s;
@@ -192,6 +206,7 @@
         z-index: 100;
     }
 }
+
 .green-button-appear {
     animation-name: green-button-appear;
     animation-duration: 2s;
@@ -221,6 +236,7 @@
         z-index: 100;
     }
 }
+
 .green-button-alone-appear {
     animation-name: green-button-alone-appear;
     animation-duration: 2s;
@@ -250,6 +266,7 @@
         z-index: 100;
     }
 }
+
 .red-button-alone-appear {
     animation-name: red-button-alone-appear;
     animation-duration: 2s;
@@ -275,6 +292,7 @@
         opacity: 1;
     }
 }
+
 .roomline-appear {
     animation-name: roomline-appear;
     animation-duration: 0.5s;
@@ -300,6 +318,7 @@
         opacity: 0;
     }
 }
+
 .roomline-fade {
     animation-name: roomline-fade;
     animation-duration: 0.5s;

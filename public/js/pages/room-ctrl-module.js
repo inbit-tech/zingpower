@@ -2,7 +2,7 @@
  * @Author: vayne
  * @Date:   2017-11-24 16:56:17
  * @Last Modified by:   vayne
- * @Last Modified time: 2017-12-12 14:09:54
+ * @Last Modified time: 2017-12-12 14:41:58
  */
 
 // room-ctrl-init-btn event
@@ -14,7 +14,7 @@ $('#room-ctrl-init-btn').hover(function() {
 })
 // room-ctrl-init-btn click event
 $('#room-ctrl-init-btn').click(function() {
-    $('#room-ctrl-init-btn').removeClass('opacity0');
+    $('#room-ctrl-init-btn').removeClass('opacity100');
     $('#room-ctrl-init-btn').addClass('opacity0');
     $('#room-ctrl-phone-container-hotel-ser').css('display', '');
     $('#room-ctrl-phone-container-hotel-ser').addClass('animated fadeInUp');

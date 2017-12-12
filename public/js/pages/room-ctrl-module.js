@@ -2,7 +2,7 @@
  * @Author: vayne
  * @Date:   2017-11-24 16:56:17
  * @Last Modified by:   vayne
- * @Last Modified time: 2017-12-12 14:41:58
+ * @Last Modified time: 2017-12-12 14:51:18
  */
 
 // room-ctrl-init-btn event
@@ -37,7 +37,7 @@ $('#room-ctrl-phone-ctrl-open-btn').click(function() {
     $('#room-ctrl-phone-container-room-ctrl').css("display", "none");
     $('#room-ctrl-phone-container-light-ctrl').css("display", "none");
     $('#room-ctrl-phone-container-hotel-ser').css('display', 'none');
-    $('#room-ctrl-hotel-ser').css('display', 'none');
+    $('#room-ctrl-hotel-ser').addClass('opacity0');
     $('#room-ctrl-original-img').attr('src', '/img/room-ctrl/original.jpg');
     $('#room-ctrl-init-btn').removeClass('opacity0');
     $('#room-ctrl-init-btn').addClass('opacity100');

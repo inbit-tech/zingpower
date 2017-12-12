@@ -27,7 +27,7 @@
         
 
         {{-- dinning car --}}
-        <img src="/img/room-ctrl/room-ctrl-hotel-ser.png" alt="" id="room-ctrl-hotel-ser" style="display: none">
+        <img src="/img/room-ctrl/room-ctrl-hotel-ser.png" alt="" id="room-ctrl-hotel-ser" class="opacity0">
 
         {{-- in light-control phone container click each icon after this change corresponding img display --}}
         <img src="/img/room-ctrl/room-ctrl-bed-light-open.png" id="icon-bed-light-click-after-img" class="icon-click-after-img opacity0">
@@ -72,14 +72,6 @@
             <img src="/img/room-ctrl/phone/phone-ctrl-room-ser-origin.png" alt="" id="room-ctrl-phone-ctrl-room-ser">
             <img src="/img/room-ctrl/phone/phone-ctrl-open-btn.png" alt="" id="room-ctrl-phone-ctrl-open-btn">
         </div> 
-
-        {{-- original phone container --}}
-        <div id="room-ctrl-phone-original-container" style="display: none;">
-            <img src="/img/room-ctrl/phone.png" alt="" id="room-ctrl-phone"> 
-            <img src="/img/room-ctrl/rolling.png" alt="" id="room-ctrl-rolling" class="opacity-20">
-            <img src="/img/room-ctrl/icon-finger.png" alt="" id="room-ctrl-icon-finger">
-            <p id="room-ctrl-tip-text">click to control the room</p> 
-        </div>
 
         <img src="/img/room-ctrl/room-ctrl-init-btn.png" alt="" id="room-ctrl-init-btn">
     </div>
@@ -141,16 +133,17 @@
         <img src="/img/homepage/room-button-green.png"" alt="" id="room-button-green">
         <img src="/img/homepage/room-line.png" alt="" id="room-line">
         <img src="/img/homepage/room-scenograph.jpg" alt="" id="room-scenograph">
-        <img src="/img/homepage/room.jpg" alt="" id="room">
+        <img src="/img/homepage/room.jpg" alt="" id="room" class="opacity100">
         <div class="rolling-container">
+            <img src="/img/homepage/icons8-visible.png" alt="" id="room-icon-eye">
             <canvas id="room-icon-circular" width="220" height="220" class="opacity-80">
             您的浏览器不支持。
             </canvas>
-            <img src="/img/homepage/icons8-visible.png" alt="" id="room-icon-eye">
             <p class="room-text">see inside</p>   
         </div>
         <img src="/img/homepage/room-button-red.png" alt="" id="room-button-red-alone" class="opacity-0">
         <img src="/img/homepage/room-button-green.png" alt="" id="room-button-green-alone" class="opacity-0">
+        {{-- <img src="/img/homepage/init-house.png" alt="" id="init-house" class="opacity0"> --}}
     </div>
 </div>
 

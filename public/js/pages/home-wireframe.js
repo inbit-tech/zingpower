@@ -8,16 +8,19 @@ cxt.lineWidth = '3'
 cxt.stroke();
 cxt.closePath();
 
-// icon-eye animation
+// when mouse inter circular，trigger icon-eye animation, room image fade and scenograph image appear 
 $('#room-icon-circular').hover(function() {
     $('#room-icon-eye').addClass('animated pulse');
-    $('#room-icon-circular').removeClass('opacity-80');
     $('#room').removeClass('opacity100');
     $('#room').addClass('opacity0');
+    $('#room-scenograph').removeClass('opacity0');
+    $('#room-scenograph').addClass('opacity100');
 }, function() {
     $('#room-icon-eye').removeClass('animated pulse');
     $('#room').removeClass('opacity0');
     $('#room').addClass('opacity100');
+    $('#room-scenograph').removeClass('opacity100')
+    $('#room-scenograph').addClass('opacity0');
 });
 
 
@@ -28,12 +31,14 @@ $('#room-icon-eye').click(function() {
     $('#room-icon-circular').detach();
     $('#room-icon-eye').detach();
     $('.room-text').detach();
-    $('#room-scenograph').addClass('opacity0');
-    $('#room-line').addClass('opacity0');
+    $('#room-line-helf').removeClass('opacity0');
     $('#room-line-helf').addClass('opacity100');
+    $('#room-button-red').removeClass('opacity0');
     $('#room-button-red').addClass('red-button-appear');
+    $('#room-button-red').addClass('opacity100');
+    $('#room-button-green').removeClass('opacity0');
     $('#room-button-green').addClass('green-button-appear');
-    $('#init-house').addClass('opacity0 z-index-11');
+    $('#room-button-green').addClass('opacity100');
 })
 
 
@@ -56,71 +61,102 @@ $('#room-button-green').hover(function() {
 // click '普通方案' button then switch pictures
 $('#room-button-red').click(function() {
     $('#init-house').removeClass('opacity0');
-    $('#init-house').addClass('opacity100 animated pulse');
+    $('#init-house').addClass('opacity100 animated pulse z-index-10');
+    // in '普通方案' click init-house view layer callback secound view layer
     $('#init-house').click(function(){
-        // code
+        // make third view layer back init state
+        $('#room-scenograph').removeClass('opacity100');
+        $('#room-scenograph').addClass('opacity0');
+        $('#room-line').removeClass('opacity100 z-index-9');
+        $('#room-line').addClass('opacity0');
+        $(this).removeClass('opacity100 animated pulse z-index-10');
+        $(this).addClass('opacity0');
+        $('#room-button-green-alone').removeClass('opacity100 animated pulse z-index-10');
+        $('#room-button-green-alone').addClass('opacity0');
+        $('#room-button-red-alone').removeClass('opacity100 animated pulse z-index-10');
+        $('#room-button-red-alone').addClass('opacity0');
+        // make secound view layer appear
+        $('#room-line-helf').removeClass('opacity0');
+        $('#room-line-helf').addClass('opacity100');
+        $('#room-button-red').removeClass('opacity0');
+        $('#room-button-red').addClass('opacity100 z-index-10 red-button-appear');
+        $('#room-button-green').removeClass('opacity0');
+        $('#room-button-green').addClass('opacity100 z-index-10 green-button-appear');
     });
-    $('#room-button-red').removeClass('animated pulse');
-    $('#room-button-red').addClass('img-fade');
-    $('#room-line-helf').addClass('img-fade');
+    // third view layer -> green-button-alone appear ,room-line and room-scenograph appear
+    $('#room-button-red').removeClass('opacity100 z-index-10');
+    $('#room-button-red').addClass('opacity0');
+    $('#room-button-green').removeClass('opacity100 z-index-10 green-button-appear');
+    $('#room-button-green').addClass('opacity0');
+    $('#room-line-helf').removeClass('opacity100');
+    $('#room-line-helf').addClass('opacity0');
     $('#room-scenograph').removeClass('opacity0');
     $('#room-scenograph').addClass('opacity100');
-    $('#room-line').addClass('opacity0 z-index-9');
-    // remove previous animation
-    $('#room-button-green').removeClass('green-button-appear')
-    // add  fade animation
-    $('#room-button-green').addClass('img-fade animated pulse');
+    $('#room-line').removeClass('opacity0')
+    $('#room-line').addClass('opacity100 z-index-9');
 });
-// move mouse ,singe button appear
+
+// move mouse ,button-green-alone appear
 $('#room-line').hover(function(){
-    $('#room-button-green-alone').removeClass('opacity-0');
-    $('#room-button-green-alone').addClass('animated pulse z-index-10');
+    $('#room-button-green-alone').removeClass('opacity0');
+    $('#room-button-green-alone').addClass('opacity100 animated pulse z-index-10');
 });
+
 // mousedown animation
 $('#room-button-green-alone').mousedown(function(){
-    $('#room-line').removeClass('opcaity0');
-    $('#room-line').addClass('opacity100');
-}).mouseup(function() {
     $('#room-line').removeClass('opacity100');
-    $('#room-line').addClass('opcaity0');
+    $('#room-line').addClass('opacity0');
+}).mouseup(function() {
+    $('#room-line').removeClass('opacity0');
+    $('#room-line').addClass('opacity100');
 });
 
 
 // click 'zingpower' button then switch pictures
 $('#room-button-green').click(function() {
     $('#init-house').removeClass('opacity0');
-    $('#init-house').addClass('opacity100 animated pulse');
+    $('#init-house').addClass('opacity100 animated pulse z-index-10');
     $('#init-house').click(function(){
-        $('#room').removeClass('opacity100');
-        $('#room').addClass('opacity0');
+        // make third view layer back init state
+        $('#room-scenograph').removeClass('opacity100 z-index-9');
         $('#room-scenograph').addClass('opacity0');
-        $('#room-button-red').addClass('red-button-appear');
-        $('#room-button-green').addClass('green-button-appear');
+        $(this).removeClass('opacity100 animated pulse z-index-10');
         $(this).addClass('opacity0');
+        $('#room-button-red-alone').removeClass('opacity100 animated pulse z-index-10');
+        $('#room-button-red-alone').addClass('opacity0');
+        $('#room-button-green-alone').removeClass('opacity100 animated pulse z-index-10');
+        $('#room-button-green-alone').addClass('opacity0');
+        // make secound view layer appear
+        $('#room-line-helf').removeClass('opacity0');
+        $('#room-line-helf').addClass('opacity100');
+        $('#room-button-red').removeClass('opacity0');
+        $('#room-button-red').addClass('opacity100 z-index-10 red-button-appear');
+        $('#room-button-green').removeClass('opacity0');
+        $('#room-button-green').addClass('opacity100 z-index-10 green-button-appear');
     })
-    $('#room-button-red').removeClass('animated pulse red-button-appear');
-    $('#room-button-red').addClass('opcaity0');
-    $('#room-line-helf').addClass('img-fade');
+    // third view layer -> room-scenograph appear
+    $('#room-button-red').removeClass('opacity100 z-index-10 red-button-appear');
+    $('#room-button-red').addClass('opacity0');
+    $('#room-button-green').removeClass('opacity100 z-index-10');
+    $('#room-button-green').addClass('opacity0');
+    $('#room-line-helf').removeClass('opacity100');
+    $('#room-line-helf').addClass('opacity0');
     $('#room-scenograph').removeClass('opacity0');
     $('#room-scenograph').addClass('opacity100 z-index-9');
-    $('#room-line').addClass('img-fade');
-    // remove previous animation
-    $('#room-button-green').removeClass('green-button-appear')
-    // add  fade animation
-    $('#room-button-green').addClass('img-fade');
+    $('#room-button-red-alone').removeClass('z-index-11');
 });
-// move mouse ,singe button appear
+
+// move mouse ,button-red-alone appear
 $('#room-scenograph').hover(function(){
-    $('#room-button-red-alone').removeClass('opacity-0');
-    $('#room-button-red-alone').addClass('animated pulse z-index-11');
-    // unbind "$('#room-line').hover" 
-    // $('#room-line').unbind(mouseenter).unbind(mouseleave);
+    $('#room-button-red-alone').removeClass('opacity0');
+    $('#room-button-red-alone').addClass('opacity100 animated pulse z-index-10');
 });
+
 // mousedown animation
 $('#room-button-red-alone').mousedown(function(){
-    $('#room-line').removeClass('img-fade opacity100 roomline-fade');
-    $('#room-line').addClass('opacity100 z-index-11');
+    $('#room-line').removeClass('opacity0');
+    $('#room-line').addClass('opacity100 z-index-10');
 }).mouseup(function() {
-    $('#room-line').removeClass('roomline-appear z-index-11');
-    $('#room-line').addClass('roomline-fade');
+    $('#room-line').removeClass('opacity100 z-index-10');
+    $('#room-line').addClass('opacity0');
 });

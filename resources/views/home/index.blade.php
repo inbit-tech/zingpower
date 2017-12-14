@@ -128,22 +128,29 @@
 {{-- Wireframe Interaction Module area HTML --}}
 <div class="zing-scheme d-flex justify-content-center">
     <div class="room-container">
-        <img src="/img/homepage/room-line-helf.png" alt="" id="room-line-helf">
-        <img src="/img/homepage/room-button-red.png"" alt="" id="room-button-red">
-        <img src="/img/homepage/room-button-green.png"" alt="" id="room-button-green">
-        <img src="/img/homepage/room-line.png" alt="" id="room-line">
-        <img src="/img/homepage/room-scenograph.jpg" alt="" id="room-scenograph">
+
+        {{-- third view layer include  room-scenograph image and line image init-house icon two button --}}
+        <img src="/img/homepage/room-scenograph.jpg" alt="" id="room-scenograph" class="opacity0">
+        <img src="/img/homepage/room-line.png" alt="" id="room-line" class="opacity0">
+        <img src="/img/homepage/init-house.png" alt="" id="init-house" class="opacity0">
+        <img src="/img/homepage/room-button-red.png" alt="" id="room-button-red-alone" class="opacity0">
+        <img src="/img/homepage/room-button-green.png" alt="" id="room-button-green-alone" class="opacity0">
+
+        {{-- secound view layer include room-line-helf image and two button --}}
+        <img src="/img/homepage/room-line-helf.png" alt="" id="room-line-helf" class="opacity0">
+        <img src="/img/homepage/room-button-red.png"" alt="" id="room-button-red" class="opacity0">
+        <img src="/img/homepage/room-button-green.png"" alt="" id="room-button-green" class="opacity0">
+
+        {{-- original view layer include room image and rolling-container --}}
         <img src="/img/homepage/room.jpg" alt="" id="room" class="opacity100">
         <div class="rolling-container">
             <img src="/img/homepage/icons8-visible.png" alt="" id="room-icon-eye">
-            <canvas id="room-icon-circular" width="220" height="220" class="opacity-80">
+            <canvas id="room-icon-circular" width="220" height="220">
             您的浏览器不支持。
             </canvas>
             <p class="room-text">see inside</p>   
         </div>
-        <img src="/img/homepage/room-button-red.png" alt="" id="room-button-red-alone" class="opacity-0">
-        <img src="/img/homepage/room-button-green.png" alt="" id="room-button-green-alone" class="opacity-0">
-        {{-- <img src="/img/homepage/init-house.png" alt="" id="init-house" class="opacity0"> --}}
+        
     </div>
 </div>
 

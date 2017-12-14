@@ -2,7 +2,7 @@
 * @Author: vayne
 * @Date:   2017-11-28 12:00:00
 * @Last Modified by:   vayne
-* @Last Modified time: 2017-12-12 14:00:00
+* @Last Modified time: 2017-12-14 11:40:01
 */
 
 
@@ -111,66 +111,6 @@
 }
 
 
-
-/* picture fade animation */
-
-@keyframes img-fade {
-    from {
-        opacity: 1;
-    }
-    25% {
-        opacity: 0.75;
-    }
-    50% {
-        opacity: 0.5;
-    }
-    75% {
-        opacity: 0.25;
-    }
-    to {
-        opacity: 0;
-    }
-}
-
-.img-fade {
-    animation-name: img-fade;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-}
-
-
-
-/* picture appear animation */
-
-@keyframes img-appear {
-    from {
-        opacity: 0;
-    }
-    25% {
-        opacity: 0.25;
-    }
-    50% {
-        opacity: 0.5;
-    }
-    75% {
-        opacity: 0.75;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.img-appear {
-    animation-name: img-appear;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-}
-
-
-
 /* two button animation */
 
 @keyframes red-button-appear {
@@ -270,58 +210,6 @@
 .red-button-alone-appear {
     animation-name: red-button-alone-appear;
     animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-}
-
-
-@keyframes roomline-appear {
-    from {
-        opacity: 0;
-    }
-    25% {
-        opacity: 0.25;
-    }
-    50% {
-        opacity: 0.5;
-    }
-    75% {
-        opacity: 0.75;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.roomline-appear {
-    animation-name: roomline-appear;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-}
-
-
-@keyframes roomline-fade {
-    from {
-        opacity: 1;
-    }
-    25% {
-        opacity: 0.75;
-    }
-    50% {
-        opacity: 0.5;
-    }
-    75% {
-        opacity: 0.25;
-    }
-    to {
-        opacity: 0;
-    }
-}
-
-.roomline-fade {
-    animation-name: roomline-fade;
-    animation-duration: 0.5s;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 }

@@ -10,3 +10,9 @@
     background-size: cover;
     text-align: center;
 }
+
+#content-wrapper {
+    width: 65%;
+    margin: 6% auto;
+
+}

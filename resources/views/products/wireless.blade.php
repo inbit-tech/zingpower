@@ -14,10 +14,34 @@
 {{-- Cover Section --}}
 <section id="cover-wrapper">
     <div class="cover-image">
-        <p class="cover-text">Wireless Charger</p>
     </div>
 </section>
 
 {{-- Content Section --}}
-
+<section id="content-wrapper">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#5w" role="tab" aria-controls="home" aria-selected="true">5W</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#10w" role="tab" aria-controls="profile" aria-selected="false">10W</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#15w" role="tab" aria-controls="contact" aria-selected="false">15W</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#15wc" role="tab" aria-controls="contact" aria-selected="false">15W Car Charger</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#15wmc" role="tab" aria-controls="contact" aria-selected="false">15W Magnetic Car Charger</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="5w" role="tabpanel" aria-labelledby="home-tab">5W Content</div>
+        <div class="tab-pane fade" id="10w" role="tabpanel" aria-labelledby="profile-tab">10W Content</div>
+        <div class="tab-pane fade" id="15w" role="tabpanel" aria-labelledby="contact-tab">15W Content</div>
+        <div class="tab-pane fade" id="15wc" role="tabpanel" aria-labelledby="contact-tab">15WC Content</div>
+        <div class="tab-pane fade" id="15wmc" role="tabpanel" aria-labelledby="contact-tab">15WMC Content</div>
+    </div>
+</section>
 @endsection

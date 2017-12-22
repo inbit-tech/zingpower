@@ -24,8 +24,6 @@
         <img src="/img/room-ctrl/room-ctrl-tv-light.png" id="icon-tv-click-after-img" class="icon-click-after-img opacity0">
         <img src="/img/room-ctrl/room-ctrl-curtain-open.png" id="icon-curtain-click-after-img" class="icon-click-after-img opacity0">
 
-        
-
         {{-- dinning car --}}
         <img src="/img/room-ctrl/room-ctrl-hotel-ser.png" alt="" id="room-ctrl-hotel-ser" class="opacity0">
 
@@ -33,8 +31,6 @@
         <img src="/img/room-ctrl/room-ctrl-bed-light-open.png" id="icon-bed-light-click-after-img" class="icon-click-after-img opacity0">
         <img src="/img/room-ctrl/room-ctrl-main-light-open.png" id="icon-main-light-click-after-img" class="icon-click-after-img opacity0">
         <img src="/img/room-ctrl/room-ctrl-office-light-open.png" id="icon-office-light-click-after-img" class="icon-click-after-img opacity0">
-
-
 
         {{-- light control  phone container --}}
         <div id="room-ctrl-phone-container-light-ctrl" style="display: none;">

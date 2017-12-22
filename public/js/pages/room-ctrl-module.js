@@ -12,6 +12,7 @@ $('#room-ctrl-init-btn').hover(function() {
 }, function() {
     $(this).attr('src', '/img/room-ctrl/room-ctrl-init-btn.png');
 })
+
 // room-ctrl-init-btn click event
 $('#room-ctrl-init-btn').click(function() {
     $('#room-ctrl-init-btn').removeClass('opacity100');

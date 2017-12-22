@@ -1,18 +1,21 @@
 #cover-wrapper {
-    height: 100%;
+  height: 100%;
 }
 
 #cover-wrapper div.cover-image {
-    background-image: url('/img/wireless/cover.jpg');
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    text-align: center;
+  background-image: url('/img/wireless/cover.jpg');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
 }
 
 #content-wrapper {
-    width: 65%;
-    margin: 6% auto;
+  width: 65%;
+  margin: 6% auto;
+}
 
+#myTabContent {
+	margin-top: 3%;
 }

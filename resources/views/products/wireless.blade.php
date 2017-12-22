@@ -21,19 +21,19 @@
 <section id="content-wrapper">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item">
-        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#5w" role="tab" aria-controls="home" aria-selected="true">5W</a>
+        <a class="nav-link active" id="5w-tab" data-toggle="tab" href="#5w" role="tab" aria-controls="5w" aria-selected="true">5W Standard</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#10w" role="tab" aria-controls="profile" aria-selected="false">10W</a>
+        <a class="nav-link" id="10w-tab" data-toggle="tab" href="#10w" role="tab" aria-controls="10w" aria-selected="false">10W Standard</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#15w" role="tab" aria-controls="contact" aria-selected="false">15W</a>
+        <a class="nav-link" id="15w-tab" data-toggle="tab" href="#15w" role="tab" aria-controls="15w" aria-selected="false">15W Standard</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#15wc" role="tab" aria-controls="contact" aria-selected="false">15W Car Charger</a>
+        <a class="nav-link" id="15wc-tab" data-toggle="tab" href="#15wc" role="tab" aria-controls="15wc" aria-selected="false">15W Car Charger</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#15wmc" role="tab" aria-controls="contact" aria-selected="false">15W Magnetic Car Charger</a>
+        <a class="nav-link" id="15wmc-tab" data-toggle="tab" href="#15wmc" role="tab" aria-controls="15wmc" aria-selected="false">15W Magnetic Car Charger</a>
         </li>
     </ul>
     <div class="tab-content" id="myTabContent">

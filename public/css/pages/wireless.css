@@ -12,10 +12,18 @@
 }
 
 #content-wrapper {
-  width: 65%;
-  margin: 6% auto;
+  width: 68%;
+  margin: 5% auto;
 }
 
 #myTabContent {
 	margin-top: 3%;
+}
+
+.device-img img {
+	width: 100%;
+}
+
+.device-info ul li {
+	font-size: .9rem;
 }

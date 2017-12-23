@@ -15,7 +15,7 @@
 <section id="cover-wrapper">
     <section id="cover-wrapper">
         <div class="cover-image">
-            <p class="cover-text">Smart Room Controller</p>
+            <p class="cover-text">Make Your Space Alive</p>
         </div>
     </section>
 </section>
@@ -24,7 +24,9 @@
 <section id="content-wrapper">
     {{-- Intro text section --}}
     <div class="intro-wrapper mx-auto">
-        
+        <p class="src-content">
+            Smart Room Controller is a new complex product based on ZigBee / SmartRoom technology. It is mainly used to control the electronic appliances. Except for manual operation, users can also control the curtain, air conditioner, TV and light by our Smart room controller. It can be widely used in smart hotel, hospital, building, breeding, home, etc.
+        </p>
     </div>
 
     {{-- DMS section --}}
@@ -107,7 +109,28 @@
 
     {{-- Function List --}}
     <div class="func-wrapper mx-auto">
-        
+        <div class="card-deck">
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">Based on ZigBee/SmartRoom Technology</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">Mobile Terminals Anytime and Anywhere</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">Zero Wiring with Convenient Installation</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">Manipulation is Simple and Flexible</p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 @endsection

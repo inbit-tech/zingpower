@@ -13,6 +13,15 @@
 @section ('content')
 {{-- Cover Section --}}
 <section id="cover-wrapper">
+    <section id="cover-wrapper">
+        <div class="cover-image">
+            <p class="cover-text">Smart Space</p>
+        </div>
+    </section>
+</section>
+
+{{-- Content Section --}}
+<section id="content-wrapper">
     <div class="dms-wrapper row mx-auto">
         <img class="dms-device" src="/img/sru/dms_default.png" id="dms-bg" alt="" />
         <div class="dms-device-intro">

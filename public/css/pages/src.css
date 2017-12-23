@@ -1,4 +1,25 @@
 #cover-wrapper {
+    height: 100%;
+}
+
+#cover-wrapper div.cover-image {
+    background-image: url('');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+p.cover-text {
+    color: #fff;
+    font-size: 4.0rem;
+    text-shadow: 1px 1px #000;
+    padding-top: 380px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#content-wrapper {
     margin: 15% auto;
 }
 

@@ -15,7 +15,7 @@
 <section id="cover-wrapper">
     <section id="cover-wrapper">
         <div class="cover-image">
-            <p class="cover-text">Smart Space</p>
+            <p class="cover-text">Smart Room Controller</p>
         </div>
     </section>
 </section>

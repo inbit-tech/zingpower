@@ -20,7 +20,7 @@
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 				        	<a class="dropdown-item" href="/products/walkie-talkie">Walkie Talkie</a>
 				        	<a class="dropdown-item" href="/products/wirelss-charger">Wireless Charger</a>
-				        	<a class="dropdown-item" href="/products/smart-room-controller">Room Control Unit</a>
+				        	<a class="dropdown-item" href="/products/smart-room-controller">Smart Room Controller</a>
 				        </div>
 					</li>
 					<li class="nav-item dropdown">

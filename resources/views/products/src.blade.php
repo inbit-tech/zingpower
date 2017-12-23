@@ -22,6 +22,12 @@
 
 {{-- Content Section --}}
 <section id="content-wrapper">
+    {{-- Intro text section --}}
+    <div class="intro-wrapper mx-auto">
+        
+    </div>
+
+    {{-- DMS section --}}
     <div class="dms-wrapper row mx-auto">
         <img class="dms-device" src="/img/sru/dms_default.png" id="dms-bg" alt="" />
         <div class="dms-device-intro">
@@ -97,6 +103,11 @@
                 </tbody>
             </table>
         </div>
+    </div>
+
+    {{-- Function List --}}
+    <div class="func-wrapper mx-auto">
+        
     </div>
 </section>
 @endsection

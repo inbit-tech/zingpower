@@ -54,7 +54,7 @@ html, body {
 /* Style adjustment for footer section */
 nav#footer-wrapper {
     position: relative;
-    height: 350px;
+    height: 280px;
     margin-top: 60px;
     text-align: center;
 }
@@ -68,6 +68,7 @@ nav#footer-wrapper .footer h4 {
     font-size: 1.0rem;
     padding-bottom: 15px;
     text-transform: uppercase;
+    color: #fff;
 }
 
 nav#footer-wrapper .footer ul {
@@ -81,11 +82,11 @@ nav#footer-wrapper .footer ul li {
 
 nav#footer-wrapper .footer ul li a {
     text-decoration: none;
-    color: #636b6f;
+    color: #fff;
 }
 
 nav#footer-wrapper .footer ul li a:hover {
-    color: #000;
+    color: #696969;
 }
 
 div.follow-us {
@@ -98,18 +99,6 @@ div.follow-us a {
 
 div.follow-us img {
     padding-left: 8px;
-}
-
-div#copyright {
-    position: absolute;
-    width:100%;
-    height: 50px;
-    bottom: 0;
-    font-size: .8rem;
-}
-
-div#copyright p {
-    padding-top: 15px;
 }
 
 /* footer-component */

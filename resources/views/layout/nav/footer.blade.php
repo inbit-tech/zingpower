@@ -1,4 +1,4 @@
-<nav class="navbar sticky-bottom navbar-light bg-light d-flex flex-column align-items-center" id="footer-wrapper">
+<nav class="navbar sticky-bottom navbar-light bg-dark d-flex flex-column align-items-center" id="footer-wrapper">
     <div class="footer">
         <div class="row">
             <div class="col-3 footer">
@@ -49,15 +49,12 @@
             <div class="col-3 follow-us">
                 <h4>Follow Us</h4>
                 <a href="//www.facebook.com/Zing-Power-218782381993140">
-                    <img src=" {{ asset('/img/facebook.png') }} " alt="">
+                    <img src=" {{ asset('/img/facebook-fff.png') }} " alt="">
                 </a>
                 <a href="//twitter.com/ZingPowerCo">
-                    <img src=" {{ asset('/img/twitter.png') }} " alt="">
+                    <img src=" {{ asset('/img/twitter-fff.png') }} " alt="">
                 </a>
             </div>
         </div>
-    </div>
-    <div id="copyright" class="w-100 text-center bg-secondary text-white">
-        <p>copyright &copy; 2009-2017</p>
     </div>
 </nav>

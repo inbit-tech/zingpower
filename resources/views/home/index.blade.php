@@ -116,7 +116,7 @@
 <div id="mission-wrapper">
     <div id="mission-content-wrapper">
         <h1>ZERO DOWNTIME</h1>
-        <p>Solution deployment without business interruption</p>
+        <p>ZingPower solution deployment without business interruption</p>
         <button type="button" class="btn btn-outline-primary btn-lg" onclick="window.location.href='/products/smart-room-controller'" id="mission-btn">Learn More</button>
     </div>
 </div>

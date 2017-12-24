@@ -90,6 +90,13 @@
     margin: 100px 0;
 }
 
+.card-body h4 {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: 1.8rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+
 .card-body a {
     text-align: center;
 }

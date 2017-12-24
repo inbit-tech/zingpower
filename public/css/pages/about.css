@@ -17,3 +17,57 @@ p.cover-text {
 	padding-top: 7%;
 	font-family: 'Titillium Web', sans-serif;
 }
+
+#content-wrapper {
+	text-align: center;
+	margin-top: 6%;
+	margin-bottom: 0;
+}
+
+.about-title {
+	font-size: 3.5rem;
+	font-family: 'Titillium Web', sans-serif;
+	margin: 4% auto;
+}
+
+.vision-title {
+	color: #fff;
+}
+
+.whoweare-title {
+	text-decoration: underline;
+}
+
+.whatwedo-title	{
+	text-decoration: underline;
+}
+
+.vision	{
+	height: 650px;
+	background-color: red;
+}
+
+.vision-text {
+	color: #fff;
+}
+
+.vision .vision-image {
+	height: 100%;
+	background-image: url('/img/about/about-bg-02.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.mission {
+	height: 650px;
+	background-color: blue;
+}
+
+.mission .mission-image {
+	height: 100%;
+	background-image: url('/img/about/about-bg-03.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}

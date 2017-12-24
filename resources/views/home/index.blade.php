@@ -81,7 +81,7 @@
             <div class="card-body">
                 <h4 class="card-title text-center">Walkie Talkie</h4>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="text-center"><a href="">了解更多 ></a></p>
+                <p class="text-center"><a href="">Learn More ></a></p>
             </div>
             <img class="card-img-bottom" src="/img/home/walkie-talkie.png" alt="Card image cap">
         </div>
@@ -89,7 +89,7 @@
             <div class="card-body">
                 <h4 class="card-title text-center">Wireless Charger</h4>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="text-center"><a href="">了解更多 ></a></p>
+                <p class="text-center"><a href="">Learn More ></a></p>
             </div>
             <img class="card-img-bottom" src="/img/home/wireless-charger.png" alt="Card image cap">
         </div>
@@ -97,7 +97,7 @@
             <div class="card-body">
                 <h4 class="card-title text-center">Room Control Unit</h4>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="text-center"><a href="">了解更多 ></a></p>
+                <p class="text-center"><a href="">Learn More ></a></p>
             </div>
             <img class="card-img-bottom" src="/img/home/room-control-unit.png" alt="Card image cap">
         </div>
@@ -115,9 +115,9 @@
 
 <div id="mission-wrapper">
     <div id="mission-content-wrapper">
-        <h1>Our Mission</h1>
-        <p>To integrate SMART solutions for in-room services by using quality products with innovative technology</p>
-        <button type="button" class="btn btn-outline-primary btn-lg" onclick="window.location.href='/about-us'" id="mission-btn">Know more about us</button>
+        <h1>ZERO DOWNTIME</h1>
+        <p>Solution deployment without business interruption</p>
+        <button type="button" class="btn btn-outline-primary btn-lg" onclick="window.location.href='/products/smart-room-controller'" id="mission-btn">Learn More</button>
     </div>
 </div>
 
@@ -142,9 +142,9 @@
         <div class="rolling-container">
             <img src="/img/homepage/icons8-visible.png" alt="" id="room-icon-eye">
             <canvas id="room-icon-circular" width="220" height="220">
-            您的浏览器不支持。
+            Your browser does not support technology the site implement; please consider an upgrade to modern browsers like Google Chrome or Firefox!
             </canvas>
-            <p class="room-text">see inside</p>   
+            <p class="room-text">Check In</p>   
         </div>
         
     </div>

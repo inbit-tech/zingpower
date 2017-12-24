@@ -19,7 +19,7 @@
 	</div>
 </section>
 <section id="content-wrapper">
-	<div class="whoweare">
+	<div class="whoweare mx-auto">
 		<p class="about-title whoweare-title">
 			Who We Are
 		</p>
@@ -29,16 +29,16 @@
 		</div>
 	</div>
 	<div class="vision">
-		<div class="vision-image">
+		<div class="vision-image mx-auto">
 			<p class="about-title vision-title">
 				Our Vision
 			</p>
-			<p class="vision-text">
+			<p class="vision-text mx-auto">
 				An endless possibilities where not only everyone but also everything gets connected for better style of living.
 			</p>
 		</div>
 	</div>
-	<div class="whatwedo">
+	<div class="whatwedo mx-auto">
 		<p class="about-title whatwedo-title">
 			What We Do
 		</p>

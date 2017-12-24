@@ -34,21 +34,46 @@ p.cover-text {
 	color: #fff;
 }
 
+.whoweare {
+	width: 75%;
+	font-size: 1.3rem;
+	margin-bottom: 8%;
+}
+
 .whoweare-title {
 	text-decoration: underline;
+}
+
+.whoweare-content {
+	text-align: left;
+}
+
+.whatwedo {
+	width: 75%;
+	font-size: 1.3rem;
+	margin: 8% auto;
 }
 
 .whatwedo-title	{
 	text-decoration: underline;
 }
 
+.whatwedo-content {
+	text-align: left;
+}
+
 .vision	{
 	height: 650px;
-	background-color: red;
+}
+
+.vision .vision-title {
+	padding-top: 14%;
 }
 
 .vision-text {
 	color: #fff;
+	width: 75%;
+	font-size: 1.8rem;
 }
 
 .vision .vision-image {
@@ -61,7 +86,29 @@ p.cover-text {
 
 .mission {
 	height: 650px;
-	background-color: blue;
+	margin-bottom: 0;
+	color: #72534E;
+}
+
+nav#footer-wrapper {
+    margin-top: 0;
+}
+
+.mission {
+	text-align: left;
+}
+
+.mission-title {
+	padding-top: 5%;
+	padding-left: 3%;
+	transform: rotate(-7deg);
+}
+
+.mission-text {
+	padding-left: 3%;
+	width: 75%;
+	font-size: 1.8rem;
+	transform: rotate(-7deg);
 }
 
 .mission .mission-image {

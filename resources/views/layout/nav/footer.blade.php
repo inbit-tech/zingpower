@@ -25,7 +25,7 @@
                         <a href="/solutions/dms">Device Management System</a>
                     </li>
                     <li>
-                        <a href="/solutions/iot">Zigbee Z-Wave of LoRaWan</a>
+                        <a href="/solutions/iot">Internet of Things</a>
                     </li>
                 </ul>
             </div>
@@ -36,7 +36,7 @@
                         <a href="/about-us">About Us</a>
                     </li>
                     <li>
-                        <a href="/contact">Contact Us</a>
+                        <a href="/contact-us">Contact Us</a>
                     </li>
                 </ul>
             </div>

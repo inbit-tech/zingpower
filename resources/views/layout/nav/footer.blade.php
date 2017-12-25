@@ -25,7 +25,7 @@
                         <a href="/solutions/dms">Device Management System</a>
                     </li>
                     <li>
-                        <a href="/solutions/lns">Zigbee Z-Wave of LoRaWan</a>
+                        <a href="/solutions/iot">Zigbee Z-Wave of LoRaWan</a>
                     </li>
                 </ul>
             </div>
@@ -33,13 +33,7 @@
                 <h4>Zing Power</h4>
                 <ul>
                     <li>
-                        <a href="">About Us</a>
-                    </li>
-                    <li>
-                        <a href="">Our Vision</a>
-                    </li>
-                    <li>
-                        <a href="">Our Mission</a>
+                        <a href="/about-us">About Us</a>
                     </li>
                     <li>
                         <a href="/contact">Contact Us</a>

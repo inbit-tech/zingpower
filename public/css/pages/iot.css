@@ -41,20 +41,21 @@ div.lns-text p.lns-intro {
 }
 
 .card-group {
-	width: 50%;
+	width: 75%;
 	margin-bottom: 100px;
 }
 
 #lns-prod-wrapper {
-	width: 80%;
-	margin: 0 auto;
+	width: 100%;
 	text-align: center;
 }
 
-#lns-prod-wrapper .lns-prod {
-	width: 60%;
+.lns-prod {
+	width: 85%;
 	display: inline-block;
 	margin-bottom: 100px;
+	text-align: center;
+	padding-left: 5%;
 }
 
 #lns-prod-wrapper .lns-prod .prod-wrapper .image-wrapper {
@@ -64,7 +65,6 @@ div.lns-text p.lns-intro {
 #lns-prod-wrapper .lns-prod .prod-wrapper .image-wrapper .prod-image {
 	display: flex;
 	justify-content: center;
-	align-item: center;
 	overflow: hidden;
 }
 

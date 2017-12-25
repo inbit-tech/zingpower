@@ -61,9 +61,9 @@ $('#room-button-green').hover(function() {
 // click '普通方案' button then switch pictures
 $('#room-button-red').click(function() {
     $('#init-house').removeClass('opacity0');
-    $('#init-house').addClass('opacity100 animated pulse z-index-10');
+    $('#init-house').addClass('opacity100 z-index-10');
     // in '普通方案' click init-house view layer callback secound view layer
-    $('#init-house').click(function(){
+    $('#init-house').click(function() {
         // make third view layer back init state
         $('#room-scenograph').removeClass('opacity100');
         $('#room-scenograph').addClass('opacity0');
@@ -97,26 +97,32 @@ $('#room-button-red').click(function() {
 });
 
 // move mouse ,button-green-alone appear
-$('#room-line').hover(function(){
+$('#room-line').hover(function() {
     $('#room-button-green-alone').removeClass('opacity0');
-    $('#room-button-green-alone').addClass('opacity100 animated pulse z-index-10');
+    $('#room-button-green-alone').addClass('opacity100 z-index-10');
 });
 
 // mousedown animation
-$('#room-button-green-alone').mousedown(function(){
+$('#room-button-green-alone').mousedown(function() {
     $('#room-line').removeClass('opacity100');
     $('#room-line').addClass('opacity0');
+    $(this).text('Release to Go Back Regular Solution');
+    $(this).removeClass('btn-secondary');
+    $(this).addClass('btn-primary');
 }).mouseup(function() {
     $('#room-line').removeClass('opacity0');
     $('#room-line').addClass('opacity100');
+    $(this).text('Hold On to Check ZingPower Solution');
+    $(this).removeClass('btn-primary');
+    $(this).addClass('btn-secondary');
 });
 
 
 // click 'zingpower' button then switch pictures
 $('#room-button-green').click(function() {
     $('#init-house').removeClass('opacity0');
-    $('#init-house').addClass('opacity100 animated pulse z-index-10');
-    $('#init-house').click(function(){
+    $('#init-house').addClass('opacity100 z-index-10');
+    $('#init-house').click(function() {
         // make third view layer back init state
         $('#room-scenograph').removeClass('opacity100 z-index-9');
         $('#room-scenograph').addClass('opacity0');
@@ -147,16 +153,22 @@ $('#room-button-green').click(function() {
 });
 
 // move mouse ,button-red-alone appear
-$('#room-scenograph').hover(function(){
+$('#room-scenograph').hover(function() {
     $('#room-button-red-alone').removeClass('opacity0');
-    $('#room-button-red-alone').addClass('opacity100 animated pulse z-index-10');
+    $('#room-button-red-alone').addClass('opacity100 z-index-10');
 });
 
 // mousedown animation
-$('#room-button-red-alone').mousedown(function(){
+$('#room-button-red-alone').mousedown(function() {
     $('#room-line').removeClass('opacity0');
     $('#room-line').addClass('opacity100 z-index-10');
+    $(this).text("Release to Go Back ZingPower Solution");
+    $(this).removeClass('btn-secondary')
+    $(this).addClass('btn-warning');
 }).mouseup(function() {
     $('#room-line').removeClass('opacity100 z-index-10');
     $('#room-line').addClass('opacity0');
+    $(this).text("Hold On to Check Regular Solution");
+    $(this).removeClass('btn-warning')
+    $(this).addClass('btn-secondary');
 });

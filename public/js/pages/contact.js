@@ -1,3 +1,4 @@
+// map
 function initMap() {
 	var zingpower = {lat: 34.33203885, lng: 109.01300758};
 	

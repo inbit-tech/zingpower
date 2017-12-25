@@ -41,6 +41,10 @@ p.sysint-func-intro {
 	margin: 0 30px;
 }
 
+.figure img {
+	width: 108px;
+}
+
 .figure-caption {
 	padding-top: 10px;
 }
@@ -62,15 +66,12 @@ p.sysint-cover-text {
 	color: #fff;
 	font-size: 4.0rem;
 	text-shadow: 1px 1px #000;
-	padding-top: 200px;
+	padding-top: 15%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
-div.sysint-card-wrapper {
-	margin: 120px auto;
-	text-align: center;
-}
-
-.card {
-	display: inline-block;
-	margin: 0 25px;
+#sysint-card-wrapper {
+	margin-top: 6%;
+	margin-left: 3%;
+	margin-right: 3%;
 }

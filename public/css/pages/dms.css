@@ -19,8 +19,8 @@ p.cover-text {
 	font-family: 'Titillium Web', sans-serif;
 }
 
-#content-wrapper div.dms-cover {
-	height: 650px;
+#content-wrapper {
+	margin-top: 8%;
 }
 
 #content-wrapper div.dms-cover div.dms-cover-image {
@@ -39,7 +39,7 @@ div.dms-func-interface img {
 }
 
 div.dms-func-img-wrapper {
-	height: 640px;
+	height: 480px;
 }
 
 div.dms-func-img-wrapper div.dms-func-img {

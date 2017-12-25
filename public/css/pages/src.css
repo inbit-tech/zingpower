@@ -80,3 +80,23 @@ tr.hotel-service-list {
 .poster {
     background-size: cover;
 }
+
+.card-deepblue {
+    background-color: #292C44;
+}
+
+.card-red {
+    background-color: #FF5349;
+}
+
+.card-aqua {
+    background-color: #18CDCA;
+}
+
+.card-skyblue {
+    background-color: #4F80E1;
+}
+
+p.card-text {
+    color: #fff;
+}

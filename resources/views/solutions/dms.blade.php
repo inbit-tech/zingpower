@@ -19,9 +19,6 @@
 </section>
 
 <section id="content-wrapper">
-	<div class="dms-cover">
-		<div class="dms-cover-image"></div>
-	</div>
 	<div class="row align-items-center justify-content-center">
 		<div class="dms-func-interface">
 			<img src="/img/dms/interface_01.jpg" alt="">

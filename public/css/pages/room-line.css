@@ -2,7 +2,7 @@
 * @Author: vayne
 * @Date:   2017-11-28 12:00:00
 * @Last Modified by:   vayne
-* @Last Modified time: 2017-12-25 19:03:10
+* @Last Modified time: 2017-12-25 19:48:52
 */
 
 
@@ -23,6 +23,13 @@
 }
 
 #room-scenograph {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#room-scenograph-zingpower {
     width: 100%;
     position: absolute;
     top: 0;
@@ -114,6 +121,7 @@
     right: 5%;
     cursor: pointer;
 }
+
 
 
 

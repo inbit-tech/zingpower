@@ -109,12 +109,20 @@ $('#room-button-green-alone').mousedown(function() {
     $(this).text('Release to Go Back Regular Solution');
     $(this).removeClass('btn-secondary');
     $(this).addClass('btn-primary');
+    // switch room background img
+    $('#room-scenograph').removeClass('opacity100');
+    $('#room-scenograph-zingpower').removeClass('opacity0');
+    $('#room-scenograph-zingpower').addClass('opacity100');
 }).mouseup(function() {
     $('#room-line').removeClass('opacity0');
     $('#room-line').addClass('opacity100');
     $(this).text('Hold On to Check ZingPower Solution');
     $(this).removeClass('btn-primary');
     $(this).addClass('btn-secondary');
+    // switch room background img
+    $('#room-scenograph-zingpower').removeClass('opacity100');
+    $('#room-scenograph-zingpower').addClass('opacity0');
+    $('#room-scenograph').addClass('opacity100');
 });
 
 
@@ -124,8 +132,8 @@ $('#room-button-green').click(function() {
     $('#init-house').addClass('opacity100 z-index-10');
     $('#init-house').click(function() {
         // make third view layer back init state
-        $('#room-scenograph').removeClass('opacity100 z-index-9');
-        $('#room-scenograph').addClass('opacity0');
+        $('#room-scenograph-zingpower').removeClass('opacity100 z-index-9');
+        $('#room-scenograph-zingpower').addClass('opacity0');
         $(this).removeClass('opacity100 animated pulse z-index-10');
         $(this).addClass('opacity0');
         $('#room-button-red-alone').removeClass('opacity100 animated pulse z-index-10');
@@ -140,20 +148,20 @@ $('#room-button-green').click(function() {
         $('#room-button-green').removeClass('opacity0');
         $('#room-button-green').addClass('opacity100 z-index-10 green-button-appear');
     })
-    // third view layer -> room-scenograph appear
+    // third view layer -> room-scenograph-zingpower appear
     $('#room-button-red').removeClass('opacity100 z-index-10 red-button-appear');
     $('#room-button-red').addClass('opacity0');
     $('#room-button-green').removeClass('opacity100 z-index-10');
     $('#room-button-green').addClass('opacity0');
     $('#room-line-helf').removeClass('opacity100');
     $('#room-line-helf').addClass('opacity0');
-    $('#room-scenograph').removeClass('opacity0');
-    $('#room-scenograph').addClass('opacity100 z-index-9');
+    $('#room-scenograph-zingpower').removeClass('opacity0');
+    $('#room-scenograph-zingpower').addClass('opacity100 z-index-9');
     $('#room-button-red-alone').removeClass('z-index-11');
 });
 
 // move mouse ,button-red-alone appear
-$('#room-scenograph').hover(function() {
+$('#room-scenograph-zingpower').hover(function() {
     $('#room-button-red-alone').removeClass('opacity0');
     $('#room-button-red-alone').addClass('opacity100 z-index-10');
 });
@@ -165,10 +173,20 @@ $('#room-button-red-alone').mousedown(function() {
     $(this).text("Release to Go Back ZingPower Solution");
     $(this).removeClass('btn-secondary')
     $(this).addClass('btn-warning');
+    // switch room background img
+    $('#room-scenograph-zingpower').removeClass('opacity100 z-index-9');
+    $('#room-scenograph-zingpower').addClass('opacity0');
+    $('#room-scenograph').removeClass('opacity0');
+    $('#room-scenograph').addClass('opacity100');
 }).mouseup(function() {
     $('#room-line').removeClass('opacity100 z-index-10');
     $('#room-line').addClass('opacity0');
     $(this).text("Hold On to Check Regular Solution");
     $(this).removeClass('btn-warning')
     $(this).addClass('btn-secondary');
+    // switch room background img
+    $('#room-scenograph').removeClass('opacity100');
+    $('#room-scenograph').addClass('opacity0');
+    $('#room-scenograph-zingpower').removeClass('opacity0');
+    $('#room-scenograph-zingpower').addClass('opacity100 z-index-9');
 });

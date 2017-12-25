@@ -127,6 +127,7 @@
 
         {{-- third view layer include  room-scenograph image and line image init-house icon two button --}}
         <img src="/img/homepage/room-scenograph.jpg" alt="" id="room-scenograph" class="opacity0">
+        <img src="/img/homepage/room-scenograph-zingpower.jpg" alt="" id="room-scenograph-zingpower" class="opacity0">
         <img src="/img/homepage/room-line.png" alt="" id="room-line" class="opacity0">
         <img src="/img/homepage/init-house.png" alt="" id="init-house" class="opacity0">
 

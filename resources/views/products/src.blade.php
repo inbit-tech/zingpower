@@ -111,22 +111,22 @@
     <div class="func-wrapper mx-auto">
         <div class="card-deck">
             <div class="card">
-                <div class="card-body">
+                <div class="card-body card-deepblue">
                     <p class="card-text">Based on ZigBee/SmartRoom Technology</p>
                 </div>
             </div>
             <div class="card">
-                <div class="card-body">
+                <div class="card-body card-red">
                     <p class="card-text">Mobile Terminals Anytime and Anywhere</p>
                 </div>
             </div>
             <div class="card">
-                <div class="card-body">
+                <div class="card-body card-aqua">
                     <p class="card-text">Zero Wiring with Convenient Installation</p>
                 </div>
             </div>
             <div class="card">
-                <div class="card-body">
+                <div class="card-body card-skyblue">
                     <p class="card-text">Manipulation is Simple and Flexible</p>
                 </div>
             </div>

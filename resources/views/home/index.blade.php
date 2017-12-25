@@ -17,6 +17,7 @@
 {{-- Add Room Controller Interactive Module --}}
 <section id="cover-wrapper" class="d-flex justify-content-center">
     <div class="room-ctrl-container">
+        <img src="/img/room-ctrl/monochrome.jpg" alt="" id="room-ctrl-monochrome-img">
         <img src="/img/room-ctrl/original.jpg" alt="" id="room-ctrl-original-img">
         
         {{--  in room-control phone container click each icon after this change corresponding img display --}}
@@ -69,7 +70,7 @@
             <img src="/img/room-ctrl/phone/phone-ctrl-open-btn.png" alt="" id="room-ctrl-phone-ctrl-open-btn">
         </div> 
 
-        <img src="/img/room-ctrl/room-ctrl-init-btn.png" alt="" id="room-ctrl-init-btn">
+        <button type="button" class="btn btn-outline-secondary btn-lg btn-block" id="room-ctrl-init-btn">Click To Control The Room</button>
     </div>
 </section>
 

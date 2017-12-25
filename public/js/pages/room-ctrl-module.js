@@ -2,16 +2,8 @@
  * @Author: vayne
  * @Date:   2017-11-24 16:56:17
  * @Last Modified by:   vayne
- * @Last Modified time: 2017-12-12 14:56:59
+ * @Last Modified time: 2017-12-25 21:23:11
  */
-
-// room-ctrl-init-btn event
-// room-ctrl-init-btn hover event
-$('#room-ctrl-init-btn').hover(function() {
-    $(this).attr('src', '/img/room-ctrl/room-ctrl-init-btn-hover.png');
-}, function() {
-    $(this).attr('src', '/img/room-ctrl/room-ctrl-init-btn.png');
-})
 
 // room-ctrl-init-btn click event
 $('#room-ctrl-init-btn').click(function() {
@@ -19,7 +11,8 @@ $('#room-ctrl-init-btn').click(function() {
     $('#room-ctrl-init-btn').addClass('opacity0');
     $('#room-ctrl-phone-container-hotel-ser').css('display', '');
     $('#room-ctrl-phone-container-hotel-ser').addClass('animated fadeInUp');
-    $('#room-ctrl-original-img').attr('src', '/img/room-ctrl/monochrome.jpg');
+    $('#room-ctrl-original-img').removeClass('opacity100');
+    $('#room-ctrl-original-img').addClass('opacity0');
     $('#room-ctrl-phone-container-hotel-ser').css("display", "");
     $('#room-ctrl-phone-original-container').css("display", "none");
     $('#room-ctrl-phone-container-room-ctrl').css("display", "none");
@@ -40,7 +33,8 @@ $('#room-ctrl-phone-ctrl-open-btn').click(function() {
     $('#room-ctrl-phone-container-hotel-ser').css('display', 'none');
     $('#room-ctrl-hotel-ser').removeClass('opacity100');
     $('#room-ctrl-hotel-ser').addClass('opacity0');
-    $('#room-ctrl-original-img').attr('src', '/img/room-ctrl/original.jpg');
+    $('#room-ctrl-original-img').removeClass('opacity0');
+    $('#room-ctrl-original-img').addClass('opacity100');
     $('#room-ctrl-init-btn').removeClass('opacity0');
     $('#room-ctrl-init-btn').addClass('opacity100');
 })

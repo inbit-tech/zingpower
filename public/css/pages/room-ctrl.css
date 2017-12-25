@@ -9,24 +9,36 @@
     filter: grayscale(1);
     transition: filter 1s ease;
 }
-.opacity0{
+
+.opacity0 {
     filter: opacity(0);
     transition: filter 1s ease;
 }
-.opacity100{
+
+.opacity100 {
     filter: opacity(100);
     transition: filter 1s ease;
 }
+
 #room-ctrl-original-img {
     width: 100%;
     position: relative;
 }
 
+#room-ctrl-monochrome-img {
+    width: 100%;
+    position: absolute;
+}
+
 #room-ctrl-init-btn {
+    height: 13%;
     width: 50%;
     position: absolute;
-    top: 32%;
+    top: 50%;
     left: 27%;
+    font-size: 3rem;
+    color: white;
+    border: 5px solid white;
 }
 
 #room-ctrl-phone {
@@ -81,6 +93,10 @@
     -o-filter: grayscale(100%);
     filter: gray;
 }
+
+
+
+
 
 
 
@@ -146,6 +162,10 @@
 
 
 
+
+
+
+
 /* click room services after phone container */
 
 #room-ctrl-phone-container-room-ctrl {
@@ -179,6 +199,10 @@
     position: absolute;
     top: 30%;
 }
+
+
+
+
 
 
 
@@ -224,6 +248,10 @@
     top: 0;
     left: 0;
 }
+
+
+
+
 
 
 
@@ -300,6 +328,25 @@
     top: 65%;
     right: 20%;
 }
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.fadeInUp {
+    animation-duration: 1.5s;
+    animation-name: fadeInUp;
+}
+
+
 
 
 

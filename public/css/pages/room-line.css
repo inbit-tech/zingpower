@@ -2,7 +2,7 @@
 * @Author: vayne
 * @Date:   2017-11-28 12:00:00
 * @Last Modified by:   vayne
-* @Last Modified time: 2017-12-25 18:05:40
+* @Last Modified time: 2017-12-25 19:03:10
 */
 
 
@@ -91,39 +91,19 @@
 
 
 #room-button-red-alone {
-    width: 220px;
-    height: 70px;
+    width: 30%;
     position: absolute;
     top: 80%;
-    left: 40%;
+    left: 35%;
     cursor: pointer;
 }
 
-.tip-text-hold-on {
-    position: absolute;
-    top: 75%;
-    left: 38%;
-    background-color: black;
-    color: white;
-    padding: 5px;
-    border-radius: 25px;
-}
 
-.tip-text-release {
-    position: absolute;
-    top: 88%;
-    left: 38%;
-    background-color: black;
-    color: white;
-    padding: 5px;
-    border-radius: 25px;
-}
 #room-button-green-alone {
-    width: 220px;
-    height: 70px;
+    width: 30%;
     position: absolute;
     top: 80%;
-    left: 40%;
+    left: 35%;
     cursor: pointer;
 }
 
@@ -134,6 +114,7 @@
     right: 5%;
     cursor: pointer;
 }
+
 
 
 

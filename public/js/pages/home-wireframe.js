@@ -1,6 +1,3 @@
-$(function() {
-    $('[data-toggle="tooltip"]').tooltip()
-})
 // draw zing-scheme section's ring 
 var c = document.getElementById("room-icon-circular");
 var cxt = c.getContext("2d");
@@ -61,27 +58,23 @@ $('#room-button-green').hover(function() {
 });
 
 
-// click 'Regular' button then switch pictures
+// click '普通方案' button then switch pictures
 $('#room-button-red').click(function() {
     $('#init-house').removeClass('opacity0');
     $('#init-house').addClass('opacity100 z-index-10');
-    // in 'Regular' click init-house view layer callback secound view layer
+    // in '普通方案' click init-house view layer callback secound view layer
     $('#init-house').click(function() {
         // make third view layer back init state
         $('#room-scenograph').removeClass('opacity100');
         $('#room-scenograph').addClass('opacity0');
         $('#room-line').removeClass('opacity100 z-index-9');
         $('#room-line').addClass('opacity0');
-        $(this).removeClass('opacity100 z-index-10');
+        $(this).removeClass('opacity100 animated pulse z-index-10');
         $(this).addClass('opacity0');
         $('#room-button-green-alone').removeClass('opacity100 animated pulse z-index-10');
         $('#room-button-green-alone').addClass('opacity0');
         $('#room-button-red-alone').removeClass('opacity100 animated pulse z-index-10');
         $('#room-button-red-alone').addClass('opacity0');
-        $('#zingpower-tip-text-hold-on').removeClass('opacity100 z-index-10');
-        $('#zingpower-tip-text-hold-on').addClass('opacity0');
-        $('#zingpower-tip-text-release').removeClass('opacity100 z-index-10');
-        $('#zingpower-tip-text-release').addClass('opacity0');
         // make secound view layer appear
         $('#room-line-helf').removeClass('opacity0');
         $('#room-line-helf').addClass('opacity100');
@@ -107,19 +100,21 @@ $('#room-button-red').click(function() {
 $('#room-line').hover(function() {
     $('#room-button-green-alone').removeClass('opacity0');
     $('#room-button-green-alone').addClass('opacity100 z-index-10');
-    $('#zingpower-tip-text-hold-on').removeClass('opacity0');
-    $('#zingpower-tip-text-hold-on').addClass('opacity100 z-index-10');
-    $('#zingpower-tip-text-release').removeClass('opacity0');
-    $('#zingpower-tip-text-release').addClass('opacity100 z-index-10');
 });
 
 // mousedown animation
 $('#room-button-green-alone').mousedown(function() {
     $('#room-line').removeClass('opacity100');
     $('#room-line').addClass('opacity0');
+    $(this).text('Release to Go Back Regular Solution');
+    $(this).removeClass('btn-secondary');
+    $(this).addClass('btn-primary');
 }).mouseup(function() {
     $('#room-line').removeClass('opacity0');
     $('#room-line').addClass('opacity100');
+    $(this).text('Hold On to Check ZingPower Solution');
+    $(this).removeClass('btn-primary');
+    $(this).addClass('btn-secondary');
 });
 
 
@@ -131,16 +126,12 @@ $('#room-button-green').click(function() {
         // make third view layer back init state
         $('#room-scenograph').removeClass('opacity100 z-index-9');
         $('#room-scenograph').addClass('opacity0');
-        $(this).removeClass('opacity100 z-index-10');
+        $(this).removeClass('opacity100 animated pulse z-index-10');
         $(this).addClass('opacity0');
         $('#room-button-red-alone').removeClass('opacity100 animated pulse z-index-10');
         $('#room-button-red-alone').addClass('opacity0');
         $('#room-button-green-alone').removeClass('opacity100 animated pulse z-index-10');
         $('#room-button-green-alone').addClass('opacity0');
-        $('#regular-tip-text-hold-on').removeClass('opacity100 z-index-10');
-        $('#regular-tip-text-hold-on').addClass('opacity0');
-        $('#regular-tip-text-release').removeClass('opacity100 z-index-10');
-        $('#regular-tip-text-release').addClass('opacity0');
         // make secound view layer appear
         $('#room-line-helf').removeClass('opacity0');
         $('#room-line-helf').addClass('opacity100');
@@ -165,17 +156,19 @@ $('#room-button-green').click(function() {
 $('#room-scenograph').hover(function() {
     $('#room-button-red-alone').removeClass('opacity0');
     $('#room-button-red-alone').addClass('opacity100 z-index-10');
-    $('#regular-tip-text-hold-on').removeClass('opacity0');
-    $('#regular-tip-text-hold-on').addClass('opacity100 z-index-10');
-    $('#regular-tip-text-release').removeClass('opacity0');
-    $('#regular-tip-text-release').addClass('opacity100 z-index-10');
 });
 
 // mousedown animation
 $('#room-button-red-alone').mousedown(function() {
     $('#room-line').removeClass('opacity0');
     $('#room-line').addClass('opacity100 z-index-10');
+    $(this).text("Release to Go Back ZingPower Solution");
+    $(this).removeClass('btn-secondary')
+    $(this).addClass('btn-warning');
 }).mouseup(function() {
     $('#room-line').removeClass('opacity100 z-index-10');
     $('#room-line').addClass('opacity0');
+    $(this).text("Hold On to Check Regular Solution");
+    $(this).removeClass('btn-warning')
+    $(this).addClass('btn-secondary');
 });

@@ -130,7 +130,11 @@
         <img src="/img/homepage/room-line.png" alt="" id="room-line" class="opacity0">
         <img src="/img/homepage/init-house.png" alt="" id="init-house" class="opacity0">
         <img src="/img/homepage/room-button-red.png" alt="" id="room-button-red-alone" class="opacity0">
+        <div id="zingpower-tip-text-hold-on" class="tip-text-hold-on opacity0">Hold On to Check ZingPower Solution</div>
+        <div id="zingpower-tip-text-release" class="tip-text-release opacity0">Release to Go Back Regular Solution</div>
         <img src="/img/homepage/room-button-green.png" alt="" id="room-button-green-alone" class="opacity0">
+        <div id="regular-tip-text-hold-on" class="tip-text-hold-on opacity0">Hold On to Check Regular Solution</div>
+        <div id="regular-tip-text-release" class="tip-text-release opacity0">Release to Go Back ZingPower Solution</div>
 
         {{-- secound view layer include room-line-helf image and two button --}}
         <img src="/img/homepage/room-line-helf.png" alt="" id="room-line-helf" class="opacity0">

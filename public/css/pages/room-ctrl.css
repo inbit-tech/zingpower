@@ -18,11 +18,9 @@
 }
 
 
-/* Room Controller Interactive Module */
-
-.room-ctrl-container {
-    width: 100%;
-    position: relative;
+.grayscale {
+    filter: grayscale(1);
+    transition: filter 0.1s ease;
 }
 
 .opacity0 {
@@ -33,6 +31,14 @@
 .opacity100 {
     filter: opacity(100);
     transition: filter 1s ease;
+}
+
+
+/* Room Controller Interactive Module */
+
+.room-ctrl-container {
+    width: 100%;
+    position: relative;
 }
 
 .phone-interface-title {
@@ -76,6 +82,8 @@
     top: 25%;
     transform: rotate(130deg);
 }
+
+
 
 
 
@@ -124,8 +132,6 @@
     top: 46%;
 }
 
-
-
 /* dining car  */
 
 #room-ctrl-hotel-ser {
@@ -134,8 +140,6 @@
     bottom: 20%;
     right: 57%;
 }
-
-
 
 /* room control  phone container */
 
@@ -158,7 +162,6 @@
     top: 20%;
     left: 20%;
 }
-
 
 /* room control interface's icon */
 
@@ -196,8 +199,6 @@
     right: 20%;
 }
 
-
-
 /* room equipment img position css*/
 
 .icon-click-after-img {
@@ -206,8 +207,6 @@
     top: 0;
     left: 0;
 }
-
-
 
 /* light control  phone container  */
 
@@ -230,7 +229,6 @@
     top: 20%;
     left: 20%;
 }
-
 
 /* light control interface's icon */
 
@@ -275,6 +273,4 @@
     top: 65%;
     right: 20%;
 }
-
-
 /* Room Controller Interactive Module end

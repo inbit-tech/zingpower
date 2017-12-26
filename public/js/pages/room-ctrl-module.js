@@ -2,7 +2,7 @@
  * @Author: vayne
  * @Date:   2017-11-24 16:56:17
  * @Last Modified by:   vayne
- * @Last Modified time: 2017-12-25 21:23:11
+ * @Last Modified time: 2017-12-26 19:07:38
  */
 
 // room-ctrl-init-btn click event
@@ -10,34 +10,36 @@ $('#room-ctrl-init-btn').click(function() {
     $('#room-ctrl-init-btn').removeClass('opacity100');
     $('#room-ctrl-init-btn').addClass('opacity0');
     $('#room-ctrl-phone-container-hotel-ser').css('display', '');
-    $('#room-ctrl-phone-container-hotel-ser').addClass('animated fadeInUp');
+    $('#room-ctrl-phone-container-hotel-ser').addClass('fadeInUp');
     $('#room-ctrl-original-img').removeClass('opacity100');
     $('#room-ctrl-original-img').addClass('opacity0');
     $('#room-ctrl-phone-container-hotel-ser').css("display", "");
-    $('#room-ctrl-phone-original-container').css("display", "none");
     $('#room-ctrl-phone-container-room-ctrl').css("display", "none");
     $('#room-ctrl-phone-container-light-ctrl').css("display", "none");
 });
 
 
-// hover and click switch button event
+// in hotel-services and room-services phone container
+
+// hover switch button in the middle event
 $('#room-ctrl-phone-ctrl-open-btn').hover(function() {
-    $(this).attr("src", "/img/room-ctrl/phone/phone-ctrl-close-btn.png");
+    $(this).addClass('grayscale');
 }, function() {
-    $(this).attr("src", "/img/room-ctrl/phone/phone-ctrl-open-btn.png");
+    $(this).removeClass('grayscale');
 });
-
+// click switch button in the middle event
+// remove three phone container,dining car.init btn and original img appear
 $('#room-ctrl-phone-ctrl-open-btn').click(function() {
+    $('#room-ctrl-phone-container-hotel-ser').css('display', 'none');
     $('#room-ctrl-phone-container-room-ctrl').css("display", "none");
     $('#room-ctrl-phone-container-light-ctrl').css("display", "none");
-    $('#room-ctrl-phone-container-hotel-ser').css('display', 'none');
     $('#room-ctrl-hotel-ser').removeClass('opacity100');
     $('#room-ctrl-hotel-ser').addClass('opacity0');
     $('#room-ctrl-original-img').removeClass('opacity0');
     $('#room-ctrl-original-img').addClass('opacity100');
     $('#room-ctrl-init-btn').removeClass('opacity0');
     $('#room-ctrl-init-btn').addClass('opacity100');
-})
+});
 
 // HOTEL SERVICES
 // hover event
@@ -73,8 +75,7 @@ $('#room-ctrl-phone-ctrl-room-ser').click(function() {
     $('#room-ctrl-phone-container-room-ctrl').css("display", "");;
 })
 
-
-// room control phone container each icon hover and click event
+// in room control phone container 
 // room-ctrl-icon-callback click event
 $('#room-ctrl-icon-callback').click(function() {
     $('#room-ctrl-phone-container-hotel-ser').removeClass('animated fadeInUp');
@@ -152,19 +153,19 @@ $('#phone-room-ctrl-icon-light').hover(function() {
 $('#phone-room-ctrl-icon-light').click(function() {
     $('#room-ctrl-phone-container-light-ctrl').css("display", "");
     $('#room-ctrl-phone-container-room-ctrl').css("display", "none");
-})
+});
 
 
 
 
 
 
-// light control phone container each icon hover and click event
+// in light control phone container 
 // light-ctrl-icon-callback click event
 $('#light-ctrl-icon-callback').click(function() {
     $('#room-ctrl-phone-container-room-ctrl').css("display", "");
     $('#room-ctrl-phone-container-light-ctrl').css("display", "none");
-})
+});
 
 // icon-bed-light hover event
 $('#bed-light').hover(function() {

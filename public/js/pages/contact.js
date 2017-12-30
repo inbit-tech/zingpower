@@ -1,6 +1,6 @@
 // map
 function initMap() {
-	var zingpower = {lat: 34.33203885, lng: 109.01300758};
+	var zingpower = {lat: 34.375059, lng: 108.898388};
 	
 	var map = new google.maps.Map(document.getElementById('map'), {
 		zoom: 14,

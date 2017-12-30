@@ -30,9 +30,7 @@
         <img class="card-img-top mx-auto" src="/img/contact/icon_addr.png" alt="Address">
         <div class="card-body">
             <a href="#map" class="card-text">
-                3rd Floor, No.333 Xingtai South Road, <br/>
-                Euro-Asia Creative Design Park Incubation Center, <br/>
-                Xi'an Chan-Ba Ecological District, Shaanxi, China
+                No.168 Cao Tan 3rd Road, <br>Xi'an Economic and Technological Development Zone, Xi'an, Shaanxi
             </a>
         </div>
     </div>

@@ -1,13 +1,26 @@
-/* Room Controller Interactive Module */
+/* phone appear animation */
 
-.room-ctrl-container {
-    width: 100%;
-    position: relative;
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
 }
+
+.fadeInUp {
+    animation-duration: 1.5s;
+    animation-name: fadeInUp;
+}
+
 
 .grayscale {
     filter: grayscale(1);
-    transition: filter 1s ease;
+    transition: filter 0.1s ease;
 }
 
 .opacity0 {
@@ -18,6 +31,20 @@
 .opacity100 {
     filter: opacity(100);
     transition: filter 1s ease;
+}
+
+
+/* Room Controller Interactive Module */
+
+.room-ctrl-container {
+    width: 100%;
+    position: relative;
+}
+
+.phone-interface-title {
+    position: absolute;
+    top: 20%;
+    color: white;
 }
 
 #room-ctrl-original-img {
@@ -48,19 +75,6 @@
     bottom: -1%;
 }
 
-#room-ctrl-phone-original-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 20%;
-    height: 65%;
-    position: absolute;
-    bottom: 2%;
-    right: 5%;
-    text-align: center;
-}
-
 #room-ctrl-rolling {
     width: 40%;
     height: 20%;
@@ -68,37 +82,6 @@
     top: 25%;
     transform: rotate(130deg);
 }
-
-#room-ctrl-icon-finger {
-    width: 30%;
-    position: absolute;
-    top: 35%;
-    right: 30%;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-}
-
-#room-ctrl-tip-text {
-    width: 50%;
-    font-size: 1.2rem;
-    color: #ffffff;
-    position: absolute;
-    top: 55%;
-}
-
-.gray {
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: gray;
-}
-
-
-
-
-
-
 
 
 
@@ -129,10 +112,11 @@
     position: absolute;
 }
 
-#room-ctrl-phone-ctrl-open-btn {
-    width: 20%;
+#room-ctrl-phone-ctrl-hotel-ser {
+    width: 40%;
     position: absolute;
-    top: 46%;
+    top: 30%;
+    left: 50.1%;
 }
 
 #room-ctrl-phone-ctrl-room-ser {
@@ -142,12 +126,13 @@
     right: 50%;
 }
 
-#room-ctrl-phone-ctrl-hotel-ser {
-    width: 40%;
+#room-ctrl-phone-ctrl-open-btn {
+    width: 20%;
     position: absolute;
-    top: 30%;
-    left: 50.1%;
+    top: 46%;
 }
+
+/* dining car  */
 
 #room-ctrl-hotel-ser {
     width: 23%;
@@ -156,17 +141,7 @@
     right: 57%;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* click room services after phone container */
+/* room control  phone container */
 
 #room-ctrl-phone-container-room-ctrl {
     display: flex;
@@ -188,31 +163,13 @@
     left: 20%;
 }
 
-#room-ser-text {
-    position: absolute;
-    color: white;
-    top: 20%;
-}
+/* room control interface's icon */
 
 #phone-room-ctrl-icon {
     width: 20%;
     position: absolute;
     top: 30%;
 }
-
-
-
-
-
-
-
-
-
-
-
-/* 
-    Each icon's css behind is click this icon after appear img's css
-*/
 
 #phone-room-ctrl-icon-air {
     width: 25%;
@@ -242,6 +199,8 @@
     right: 20%;
 }
 
+/* room equipment img position css*/
+
 .icon-click-after-img {
     width: 100%;
     position: absolute;
@@ -249,17 +208,7 @@
     left: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* click light control after phone container  */
+/* light control  phone container  */
 
 #room-ctrl-phone-container-light-ctrl {
     display: flex;
@@ -281,11 +230,7 @@
     left: 20%;
 }
 
-#light-ctrl-text {
-    position: absolute;
-    top: 20%;
-    color: white;
-}
+/* light control interface's icon */
 
 #bed-light {
     width: 25%;
@@ -328,30 +273,4 @@
     top: 65%;
     right: 20%;
 }
-
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translate3d(0, 100%, 0);
-    }
-
-    to {
-        opacity: 1;
-        transform: none;
-    }
-}
-
-.fadeInUp {
-    animation-duration: 1.5s;
-    animation-name: fadeInUp;
-}
-
-
-
-
-
-
-
-
-
 /* Room Controller Interactive Module end

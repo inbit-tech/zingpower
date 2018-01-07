@@ -11,6 +11,7 @@ html, body {
  * Adjust brand section and menu item
  * make it visually centralized
  */
+
 .zp-navi-large {
     height: 86px;
 }
@@ -26,6 +27,7 @@ html, body {
 .zp-navi-inner {
     width: 100%;
     text-align: center;
+    color: #fff;889
 }
 
 .zp-navi-item {

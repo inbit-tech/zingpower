@@ -30,7 +30,9 @@
         <img class="card-img-top mx-auto" src="/img/contact/icon_addr.png" alt="Address">
         <div class="card-body">
             <a href="#map" class="card-text">
-                No.168 Cao Tan 3rd Road, <br>Xi'an Economic and Technological Development Zone, Xi'an, Shaanxi
+                3rd Floor, No.333 Xingtai South Road, <br/>
+                Euro-Asia Creative Design Park Incubation Center, <br/>
+                Xi'an Chan-Ba Ecological District, Shaanxi, China
             </a>
         </div>
     </div>
@@ -47,38 +49,27 @@
 </div>
 
 {{-- message HTML --}}
-<div class="d-flex flex-column justify-content-between align-items-center">
+<div class="d-flex flex-column justify-content-between align-items-center mb-5">
     <h3 class="contact-text text-uppercase">send us message if you have any questions</h3>
-
-    {{-- send message success tip --}}
-    @if(Session::has('message'))
-        <div class="alert alert-info" id="message-tip"> 
-            {{Session::get('message')}} 
-        </div> 
-    @endif
-    
-    <form action="{{ url('contact/save') }}" method="post" accept-charset="utf-8" class="contact-form d-flex flex-column justify-content-between align-items-center">
-        {{--  --}}
-        <input type="hidden" name="_token" value="{{ csrf_token() }}">
-        
+    <div class="d-flex flex-column justify-content-between align-items-center w-75"> 
         <div class="form-group">
             <label for="exampleFormControlInput1">Your Name</label>
-            <input type="text" name="name" class="form-control" placeholder="How could we address you?">
+            <input type="text" name="name" class="form-control" placeholder="How could we address you?" id="form-name">
         </div>
         <div class="form-group">
             <label for="exampleFormControlInput1">Working Email</label>
-            <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <input type="email" name="email" class="form-control" placeholder="name@example.com" id="form-email"> 
         </div>
         <div class="form-group">
             <label for="exampleFormControlInput1">Cell Phone</label>
-            <input type="phone" name="phone" class="form-control" id="exampleFormControlInput1" placeholder="+CountryCode ...">
+            <input type="phone" name="phone" class="form-control" placeholder="+CountryCode ..." id="form-phone">
         </div>
         <div class="form-group">
             <label for="exampleFormControlTextarea1">Your Question</label>
-            <textarea class="form-control" name="question" id="exampleFormControlTextarea1" rows="3" placeholder="Please enter your info"></textarea>
+            <textarea class="form-control" name="question" rows="3" placeholder="Please enter your info" id="form-question"></textarea>
         </div>
-        <button type="submit" class="btn btn-outline-primary btn-lg">Send Message</button>
-    </form>
+        <button class="btn btn-outline-primary btn-lg" id="submit-form" onclick="ajaxseed();return false;">Send Message</button>
+    </div> 
 </div>
 
 
@@ -103,4 +94,5 @@
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=erSy2zZmTiGEzwnz8DHGdupdNYVh6yxv"></script>
 <script type="text/javascript" src="{{ asset('/js/pages/contact.js') }}"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGHOztTdRyk20w4IYvs0LR6jQOCv218q4&callback=initMap"></script>
+<script src="js/sweetalert2.all.js" type="text/javascript"></script>
 @endsection

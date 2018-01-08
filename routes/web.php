@@ -8,17 +8,17 @@
 | zingpower.co sitemap for references
 | + Homepage
 | + Products
-|	- mobile phone
-|	- walkie talkie
-| 	- smart room controller
+|   - mobile phone
+|   - walkie talkie
+|   - smart room controller
 | + Solutions
-|	- system integration
-|	- device management system [dms]
-| 	- Zigbee, Z-Wave or LoRaWAN Local Network Setup [lms]
+|   - system integration
+|   - device management system [dms]
+|   - Zigbee, Z-Wave or LoRaWAN Local Network Setup [lms]
 | + User Story
 | + About Us
-|	- Zing Power
-|	- News
+|   - Zing Power
+|   - News
 | + Contact Us
 */
 

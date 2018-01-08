@@ -23,7 +23,5 @@ class SeedMessage extends Controller
         $data->email = $request->email;
         $data->question = $request->question;
         $data->save();
-        // success back page
-        return redirect('contact-us')->with('message', 'Message sent!');;
     }
 }

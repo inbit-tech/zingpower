@@ -48,7 +48,12 @@ function ajaxseed() {
             'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
         },
         success: function(){
-            swal('success', 'We received your advise', 'success');
+            swal({
+                  text: 'We received your advise',
+                  type: 'success',
+                  backdrop: false,
+                  confirmButtonText: 'Cool'
+            }),
             $('#form-name').val('');
             $('#form-email').val('');
             $('#form-phone').val('');

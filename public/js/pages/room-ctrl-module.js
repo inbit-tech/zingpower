@@ -2,7 +2,7 @@
  * @Author: vayne
  * @Date:   2017-11-24 16:56:17
  * @Last Modified by:   vayne
- * @Last Modified time: 2018-01-22 20:40:08
+ * @Last Modified time: 2018-01-22 20:44:27
  */
 
 // remove and add class
@@ -55,13 +55,6 @@ $('#room-ctrl-phone-ctrl-hotel-ser').hover(function() {
 })
 // HOTEL SERVICES click event
 
-// $('#room-ctrl-phone-ctrl-hotel-ser').click(function() {
-//     if ($(this).hasClass('opacity100')) {
-//         remove_add_class("#room-ctrl-hotel-ser", "opacity100", "opacity0");
-//     } else {
-//         remove_add_class("#room-ctrl-hotel-ser", "opacity0", "opacity100");
-//     }
-// });
 $('#room-ctrl-phone-ctrl-hotel-ser').click(function() {
     if ($("#room-ctrl-hotel-ser").hasClass('opacity100')) {
         remove_add_class("#room-ctrl-hotel-ser", "opacity100", "opacity0");

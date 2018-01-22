@@ -2,20 +2,19 @@
  * @Author: vayne
  * @Date:   2017-11-24 16:56:17
  * @Last Modified by:   vayne
- * @Last Modified time: 2018-01-22 19:00:30
+ * @Last Modified time: 2018-01-22 20:40:08
  */
 
-// make DOM disappear
+// remove and add class
 function remove_add_class(id, removeclass, addClass) {
     $(id).removeClass(removeclass);
     $(id).addClass(addClass);
 }
 
-// make container display attribute
+// modify attr and value
 function attr_value(id, attr, value) {
     $(id).css(attr, value)
 }
-
 
 // room-ctrl-init-btn click event
 $('#room-ctrl-init-btn').click(function() {
@@ -55,16 +54,21 @@ $('#room-ctrl-phone-ctrl-hotel-ser').hover(function() {
     $(this).attr("src", "/img/room-ctrl/phone/phone-ctrl-hotel-ser-origin.png");
 })
 // HOTEL SERVICES click event
-var hotelCount = 0;
+
+// $('#room-ctrl-phone-ctrl-hotel-ser').click(function() {
+//     if ($(this).hasClass('opacity100')) {
+//         remove_add_class("#room-ctrl-hotel-ser", "opacity100", "opacity0");
+//     } else {
+//         remove_add_class("#room-ctrl-hotel-ser", "opacity0", "opacity100");
+//     }
+// });
 $('#room-ctrl-phone-ctrl-hotel-ser').click(function() {
-    hotelCount++;
-    if (hotelCount % 2 == 0) {
+    if ($("#room-ctrl-hotel-ser").hasClass('opacity100')) {
         remove_add_class("#room-ctrl-hotel-ser", "opacity100", "opacity0");
     } else {
         remove_add_class("#room-ctrl-hotel-ser", "opacity0", "opacity100");
     }
 });
-
 // ROOM SERVICES
 // hover event
 $('#room-ctrl-phone-ctrl-room-ser').hover(function() {
@@ -95,10 +99,8 @@ $('#phone-room-ctrl-icon-air').hover(function() {
     $(this).attr('src', "/img/room-ctrl/phone/phone-room-ctrl-icon-air.png");
 })
 // click icon-air event
-var icon_air = 0;
 $('#phone-room-ctrl-icon-air').click(function() {
-    icon_air++;
-    if (icon_air % 2 == 0) {
+    if ($("#icon-air-click-after-img").hasClass('opacity100')) {
         remove_add_class("#icon-air-click-after-img", "opacity100", "opacity0");
     } else {
         attr_value("#icon-air-click-after-img", "display", "");
@@ -113,10 +115,8 @@ $('#phone-room-ctrl-icon-tv').hover(function() {
     $(this).attr('src', "/img/room-ctrl/phone/phone-room-ctrl-icon-tv.png");
 })
 // click icon-tv event
-var icon_tv = 0
 $('#phone-room-ctrl-icon-tv').click(function() {
-    icon_tv++;
-    if (icon_tv % 2 == 0) {
+    if ($("#icon-tv-click-after-img").hasClass('opacity100')) {
         remove_add_class("#icon-tv-click-after-img", "opacity100", "opacity0");
     } else {
         attr_value("#icon-tv-click-after-img", "display", "");
@@ -131,14 +131,12 @@ $('#phone-room-ctrl-icon-curtain').hover(function() {
     $(this).attr('src', "/img/room-ctrl/phone/phone-room-ctrl-icon-curtain.png");
 })
 // click icon-curtain event
-var icon_curtain = 0
 $('#phone-room-ctrl-icon-curtain').click(function() {
-    icon_curtain++;
-    if (icon_curtain % 2 == 0) {
+    if ($("#icon-curtain-click-after-img").hasClass('opacity100')) {
         remove_add_class("#icon-curtain-click-after-img", "opacity100", "opacity0");
     } else {
-        attr_value("#icon-curtain-click-after-img","display","")
-        remove_add_class("#icon-curtain-click-after-img","opacity0","opacity100")
+        attr_value("#icon-curtain-click-after-img", "display", "")
+        remove_add_class("#icon-curtain-click-after-img", "opacity0", "opacity100")
     }
 })
 
@@ -150,8 +148,8 @@ $('#phone-room-ctrl-icon-light').hover(function() {
 })
 // click icon-light event
 $('#phone-room-ctrl-icon-light').click(function() {
-    attr_value("#room-ctrl-phone-container-light-ctrl","display","");
-    attr_value("#room-ctrl-phone-container-room-ctrl","display","none");
+    attr_value("#room-ctrl-phone-container-light-ctrl", "display", "");
+    attr_value("#room-ctrl-phone-container-room-ctrl", "display", "none");
 });
 
 
@@ -162,8 +160,8 @@ $('#phone-room-ctrl-icon-light').click(function() {
 // in light control phone container 
 // light-ctrl-icon-callback click event
 $('#light-ctrl-icon-callback').click(function() {
-    attr_value("#room-ctrl-phone-container-room-ctrl","display","");
-    attr_value("#room-ctrl-phone-container-light-ctrl","display","none");
+    attr_value("#room-ctrl-phone-container-room-ctrl", "display", "");
+    attr_value("#room-ctrl-phone-container-light-ctrl", "display", "none");
 });
 
 // icon-bed-light hover event
@@ -173,13 +171,11 @@ $('#bed-light').hover(function() {
     $(this).attr("src", "img/room-ctrl/phone/light-ctrl/bed-light.png");
 });
 // icon-bed-light click event
-var icon_bed_light = 0;
 $('#bed-light').click(function() {
-    icon_bed_light++;
-    if (icon_bed_light % 2 == 0) {
-        remove_add_class("#icon-bed-light-click-after-img","opacity100","opacity0");
+    if ($("#icon-bed-light-click-after-img").hasClass('opacity100')) {
+        remove_add_class("#icon-bed-light-click-after-img", "opacity100", "opacity0");
     } else {
-        remove_add_class("#icon-bed-light-click-after-img","opacity0","opacity100");
+        remove_add_class("#icon-bed-light-click-after-img", "opacity0", "opacity100");
     }
 });
 
@@ -190,13 +186,11 @@ $('#main-light').hover(function() {
     $(this).attr("src", "img/room-ctrl/phone/light-ctrl/main-light.png");
 });
 // icon-main-light click event
-var icon_main_light = 0;
 $('#main-light').click(function() {
-    icon_main_light++;
-    if (icon_main_light % 2 == 0) {
-        remove_add_class("#icon-main-light-click-after-img","opacity100","opacity0");
+    if ($("#icon-main-light-click-after-img").hasClass('opacity100')) {
+        remove_add_class("#icon-main-light-click-after-img", "opacity100", "opacity0");
     } else {
-        remove_add_class("#icon-main-light-click-after-img","opacity0","opacity100");
+        remove_add_class("#icon-main-light-click-after-img", "opacity0", "opacity100");
     }
 });
 
@@ -207,12 +201,10 @@ $('#office-light').hover(function() {
     $(this).attr("src", "img/room-ctrl/phone/light-ctrl/office-light.png");
 });
 // icon-office-light click event
-var icon_office_light = 0;
 $('#office-light').click(function() {
-    icon_office_light++;
-    if (icon_office_light % 2 == 0) {
-        remove_add_class("#icon-office-light-click-after-img","opacity100","opacity0");
+    if ($("#icon-office-light-click-after-img").hasClass('opacity100')) {
+        remove_add_class("#icon-office-light-click-after-img", "opacity100", "opacity0");
     } else {
-        remove_add_class("#icon-office-light-click-after-img","opacity0","opacity100");
+        remove_add_class("#icon-office-light-click-after-img", "opacity0", "opacity100");
     }
 });

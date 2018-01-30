@@ -2,6 +2,7 @@ $(window).bind('scroll', function() {
 	if ($(window).scrollTop() > 50 ) {
 		$('.navbar').removeClass('zp-navi-large');
 		$('.navbar').addClass('zp-navi-small');
+		$('.navbar').addClass('bg-light');
 		$('#zp-logo').attr({
 			'src': '/img/zp-logo-z.png'
 		});
@@ -11,9 +12,10 @@ $(window).bind('scroll', function() {
 		})
 	} else {
 		$('#zp-navi').removeClass('zp-navi-small');
+		$('.navbar').removeClass('bg-light');
 		$('#zp-navi').addClass('zp-navi-large');
 		$('#zp-logo').attr({
-			'src': '/img/zp-logo-color.png'
+			'src': '/img/zp-logo-white.png'
 		});
 		$('#zp-logo').height(48);
 		$('#navbarNavDropdown').css({

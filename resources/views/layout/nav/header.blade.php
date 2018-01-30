@@ -1,8 +1,8 @@
-<nav class="navbar fixed-top navbar-light navbar-expand-xl zp-navi-large bg-light" id="zp-navi">
+<nav class="navbar fixed-top navbar-expand-xl zp-navi-large" id="zp-navi">
 	<div class="zp-navi-inner">
 		<div class="zp-navi-item">
 			<a class="navbar-brand" href="/">
-				<img id="zp-logo" src=" {{ asset('/img/zp-logo-color.png') }} " alt="">
+				<img id="zp-logo" src=" {{ asset('/img/zp-logo-white.png') }} " alt="">
 			</a>
 		</div>
 		
@@ -14,7 +14,7 @@
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav">
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Products
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -24,7 +24,7 @@
 				        </div>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#"  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<a class="nav-link dropdown-toggle text-white" href="#"  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Solutions
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -34,10 +34,10 @@
 				        </div>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/about-us">About Us</a>
+						<a class="nav-link text-white" href="/about-us">About Us</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/contact-us">Contact Us</a>
+						<a class="nav-link text-white" href="/contact-us">Contact Us</a>
 					</li>
 				</ul>
 			</div>

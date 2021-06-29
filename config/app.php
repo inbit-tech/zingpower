@@ -167,7 +167,6 @@ return [
         /*
          * Package Service Providers...
          */
-        Eyewitness\Eye\EyeServiceProvider::class,
 
         /*
          * Application Service Providers...
